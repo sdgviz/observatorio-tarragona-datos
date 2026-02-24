@@ -1,0 +1,65 @@
+{
+  "summary": {
+    "total": 11,
+    "passed": 11,
+    "failed": 0,
+    "errored": 0
+  },
+  "results": [
+    {
+      "id": "format-regiones.csv-exists",
+      "description": "Required CSV file exists: regiones.csv",
+      "status": "pass"
+    },
+    {
+      "id": "format-regiones.csv-parse",
+      "description": "CSV file is non-empty and parseable: regiones.csv",
+      "status": "pass"
+    },
+    {
+      "id": "format-regiones.csv-required-columns",
+      "description": "CSV file contains required columns: regiones.csv",
+      "status": "pass"
+    },
+    {
+      "id": "format-indicadores_agendas.csv-exists",
+      "description": "Required CSV file exists: indicadores_agendas.csv",
+      "status": "pass"
+    },
+    {
+      "id": "format-indicadores_agendas.csv-parse",
+      "description": "CSV file is non-empty and parseable: indicadores_agendas.csv",
+      "status": "pass"
+    },
+    {
+      "id": "format-indicadores_agendas.csv-required-columns",
+      "description": "CSV file contains required columns: indicadores_agendas.csv",
+      "status": "pass"
+    },
+    {
+      "id": "format-metadatos_agendas.csv-exists",
+      "description": "Required CSV file exists: metadatos_agendas.csv",
+      "status": "pass"
+    },
+    {
+      "id": "format-metadatos_agendas.csv-parse",
+      "description": "CSV file is non-empty and parseable: metadatos_agendas.csv",
+      "status": "pass"
+    },
+    {
+      "id": "format-metadatos_agendas.csv-required-columns",
+      "description": "CSV file contains required columns: metadatos_agendas.csv",
+      "status": "pass"
+    },
+    {
+      "id": "data-one-indicator-per-region",
+      "description": "Each region has at least one indicator",
+      "status": "pass"
+    },
+    {
+      "id": "data-indicators-have-metadata",
+      "description": "All indicators in indicadores_agendas.csv appear in metadatos_agendas.csv",
+      "status": "pass"
+    }
+  ]
+}

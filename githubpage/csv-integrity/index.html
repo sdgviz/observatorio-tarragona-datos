@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CSV Integrity Report</title>
+  <style>
+    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif; padding: 1.5rem; max-width: 960px; margin: 0 auto; background: #f6f6f6; }
+    h1 { margin-bottom: 0.25rem; }
+    .summary { background: #ffffff; border-radius: 8px; padding: 1rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(15, 23, 42, 0.1); }
+    .summary-grid { display: flex; flex-wrap: wrap; gap: 1rem; }
+    .summary-item { flex: 1 1 120px; padding: 0.5rem 0.75rem; border-radius: 6px; background: #f9fafb; }
+    .summary-label { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; color: #6b7280; }
+    .summary-value { font-size: 1.25rem; font-weight: 600; margin-top: 0.15rem; }
+    .summary-value.pass { color: #15803d; }
+    .summary-value.fail { color: #b91c1c; }
+    .summary-value.error { color: #b45309; }
+    table { width: 100%; border-collapse: collapse; background: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(15, 23, 42, 0.08); }
+    thead { background: #f3f4f6; }
+    th, td { padding: 0.55rem 0.75rem; text-align: left; font-size: 0.9rem; vertical-align: top; }
+    th { font-weight: 600; color: #374151; border-bottom: 1px solid #e5e7eb; }
+    tr:nth-child(even) td { background: #f9fafb; }
+    .status-badge { display: inline-flex; align-items: center; padding: 0.15rem 0.5rem; border-radius: 999px; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
+    .status-pass { background: #dcfce7; color: #166534; }
+    .status-fail { background: #fee2e2; color: #991b1b; }
+    .status-error { background: #fef3c7; color: #92400e; }
+    .details { white-space: pre-wrap; color: #4b5563; }
+    footer { margin-top: 1.5rem; font-size: 0.75rem; color: #6b7280; text-align: right; }
+  </style>
+</head>
+<body>
+  <h1>CSV Integrity Report</h1>
+  <p>Resumen de las comprobaciones de integridad sobre los ficheros CSV del dataset.</p>
+
+  <section class="summary">
+    <div class="summary-grid">
+      <div class="summary-item">
+        <div class="summary-label">Total tests</div>
+        <div class="summary-value">11</div>
+      </div>
+      <div class="summary-item">
+        <div class="summary-label">Passed</div>
+        <div class="summary-value pass">11</div>
+      </div>
+      <div class="summary-item">
+        <div class="summary-label">Failed</div>
+        <div class="summary-value fail">0</div>
+      </div>
+      <div class="summary-item">
+        <div class="summary-label">Errored</div>
+        <div class="summary-value error">0</div>
+      </div>
+    </div>
+  </section>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 18%;">Test ID</th>
+        <th style="width: 32%;">Description</th>
+        <th style="width: 10%;">Status</th>
+        <th>Details</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>format-regiones.csv-exists</code></td>
+        <td>Required CSV file exists: regiones.csv</td>
+        <td><span class="status-badge status-pass">PASS</span></td>
+        <td class="details"></td>
+      </tr>
+<tr>
+        <td><code>format-regiones.csv-parse</code></td>
+        <td>CSV file is non-empty and parseable: regiones.csv</td>
+        <td><span class="status-badge status-pass">PASS</span></td>
+        <td class="details"></td>
+      </tr>
+<tr>
+        <td><code>format-regiones.csv-required-columns</code></td>
+        <td>CSV file contains required columns: regiones.csv</td>
+        <td><span class="status-badge status-pass">PASS</span></td>
+        <td class="details"></td>
+      </tr>
+<tr>
+        <td><code>format-indicadores_agendas.csv-exists</code></td>
+        <td>Required CSV file exists: indicadores_agendas.csv</td>
+        <td><span class="status-badge status-pass">PASS</span></td>
+        <td class="details"></td>
+      </tr>
+<tr>
+        <td><code>format-indicadores_agendas.csv-parse</code></td>
+        <td>CSV file is non-empty and parseable: indicadores_agendas.csv</td>
+        <td><span class="status-badge status-pass">PASS</span></td>
+        <td class="details"></td>
+      </tr>
+<tr>
+        <td><code>format-indicadores_agendas.csv-required-columns</code></td>
+        <td>CSV file contains required columns: indicadores_agendas.csv</td>
+        <td><span class="status-badge status-pass">PASS</span></td>
+        <td class="details"></td>
+      </tr>
+<tr>
+        <td><code>format-metadatos_agendas.csv-exists</code></td>
+        <td>Required CSV file exists: metadatos_agendas.csv</td>
+        <td><span class="status-badge status-pass">PASS</span></td>
+        <td class="details"></td>
+      </tr>
+<tr>
+        <td><code>format-metadatos_agendas.csv-parse</code></td>
+        <td>CSV file is non-empty and parseable: metadatos_agendas.csv</td>
+        <td><span class="status-badge status-pass">PASS</span></td>
+        <td class="details"></td>
+      </tr>
+<tr>
+        <td><code>format-metadatos_agendas.csv-required-columns</code></td>
+        <td>CSV file contains required columns: metadatos_agendas.csv</td>
+        <td><span class="status-badge status-pass">PASS</span></td>
+        <td class="details"></td>
+      </tr>
+<tr>
+        <td><code>data-one-indicator-per-region</code></td>
+        <td>Each region has at least one indicator</td>
+        <td><span class="status-badge status-pass">PASS</span></td>
+        <td class="details"></td>
+      </tr>
+<tr>
+        <td><code>data-indicators-have-metadata</code></td>
+        <td>All indicators in indicadores_agendas.csv appear in metadatos_agendas.csv</td>
+        <td><span class="status-badge status-pass">PASS</span></td>
+        <td class="details"></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    Generated by csv-integrity check CLI.
+  </footer>
+</body>
+</html>
