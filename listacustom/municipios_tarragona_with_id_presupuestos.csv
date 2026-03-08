@@ -1,0 +1,185 @@
+codigo_ine,nombre,comarca,nombre_comarca,id_presupuestos
+43001,Aiguamúrcia,01,Alt Camp,14769
+43002,Albinyana,12,Baix Penedès,14778
+43003,"Albiol, l'",08,Baix Camp,14787
+43004,Alcanar,22,Montsià,14794
+43005,Alcover,01,Alt Camp,14799
+43904,"Aldea, l'",09,Baix Ebre,15300
+43006,Aldover,09,Baix Ebre,14808
+43007,"Aleixar, l'",08,Baix Camp,14813
+43008,Alfara de Carles,09,Baix Ebre,14819
+43009,Alforja,08,Baix Camp,14825
+43010,Alió,01,Alt Camp,14831
+43011,Almoster,08,Baix Camp,14837
+43012,Altafulla,36,Tarragonès,14841
+43013,"Ametlla de Mar, l'",09,Baix Ebre,14851
+43906,"Ampolla, l'",09,Baix Ebre,15308
+43014,Amposta,22,Montsià,14860
+43016,"Arboç, l'",12,Baix Penedès,14872
+43015,Arbolí,08,Baix Camp,14869
+43017,"Argentera, l'",08,Baix Camp,14877
+43018,Arnes,37,Terra Alta,14880
+43019,Ascó,30,Ribera d'Ebre,14882
+43020,Banyeres del Penedès,12,Baix Penedès,14886
+43021,Barberà de la Conca,16,Conca de Barberà,14890
+43022,Batea,37,Terra Alta,14893
+43023,Bellmunt del Priorat,29,Priorat,14896
+43024,Bellvei,12,Baix Penedès,14899
+43025,Benifallet,09,Baix Ebre,14902
+43026,Benissanet,30,Ribera d'Ebre,14905
+43027,"Bisbal de Montsant, la",29,Priorat,14907
+43028,"Bisbal del Penedès, la",12,Baix Penedès,14910
+43029,Blancafort,16,Conca de Barberà,14913
+43030,Bonastre,12,Baix Penedès,14915
+43031,"Borges del Camp, les",08,Baix Camp,14918
+43032,Bot,37,Terra Alta,14923
+43033,Botarell,08,Baix Camp,14925
+43034,Bràfim,01,Alt Camp,14928
+43035,Cabacés,29,Priorat,14931
+43036,Cabra del Camp,01,Alt Camp,14934
+43037,Calafell,12,Baix Penedès,14938
+43903,Camarles,09,Baix Ebre,15299
+43038,Cambrils,08,Baix Camp,14943
+43907,"Canonja, la",36,Tarragonès,23697
+43039,Capafonts,08,Baix Camp,14951
+43040,Capçanes,29,Priorat,14955
+43041,Caseres,37,Terra Alta,14958
+43042,Castellvell del Camp,08,Baix Camp,14961
+43043,"atllar, el",36,Tarragonès,14964
+43045,Colldejou,08,Baix Camp,14971
+43046,Conesa,16,Conca de Barberà,14974
+43047,Constantí,36,Tarragonès,14976
+43048,Corbera d'Ebre,37,Terra Alta,14978
+43049,Cornudella de Montsant,29,Priorat,14982
+43050,Creixell,36,Tarragonès,14987
+43051,Cunit,12,Baix Penedès,14989
+43901,Deltebre,09,Baix Ebre,15291
+43053,Duesaigües,08,Baix Camp,14996
+43054,"Espluga de Francolí, l'",16,Conca de Barberà,14998
+43055,Falset,29,Priorat,15003
+43056,"Fatarella, la",37,Terra Alta,15007
+43057,"Febró, la",08,Baix Camp,15010
+43058,"Figuera, la",29,Priorat,15012
+43059,Figuerola del Camp,01,Alt Camp,15014
+43060,Flix,30,Ribera d'Ebre,15016
+43061,Forès,16,Conca de Barberà,15022
+43062,Freginals,22,Montsià,15024
+43063,"Galera, la",22,Montsià,15026
+43064,Gandesa,37,Terra Alta,15028
+43065,Garcia,30,Ribera d'Ebre,15031
+43066,"Garidells, els",01,Alt Camp,15033
+43067,Ginestar,30,Ribera d'Ebre,15035
+43068,Godall,22,Montsià,15037
+43069,Gratallops,29,Priorat,15039
+43070,"Guiamets, els",29,Priorat,15041
+43071,Horta de Sant Joan,37,Terra Alta,15043
+43072,"Lloar, el",29,Priorat,15045
+43073,Llorac,16,Conca de Barberà,15047
+43074,Llorenç del Penedès,12,Baix Penedès,15049
+43076,Marçà,29,Priorat,15053
+43075,Margalef,29,Priorat,15051
+43077,Mas de Barberans,22,Montsià,15055
+43078,Masdenverge,22,Montsià,15057
+43079,Masllorenç,12,Baix Penedès,15059
+43080,"Masó, la",01,Alt Camp,15062
+43081,Maspujols,08,Baix Camp,15064
+43082,"Masroig, el",29,Priorat,15067
+43083,"Milà, el",01,Alt Camp,15069
+43084,Miravet,30,Ribera d'Ebre,15071
+43085,"Molar, el",29,Priorat,15073
+43091,Mont-ral,01,Alt Camp,15086
+43092,Mont-roig del Camp,08,Baix Camp,15088
+43086,Montblanc,16,Conca de Barberà,15075
+43088,Montbrió del Camp,08,Baix Camp,15080
+43089,Montferri,01,Alt Camp,15082
+43090,"Montmell, el",12,Baix Penedès,15084
+43093,Móra d'Ebre,30,Ribera d'Ebre,15093
+43094,Móra la Nova,30,Ribera d'Ebre,15096
+43095,"Morell, el",36,Tarragonès,15099
+43096,"Morera de Montsant, la",29,Priorat,15102
+43097,"Nou de Gaià, la",36,Tarragonès,15105
+43098,Nulles,01,Alt Camp,15107
+43100,"Pallaresos, els",36,Tarragonès,15110
+43099,"Palma d'Ebre, la",30,Ribera d'Ebre,15109
+43101,Passanant i Belltall,16,Conca de Barberà,15111
+43102,Paüls,09,Baix Ebre,15112
+43103,Perafort,36,Tarragonès,15113
+43104,"Perelló, el",09,Baix Ebre,15114
+43105,"Piles, les",16,Conca de Barberà,15115
+43106,"Pinell de Brai, el",37,Terra Alta,
+43107,Pira,16,Conca de Barberà,15117
+43108,"Pla de Santa Maria, el",01,Alt Camp,15118
+43109,"Pobla de Mafumet, la",36,Tarragonès,15119
+43110,"Pobla de Massaluca, la",37,Terra Alta,15122
+43111,"Pobla de Montornès, la",36,Tarragonès,15123
+43112,Poboleda,29,Priorat,15124
+43113,"Pont d'Armentera, el",01,Alt Camp,15125
+43141,Pontils,16,Conca de Barberà,15188
+43114,Porrera,29,Priorat,15126
+43115,Pradell de la Teixeta,29,Priorat,15127
+43116,Prades,08,Baix Camp,15128
+43117,Prat de Comte,37,Terra Alta,15129
+43118,Pratdip,08,Baix Camp,15130
+43119,Puigpelat,01,Alt Camp,15131
+43120,Querol,01,Alt Camp,15132
+43136,"Ràpita, la",22,Montsià,15177
+43121,Rasquera,30,Ribera d'Ebre,15133
+43122,Renau,36,Tarragonès,15134
+43123,Reus,08,Baix Camp,15135
+43124,"Riba, la",01,Alt Camp,
+43125,Riba-roja d'Ebre,30,Ribera d'Ebre,15157
+43126,"Riera de Gaià, la",36,Tarragonès,15158
+43127,Riudecanyes,08,Baix Camp,15159
+43128,Riudecols,08,Baix Camp,15160
+43129,Riudoms,08,Baix Camp,15161
+43130,Rocafort de Queralt,16,Conca de Barberà,15166
+43131,Roda de Berà,36,Tarragonès,15167
+43132,Rodonyà,01,Alt Camp,15169
+43133,Roquetes,09,Baix Ebre,15170
+43134,"Rourell, el",01,Alt Camp,15175
+43135,Salomó,36,Tarragonès,15176
+43905,Salou,36,Tarragonès,15303
+43902,Sant Jaume d'Enveja,22,Montsià,15297
+43137,Sant Jaume dels Domenys,12,Baix Penedès,15182
+43138,Santa Bàrbara,22,Montsià,15183
+43139,Santa Coloma de Queralt,16,Conca de Barberà,15184
+43140,Santa Oliva,12,Baix Penedès,15186
+43142,Sarral,16,Conca de Barberà,15189
+43143,Savallà del Comtat,16,Conca de Barberà,
+43144,"Secuita, la",36,Tarragonès,15191
+43145,"Selva del Camp, la",08,Baix Camp,15192
+43146,Senan,16,Conca de Barberà,15195
+43044,"Sénia, la",22,Montsià,14967
+43147,Solivella,16,Conca de Barberà,15196
+43148,Tarragona,36,Tarragonès,15197
+43149,Tivenys,09,Baix Ebre,15211
+43150,Tivissa,30,Ribera d'Ebre,15212
+43151,"Torre de Fontaubella, la",29,Priorat,15213
+43152,"Torre de l'Espanyol, la",30,Ribera d'Ebre,15214
+43153,Torredembarra,36,Tarragonès,15215
+43154,Torroja del Priorat,29,Priorat,15218
+43155,Tortosa,09,Baix Ebre,15219
+43156,Ulldecona,22,Montsià,15236
+43157,Ulldemolins,29,Priorat,15239
+43158,Vallclara,16,Conca de Barberà,15241
+43159,Vallfogona de Riucorb,16,Conca de Barberà,15242
+43160,Vallmoll,01,Alt Camp,15243
+43161,Valls,01,Alt Camp,15246
+43162,Vandellòs i l'Hospitalet de l'Infant,08,Baix Camp,15256
+43163,"Vendrell, el",12,Baix Penedès,15262
+43164,Vespella de Gaià,36,Tarragonès,15272
+43170,Vila-rodona,01,Alt Camp,15278
+43171,Vila-seca,36,Tarragonès,15280
+43165,Vilabella,01,Alt Camp,15273
+43175,Vilalba dels Arcs,37,Terra Alta,15287
+43166,Vilallonga del Camp,36,Tarragonès,15274
+43167,Vilanova d'Escornalbou,08,Baix Camp,15275
+43168,Vilanova de Prades,16,Conca de Barberà,15276
+43169,Vilaplana,08,Baix Camp,15277
+43172,Vilaverd,16,Conca de Barberà,15284
+43173,"Vilella Alta, la",29,Priorat,15285
+43174,"Vilella Baixa, la",29,Priorat,15286
+43176,Vimbodí i Poblet,16,Conca de Barberà,15288
+43177,Vinebre,30,Ribera d'Ebre,15289
+43178,Vinyols i els Arcs,08,Baix Camp,15290
+43052,Xerta,09,Baix Ebre,14994

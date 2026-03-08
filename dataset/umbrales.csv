@@ -1,4 +1,4 @@
-﻿indicador,nombre,unidad,conteo,minimo,maximo,desv_tipica,percentil25,percentil75,percentil10,percentil90,origen,umbral_optimo,umbral_malo
+indicador,nombre,unidad,conteo,minimo,maximo,desv_tipica,percentil25,percentil75,percentil10,percentil90,origen,umbral_optimo,umbral_malo
 1,Cociente entre la tasa de consumo de tierras y la tasa de crecimiento de la población,%,77,-498.36,21.07,56.60,-0.12,0.00,-1.30,1.10,CEST/bcnM,-52.74,52.74
 3,Número de operadores de producción ecológica,N,49,2.00,16.00,3.64,7.00,13.00,4.80,14.00,bcnP95M,24.70,1.00
 2,Superficie agrícola y ganadera ecológica,ha,49,0.00,61.43,16.69,8.66,22.60,1.09,42.14,bcn3QM,214.17,0.00

@@ -65,14 +65,9 @@ export function loadAll(db: Database.Database, data: TransformedData): void {
     data.arquitecturaL2,
   );
 
-  counts['INDICADORES_AGENDAS'] = insertMany(db, 'INDICADORES_AGENDAS',
+  counts['INDICADORES'] = insertMany(db, 'INDICADORES',
     ['id_indicador', 'codigo_ine', 'periodo', 'valor', 'indice', 'categoria', 'no_agregar', 'texto'],
-    data.indicadoresAgendas,
-  );
-
-  counts['INDICADORES_ODS'] = insertMany(db, 'INDICADORES_ODS',
-    ['id_indicador', 'codigo_ine', 'periodo', 'valor', 'indice', 'categoria', 'no_agregar', 'texto'],
-    data.indicadoresOds,
+    data.indicadores,
   );
 
   counts['INDICADORES_DESCRIPTIVOS'] = insertMany(db, 'INDICADORES_DESCRIPTIVOS',

@@ -1,0 +1,2399 @@
+{
+  "ods": [
+    {
+      "id_dict": "2030-1",
+      "nombre": "FIN DE LA POBREZA",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-1.1",
+      "nombre": "Pobreza extrema",
+      "nivel": 2,
+      "parent": "2030-1",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-1.2",
+      "nombre": "Reducir pobreza",
+      "nivel": 2,
+      "parent": "2030-1",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-1.3",
+      "nombre": "Protección social",
+      "nivel": 2,
+      "parent": "2030-1",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-1.4",
+      "nombre": "Acceso recursos",
+      "nivel": 2,
+      "parent": "2030-1",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-1.5",
+      "nombre": "Resiliencia pobres",
+      "nivel": 2,
+      "parent": "2030-1",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-1.a",
+      "nombre": "Financiación pobreza",
+      "nivel": 2,
+      "parent": "2030-1",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-1.b",
+      "nombre": "Políticas pobreza",
+      "nivel": 2,
+      "parent": "2030-1",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-10",
+      "nombre": "REDUCCIÓN DE LAS DESIGUALDADES",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-10.1",
+      "nombre": "Ingresos 40% pobre",
+      "nivel": 2,
+      "parent": "2030-10",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-10.2",
+      "nombre": "Inclusión social",
+      "nivel": 2,
+      "parent": "2030-10",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-10.3",
+      "nombre": "Igualdad oportunidades",
+      "nivel": 2,
+      "parent": "2030-10",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-10.4",
+      "nombre": "Políticas redistributivas",
+      "nivel": 2,
+      "parent": "2030-10",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-10.5",
+      "nombre": "Regulación financiera",
+      "nivel": 2,
+      "parent": "2030-10",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-10.6",
+      "nombre": "Representación global",
+      "nivel": 2,
+      "parent": "2030-10",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-10.7",
+      "nombre": "Migración segura",
+      "nivel": 2,
+      "parent": "2030-10",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-10.a",
+      "nombre": "Trato especial",
+      "nivel": 2,
+      "parent": "2030-10",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-10.b",
+      "nombre": "Flujos financieros",
+      "nivel": 2,
+      "parent": "2030-10",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-10.c",
+      "nombre": "Costes remesas",
+      "nivel": 2,
+      "parent": "2030-10",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-11",
+      "nombre": "CIUDADES Y COMUNIDADES SOSTENIBLES",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-11.1",
+      "nombre": "Vivienda digna",
+      "nivel": 2,
+      "parent": "2030-11",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-11.2",
+      "nombre": "Transporte seguro",
+      "nivel": 2,
+      "parent": "2030-11",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-11.3",
+      "nombre": "Urbanización sostenible",
+      "nivel": 2,
+      "parent": "2030-11",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-11.4",
+      "nombre": "Patrimonio cultural",
+      "nivel": 2,
+      "parent": "2030-11",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-11.5",
+      "nombre": "Desastres urbanos",
+      "nivel": 2,
+      "parent": "2030-11",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-11.6",
+      "nombre": "Impacto ambiental urbano",
+      "nivel": 2,
+      "parent": "2030-11",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-11.7",
+      "nombre": "Espacios verdes",
+      "nivel": 2,
+      "parent": "2030-11",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-11.a",
+      "nombre": "Vínculos territoriales",
+      "nivel": 2,
+      "parent": "2030-11",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-11.b",
+      "nombre": "Gestión riesgos",
+      "nivel": 2,
+      "parent": "2030-11",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-11.c",
+      "nombre": "Construcción sostenible",
+      "nivel": 2,
+      "parent": "2030-11",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-12",
+      "nombre": "PRODUCCIÓN Y CONSUMO RESPONSABLES",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-12.1",
+      "nombre": "Marco consumo sostenible",
+      "nivel": 2,
+      "parent": "2030-12",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-12.2",
+      "nombre": "Uso recursos",
+      "nivel": 2,
+      "parent": "2030-12",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-12.3",
+      "nombre": "Desperdicio alimentos",
+      "nivel": 2,
+      "parent": "2030-12",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-12.4",
+      "nombre": "Químicos y residuos",
+      "nivel": 2,
+      "parent": "2030-12",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-12.5",
+      "nombre": "Reciclaje",
+      "nivel": 2,
+      "parent": "2030-12",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-12.6",
+      "nombre": "Empresas sostenibles",
+      "nivel": 2,
+      "parent": "2030-12",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-12.7",
+      "nombre": "Compras públicas",
+      "nivel": 2,
+      "parent": "2030-12",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-12.8",
+      "nombre": "Información sostenible",
+      "nivel": 2,
+      "parent": "2030-12",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-12.a",
+      "nombre": "Capacidad científica",
+      "nivel": 2,
+      "parent": "2030-12",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-12.b",
+      "nombre": "Turismo sostenible",
+      "nivel": 2,
+      "parent": "2030-12",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-12.c",
+      "nombre": "Subsidios fósiles",
+      "nivel": 2,
+      "parent": "2030-12",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-13",
+      "nombre": "ACCIÓN POR EL CLIMA",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-13.1",
+      "nombre": "Resiliencia climática",
+      "nivel": 2,
+      "parent": "2030-13",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-13.2",
+      "nombre": "Políticas climáticas",
+      "nivel": 2,
+      "parent": "2030-13",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-13.3",
+      "nombre": "Educación climática",
+      "nivel": 2,
+      "parent": "2030-13",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-13.a",
+      "nombre": "Financiación climática",
+      "nivel": 2,
+      "parent": "2030-13",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-13.b",
+      "nombre": "Capacidad adaptación",
+      "nivel": 2,
+      "parent": "2030-13",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-14",
+      "nombre": "VIDA SUBMARINA",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-14.1",
+      "nombre": "Contaminación marina",
+      "nivel": 2,
+      "parent": "2030-14",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-14.2",
+      "nombre": "Ecosistemas marinos",
+      "nivel": 2,
+      "parent": "2030-14",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-14.3",
+      "nombre": "Acidificación océanos",
+      "nivel": 2,
+      "parent": "2030-14",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-14.4",
+      "nombre": "Pesca sostenible",
+      "nivel": 2,
+      "parent": "2030-14",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-14.5",
+      "nombre": "Áreas marinas protegidas",
+      "nivel": 2,
+      "parent": "2030-14",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-14.6",
+      "nombre": "Subsidios pesca",
+      "nivel": 2,
+      "parent": "2030-14",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-14.7",
+      "nombre": "Economía azul",
+      "nivel": 2,
+      "parent": "2030-14",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-14.a",
+      "nombre": "Investigación marina",
+      "nivel": 2,
+      "parent": "2030-14",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-14.b",
+      "nombre": "Pesca artesanal",
+      "nivel": 2,
+      "parent": "2030-14",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-14.c",
+      "nombre": "Derecho marítimo",
+      "nivel": 2,
+      "parent": "2030-14",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-15",
+      "nombre": "VIDA Y ECOSISTEMAS TERRESTRES",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-15.1",
+      "nombre": "Ecosistemas terrestres",
+      "nivel": 2,
+      "parent": "2030-15",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-15.2",
+      "nombre": "Bosques sostenibles",
+      "nivel": 2,
+      "parent": "2030-15",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-15.3",
+      "nombre": "Degradación tierras",
+      "nivel": 2,
+      "parent": "2030-15",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-15.4",
+      "nombre": "Ecosistemas montaña",
+      "nivel": 2,
+      "parent": "2030-15",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-15.5",
+      "nombre": "Biodiversidad",
+      "nivel": 2,
+      "parent": "2030-15",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-15.6",
+      "nombre": "Recursos genéticos",
+      "nivel": 2,
+      "parent": "2030-15",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-15.7",
+      "nombre": "Tráfico especies",
+      "nivel": 2,
+      "parent": "2030-15",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-15.8",
+      "nombre": "Especies invasoras",
+      "nivel": 2,
+      "parent": "2030-15",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-15.9",
+      "nombre": "Biodiversidad políticas",
+      "nivel": 2,
+      "parent": "2030-15",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-15.a",
+      "nombre": "Financiación ecosistemas",
+      "nivel": 2,
+      "parent": "2030-15",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-15.b",
+      "nombre": "Gestión forestal",
+      "nivel": 2,
+      "parent": "2030-15",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-15.c",
+      "nombre": "Caza furtiva",
+      "nivel": 2,
+      "parent": "2030-15",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-16",
+      "nombre": "PAZ, JUSTICIA E INSTITUCIONES SÓLIDAS",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-16.1",
+      "nombre": "Reducir violencia",
+      "nivel": 2,
+      "parent": "2030-16",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-16.2",
+      "nombre": "Protección infancia",
+      "nivel": 2,
+      "parent": "2030-16",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-16.3",
+      "nombre": "Estado de derecho",
+      "nivel": 2,
+      "parent": "2030-16",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-16.4",
+      "nombre": "Crimen organizado",
+      "nivel": 2,
+      "parent": "2030-16",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-16.5",
+      "nombre": "Corrupción",
+      "nivel": 2,
+      "parent": "2030-16",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-16.6",
+      "nombre": "Instituciones eficaces",
+      "nivel": 2,
+      "parent": "2030-16",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-16.7",
+      "nombre": "Decisiones inclusivas",
+      "nivel": 2,
+      "parent": "2030-16",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-16.8",
+      "nombre": "Participación global",
+      "nivel": 2,
+      "parent": "2030-16",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-16.9",
+      "nombre": "Identidad legal",
+      "nivel": 2,
+      "parent": "2030-16",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-16.a",
+      "nombre": "Instituciones nacionales",
+      "nivel": 2,
+      "parent": "2030-16",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-16.b",
+      "nombre": "No discriminación",
+      "nivel": 2,
+      "parent": "2030-16",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-17",
+      "nombre": "ALIANZAS PARA LOGRAR LOS OBJETIVOS",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-17.1",
+      "nombre": "Recaudación interna",
+      "nivel": 2,
+      "parent": "2030-17",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-17.11",
+      "nombre": "Exportaciones desarrollo",
+      "nivel": 2,
+      "parent": "2030-17",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-17.12",
+      "nombre": "Acceso mercados",
+      "nivel": 2,
+      "parent": "2030-17",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-17.13",
+      "nombre": "Estabilidad macroeconómica",
+      "nivel": 2,
+      "parent": "2030-17",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-17.14",
+      "nombre": "Coherencia políticas",
+      "nivel": 2,
+      "parent": "2030-17",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-17.15",
+      "nombre": "Soberanía políticas",
+      "nivel": 2,
+      "parent": "2030-17",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-17.16",
+      "nombre": "Alianzas globales",
+      "nivel": 2,
+      "parent": "2030-17",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-17.17",
+      "nombre": "Alianzas público-privadas",
+      "nivel": 2,
+      "parent": "2030-17",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-17.18",
+      "nombre": "Datos desglosados",
+      "nivel": 2,
+      "parent": "2030-17",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-17.19",
+      "nombre": "Medición progreso",
+      "nivel": 2,
+      "parent": "2030-17",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-17.2",
+      "nombre": "Ayuda desarrollo",
+      "nivel": 2,
+      "parent": "2030-17",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-17.3",
+      "nombre": "Recursos financieros",
+      "nivel": 2,
+      "parent": "2030-17",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-17.4",
+      "nombre": "Sostenibilidad deuda",
+      "nivel": 2,
+      "parent": "2030-17",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-17.5",
+      "nombre": "Inversión sostenible",
+      "nivel": 2,
+      "parent": "2030-17",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-17.6",
+      "nombre": "Cooperación tecnológica",
+      "nivel": 2,
+      "parent": "2030-17",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-17.7",
+      "nombre": "Transferencia tecnológica",
+      "nivel": 2,
+      "parent": "2030-17",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-17.8",
+      "nombre": "Banco tecnología",
+      "nivel": 2,
+      "parent": "2030-17",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-17.9",
+      "nombre": "Creación capacidad",
+      "nivel": 2,
+      "parent": "2030-17",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-2",
+      "nombre": "HAMBRE CERO",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-2.1",
+      "nombre": "Fin del hambre",
+      "nivel": 2,
+      "parent": "2030-2",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-2.2",
+      "nombre": "Malnutrición",
+      "nivel": 2,
+      "parent": "2030-2",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-2.3",
+      "nombre": "Productividad agrícola",
+      "nivel": 2,
+      "parent": "2030-2",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-2.4",
+      "nombre": "Agricultura sostenible",
+      "nivel": 2,
+      "parent": "2030-2",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-2.5",
+      "nombre": "Diversidad genética",
+      "nivel": 2,
+      "parent": "2030-2",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-2.a",
+      "nombre": "Inversión agrícola",
+      "nivel": 2,
+      "parent": "2030-2",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-2.b",
+      "nombre": "Comercio agrícola",
+      "nivel": 2,
+      "parent": "2030-2",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-2.c",
+      "nombre": "Precios alimentos",
+      "nivel": 2,
+      "parent": "2030-2",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-3",
+      "nombre": "SALUD Y BIENESTAR",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-3.1",
+      "nombre": "Salud materna",
+      "nivel": 2,
+      "parent": "2030-3",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-3.2",
+      "nombre": "Salud infantil",
+      "nivel": 2,
+      "parent": "2030-3",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-3.3",
+      "nombre": "Epidemias",
+      "nivel": 2,
+      "parent": "2030-3",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-3.4",
+      "nombre": "Enfermedades crónicas",
+      "nivel": 2,
+      "parent": "2030-3",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-3.5",
+      "nombre": "Adicciones",
+      "nivel": 2,
+      "parent": "2030-3",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-3.6",
+      "nombre": "Accidentes tráfico",
+      "nivel": 2,
+      "parent": "2030-3",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-3.7",
+      "nombre": "Salud sexual",
+      "nivel": 2,
+      "parent": "2030-3",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-3.8",
+      "nombre": "Cobertura sanitaria",
+      "nivel": 2,
+      "parent": "2030-3",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-3.9",
+      "nombre": "Contaminación salud",
+      "nivel": 2,
+      "parent": "2030-3",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-3.a",
+      "nombre": "Control tabaco",
+      "nivel": 2,
+      "parent": "2030-3",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-3.b",
+      "nombre": "Medicamentos",
+      "nivel": 2,
+      "parent": "2030-3",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-3.c",
+      "nombre": "Personal sanitario",
+      "nivel": 2,
+      "parent": "2030-3",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-3.d",
+      "nombre": "Gestión riesgos sanitarios",
+      "nivel": 2,
+      "parent": "2030-3",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-4",
+      "nombre": "EDUCACIÓN DE CALIDAD",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-4.1",
+      "nombre": "Educación básica",
+      "nivel": 2,
+      "parent": "2030-4",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-4.2",
+      "nombre": "Educación infantil",
+      "nivel": 2,
+      "parent": "2030-4",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-4.3",
+      "nombre": "Educación superior",
+      "nivel": 2,
+      "parent": "2030-4",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-4.4",
+      "nombre": "Habilidades empleo",
+      "nivel": 2,
+      "parent": "2030-4",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-4.5",
+      "nombre": "Igualdad educativa",
+      "nivel": 2,
+      "parent": "2030-4",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-4.6",
+      "nombre": "Alfabetización",
+      "nivel": 2,
+      "parent": "2030-4",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-4.7",
+      "nombre": "Educación sostenible",
+      "nivel": 2,
+      "parent": "2030-4",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-4.a",
+      "nombre": "Infraestructura escolar",
+      "nivel": 2,
+      "parent": "2030-4",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-4.b",
+      "nombre": "Becas",
+      "nivel": 2,
+      "parent": "2030-4",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-4.c",
+      "nombre": "Docentes",
+      "nivel": 2,
+      "parent": "2030-4",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-5",
+      "nombre": "IGUALDAD DE GÉNERO",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-5.1",
+      "nombre": "Fin discriminación",
+      "nivel": 2,
+      "parent": "2030-5",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-5.2",
+      "nombre": "Violencia género",
+      "nivel": 2,
+      "parent": "2030-5",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-5.3",
+      "nombre": "Prácticas nocivas",
+      "nivel": 2,
+      "parent": "2030-5",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-5.4",
+      "nombre": "Trabajo cuidados",
+      "nivel": 2,
+      "parent": "2030-5",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-5.5",
+      "nombre": "Liderazgo femenino",
+      "nivel": 2,
+      "parent": "2030-5",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-5.6",
+      "nombre": "Derechos reproductivos",
+      "nivel": 2,
+      "parent": "2030-5",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-5.a",
+      "nombre": "Recursos económicos",
+      "nivel": 2,
+      "parent": "2030-5",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-5.b",
+      "nombre": "Tecnología mujeres",
+      "nivel": 2,
+      "parent": "2030-5",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-5.c",
+      "nombre": "Políticas igualdad",
+      "nivel": 2,
+      "parent": "2030-5",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-6",
+      "nombre": "AGUA LIMPIA Y SANEAMIENTO",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-6.1",
+      "nombre": "Agua potable",
+      "nivel": 2,
+      "parent": "2030-6",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-6.2",
+      "nombre": "Saneamiento",
+      "nivel": 2,
+      "parent": "2030-6",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-6.3",
+      "nombre": "Calidad agua",
+      "nivel": 2,
+      "parent": "2030-6",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-6.4",
+      "nombre": "Uso eficiente agua",
+      "nivel": 2,
+      "parent": "2030-6",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-6.5",
+      "nombre": "Gestión hídrica",
+      "nivel": 2,
+      "parent": "2030-6",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-6.6",
+      "nombre": "Ecosistemas acuáticos",
+      "nivel": 2,
+      "parent": "2030-6",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-6.a",
+      "nombre": "Cooperación agua",
+      "nivel": 2,
+      "parent": "2030-6",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-6.b",
+      "nombre": "Participación local",
+      "nivel": 2,
+      "parent": "2030-6",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-7",
+      "nombre": "ENERGÍA ASEQUIBLE Y NO CONTAMINANTE",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-7.1",
+      "nombre": "Acceso energía",
+      "nivel": 2,
+      "parent": "2030-7",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-7.2",
+      "nombre": "Energías renovables",
+      "nivel": 2,
+      "parent": "2030-7",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-7.3",
+      "nombre": "Eficiencia energética",
+      "nivel": 2,
+      "parent": "2030-7",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-7.a",
+      "nombre": "Cooperación energética",
+      "nivel": 2,
+      "parent": "2030-7",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-7.b",
+      "nombre": "Infraestructura energética",
+      "nivel": 2,
+      "parent": "2030-7",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-8",
+      "nombre": "TRABAJO DECENTE Y CRECIMIENTO ECONÓMICO",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-8.1",
+      "nombre": "Crecimiento económico",
+      "nivel": 2,
+      "parent": "2030-8",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-8.2",
+      "nombre": "Productividad",
+      "nivel": 2,
+      "parent": "2030-8",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-8.3",
+      "nombre": "Empleo digno",
+      "nivel": 2,
+      "parent": "2030-8",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-8.4",
+      "nombre": "Consumo eficiente",
+      "nivel": 2,
+      "parent": "2030-8",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-8.5",
+      "nombre": "Trabajo decente",
+      "nivel": 2,
+      "parent": "2030-8",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-8.6",
+      "nombre": "Jóvenes empleo",
+      "nivel": 2,
+      "parent": "2030-8",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-8.7",
+      "nombre": "Trabajo forzoso",
+      "nivel": 2,
+      "parent": "2030-8",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-8.8",
+      "nombre": "Derechos laborales",
+      "nivel": 2,
+      "parent": "2030-8",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-8.9",
+      "nombre": "Desarrollo turístico",
+      "nivel": 2,
+      "parent": "2030-8",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-8.a",
+      "nombre": "Ayuda comercio",
+      "nivel": 2,
+      "parent": "2030-8",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-8.b",
+      "nombre": "Estrategia juvenil",
+      "nivel": 2,
+      "parent": "2030-8",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-9",
+      "nombre": "INDUSTRIA, INNOVACIÓN E INFRAESTRUCTURA",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-9.1",
+      "nombre": "Infraestructura resiliente",
+      "nivel": 2,
+      "parent": "2030-9",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-9.2",
+      "nombre": "Industrialización sostenible",
+      "nivel": 2,
+      "parent": "2030-9",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-9.3",
+      "nombre": "Acceso financiación",
+      "nivel": 2,
+      "parent": "2030-9",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-9.4",
+      "nombre": "Tecnología limpia",
+      "nivel": 2,
+      "parent": "2030-9",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-9.5",
+      "nombre": "Investigación",
+      "nivel": 2,
+      "parent": "2030-9",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-9.a",
+      "nombre": "Infraestructura desarrollo",
+      "nivel": 2,
+      "parent": "2030-9",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-9.b",
+      "nombre": "Tecnología industrial",
+      "nivel": 2,
+      "parent": "2030-9",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "2030-9.c",
+      "nombre": "Acceso internet",
+      "nivel": 2,
+      "parent": "2030-9",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    }
+  ],
+  "au": [
+    {
+      "id_dict": "AUE-1",
+      "nombre": "ORDENAR EL TERRITORIO Y HACER UN USO RACIONAL DEL SUELO, CONSERVARLO Y PROTEGERLO",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-1.1",
+      "nombre": "Ordenar el suelo de manera compatible con su entorno territorial",
+      "nivel": 2,
+      "parent": "AUE-1",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-1.2",
+      "nombre": "Conservar y mejorar el patrimonio natural y cultural y proteger el paisaje",
+      "nivel": 2,
+      "parent": "AUE-1",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-1.3",
+      "nombre": "Mejorar las infraestructuras verdes y azules y vincularlas con el contexto natural",
+      "nivel": 2,
+      "parent": "AUE-1",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-10",
+      "nombre": "MEJORAR LOS INSTRUMENTOS DE INTERVENCIÓN Y LA GOBERNANZA",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-10.1",
+      "nombre": "Lograr un marco normativo y de planeamiento actualizado, flexible y simplificado que mejore, también, la gestión",
+      "nivel": 2,
+      "parent": "AUE-10",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-10.2",
+      "nombre": "Asegurar la participación ciudadana, la transparencia y favorecer la gobernanza multinivel",
+      "nivel": 2,
+      "parent": "AUE-10",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-10.3",
+      "nombre": "Impulsar la capacitación local y mejorar la financiación",
+      "nivel": 2,
+      "parent": "AUE-10",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-10.4",
+      "nombre": "Diseñar y poner en marcha campañas de formación y sensibilización en materia urbana así como de intercambio y difusión de la información",
+      "nivel": 2,
+      "parent": "AUE-10",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-2",
+      "nombre": "EVITAR LA DISPERSIÓN URBANA Y REVITALIZAR LA CIUDAD EXISTENTE",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-2.1",
+      "nombre": "Definir un modelo urbano que fomente la compacidad, el equilibrio urbano y la dotación de servicios básicos",
+      "nivel": 2,
+      "parent": "AUE-2",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-2.2",
+      "nombre": "Garantizar la complejidad funcional y diversidad de usos",
+      "nivel": 2,
+      "parent": "AUE-2",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-2.3",
+      "nombre": "Garantizar la calidad y la accesibilidad de los espacios públicos",
+      "nivel": 2,
+      "parent": "AUE-2",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-2.4",
+      "nombre": "Mejorar el medio ambiente urbano y reducir la contaminación",
+      "nivel": 2,
+      "parent": "AUE-2",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-3",
+      "nombre": "PREVENIR Y REDUCIR LOS IMPACTOS DEL CAMBIO CLIMÁTICO Y MEJORAR LA RESILIENCIA",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-3.1",
+      "nombre": "Adaptar el modelo territorial y urbano a los efectos del cambio climático y avanzar en su prevención",
+      "nivel": 2,
+      "parent": "AUE-3",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-3.2",
+      "nombre": "Reducir las emisiones de gases de efecto invernadero",
+      "nivel": 2,
+      "parent": "AUE-3",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-3.3",
+      "nombre": "Mejorar la resiliencia frente al cambio climático",
+      "nivel": 2,
+      "parent": "AUE-3",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-4",
+      "nombre": "HACER UNA GESTIÓN SOSTENIBLE DE LOS RECURSOS Y FAVORECER LA ECONOMÍA CIRCULAR",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-4.1",
+      "nombre": "Ser más eficientes energéticamente y ahorrar energía",
+      "nivel": 2,
+      "parent": "AUE-4",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-4.2",
+      "nombre": "Optimizar y reducir el consumo de agua",
+      "nivel": 2,
+      "parent": "AUE-4",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-4.3",
+      "nombre": "Fomentar el ciclo de los materiales",
+      "nivel": 2,
+      "parent": "AUE-4",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-5",
+      "nombre": "FAVORECER LA PROXIMIDAD Y LA MOVILIDAD SOSTENIBLE",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-5.1",
+      "nombre": "Favorecer la ciudad de proximidad",
+      "nivel": 2,
+      "parent": "AUE-5",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-5.2",
+      "nombre": "Potenciar modos de transporte sostenibles",
+      "nivel": 2,
+      "parent": "AUE-5",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-6",
+      "nombre": "FOMENTAR LA COHESIÓN SOCIAL Y BUSCAR LA EQUIDAD",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-6.1",
+      "nombre": "Reducir el riesgo de pobreza y exclusión social en entornos urbanos desfavorecidos",
+      "nivel": 2,
+      "parent": "AUE-6",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-6.2",
+      "nombre": "Buscar la igualdad de oportunidades desde una perspectiva de género, edad y capacidad",
+      "nivel": 2,
+      "parent": "AUE-6",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-7",
+      "nombre": "IMPULSAR Y FAVORECER LA ECONOMÍA URBANA",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-7.1",
+      "nombre": "Buscar la productividad local, la generación de empleo y la dinamización y diversificación de la actividad económica",
+      "nivel": 2,
+      "parent": "AUE-7",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-7.2",
+      "nombre": "Fomentar el turismo sostenible y de calidad y los sectores clave de la economía local",
+      "nivel": 2,
+      "parent": "AUE-7",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-8",
+      "nombre": "GARANTIZAR EL ACCESO A LA VIVIENDA",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-8.1",
+      "nombre": "Fomentar la existencia de un parque de vivienda adecuado a precio asequible",
+      "nivel": 2,
+      "parent": "AUE-8",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-8.2",
+      "nombre": "Garantizar el acceso a la vivienda, especialmente de los colectivos más vulnerables",
+      "nivel": 2,
+      "parent": "AUE-8",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-9",
+      "nombre": "LIDERAR Y FOMENTAR LA INNOVACIÓN DIGITAL",
+      "nivel": 1,
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-9.1",
+      "nombre": "Favorecer la sociedad del conocimiento y avanzar hacia el desarrollo de las ciudades inteligentes (Smart cities)",
+      "nivel": 2,
+      "parent": "AUE-9",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    },
+    {
+      "id_dict": "AUE-9.2",
+      "nombre": "Fomentar la Administración electrónica y reducir la brecha digital",
+      "nivel": 2,
+      "parent": "AUE-9",
+      "municipios": {
+        "08096": null,
+        "08121": null,
+        "08279": null
+      }
+    }
+  ]
+}

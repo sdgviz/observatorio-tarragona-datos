@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visor estático de la base de datos</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Visor estático de la base de datos</h1>
+    <p>Exploración jerárquica de agendas e indicadores por municipio.</p>
+  </header>
+
+  <section class="controls">
+    <div class="control-group">
+      <label for="agenda-select">Agenda</label>
+      <select id="agenda-select">
+        <option value="">— Elige agenda —</option>
+      </select>
+    </div>
+    <div class="control-group">
+      <label for="municipio-select">Municipio</label>
+      <select id="municipio-select">
+        <option value="">— Elige municipio —</option>
+      </select>
+    </div>
+  </section>
+
+  <main>
+    <div id="hierarchy" class="hierarchy"></div>
+    <div id="municipio-indicators" class="municipio-indicators"></div>
+  </main>
+
+  <footer>
+    <p>Generado por el pipeline de datos. Publicable en GitHub Pages.</p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,8 +1,8 @@
 {
   "summary": {
-    "total": 11,
-    "passed": 11,
-    "failed": 0,
+    "total": 16,
+    "passed": 15,
+    "failed": 1,
     "errored": 0
   },
   "results": [
@@ -59,6 +59,32 @@
     {
       "id": "data-indicators-have-metadata",
       "description": "All indicators in indicadores_agendas.csv appear in metadatos_agendas.csv",
+      "status": "pass"
+    },
+    {
+      "id": "data-indicadores-agendas-codigo-ine",
+      "description": "All codigo_ine in indicadores_agendas.csv exist in regiones.csv",
+      "status": "pass"
+    },
+    {
+      "id": "data-descriptivos-codigo-ine",
+      "description": "All codigo_ine in descriptivos.csv exist in regiones.csv",
+      "status": "fail",
+      "details": "codigo_ine not found in regiones.csv: 08096, 08121, 08184, 08211, 08245, 08279, 08301"
+    },
+    {
+      "id": "data-promedios-meta-ods-codigo-ine",
+      "description": "All codigo_ine in promedios_municipio_meta_ods.csv exist in regiones.csv",
+      "status": "pass"
+    },
+    {
+      "id": "data-promedios-objetivo-aue-codigo-ine",
+      "description": "All codigo_ine in promedios_municipio_objetivo_aue.csv exist in regiones.csv",
+      "status": "pass"
+    },
+    {
+      "id": "data-promedios-ods-objetivo-codigo-ine",
+      "description": "All codigo_ine in promedios_municipio_ods_objetivo.csv exist in regiones.csv",
       "status": "pass"
     }
   ]

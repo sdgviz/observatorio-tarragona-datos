@@ -35,15 +35,15 @@
     <div class="summary-grid">
       <div class="summary-item">
         <div class="summary-label">Total tests</div>
-        <div class="summary-value">11</div>
+        <div class="summary-value">16</div>
       </div>
       <div class="summary-item">
         <div class="summary-label">Passed</div>
-        <div class="summary-value pass">11</div>
+        <div class="summary-value pass">15</div>
       </div>
       <div class="summary-item">
         <div class="summary-label">Failed</div>
-        <div class="summary-value fail">0</div>
+        <div class="summary-value fail">1</div>
       </div>
       <div class="summary-item">
         <div class="summary-label">Errored</div>
@@ -125,6 +125,36 @@
 <tr>
         <td><code>data-indicators-have-metadata</code></td>
         <td>All indicators in indicadores_agendas.csv appear in metadatos_agendas.csv</td>
+        <td><span class="status-badge status-pass">PASS</span></td>
+        <td class="details"></td>
+      </tr>
+<tr>
+        <td><code>data-indicadores-agendas-codigo-ine</code></td>
+        <td>All codigo_ine in indicadores_agendas.csv exist in regiones.csv</td>
+        <td><span class="status-badge status-pass">PASS</span></td>
+        <td class="details"></td>
+      </tr>
+<tr>
+        <td><code>data-descriptivos-codigo-ine</code></td>
+        <td>All codigo_ine in descriptivos.csv exist in regiones.csv</td>
+        <td><span class="status-badge status-fail">FAIL</span></td>
+        <td class="details">codigo_ine not found in regiones.csv: 08096, 08121, 08184, 08211, 08245, 08279, 08301</td>
+      </tr>
+<tr>
+        <td><code>data-promedios-meta-ods-codigo-ine</code></td>
+        <td>All codigo_ine in promedios_municipio_meta_ods.csv exist in regiones.csv</td>
+        <td><span class="status-badge status-pass">PASS</span></td>
+        <td class="details"></td>
+      </tr>
+<tr>
+        <td><code>data-promedios-objetivo-aue-codigo-ine</code></td>
+        <td>All codigo_ine in promedios_municipio_objetivo_aue.csv exist in regiones.csv</td>
+        <td><span class="status-badge status-pass">PASS</span></td>
+        <td class="details"></td>
+      </tr>
+<tr>
+        <td><code>data-promedios-ods-objetivo-codigo-ine</code></td>
+        <td>All codigo_ine in promedios_municipio_ods_objetivo.csv exist in regiones.csv</td>
         <td><span class="status-badge status-pass">PASS</span></td>
         <td class="details"></td>
       </tr>

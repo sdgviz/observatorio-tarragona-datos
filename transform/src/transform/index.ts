@@ -2,7 +2,7 @@ import type { ParsedData, RegionRecord } from '../parse/index.js';
 import { transformMetadata, type MetadataRow, type MetadataEsRow } from './metadata.js';
 import { extractArquitecturaL2, type ArquitecturaL2Row } from './arquitectura.js';
 import { transformDiccionario, type DiccionarioRow, type DiccionarioEsRow } from './diccionario.js';
-import { routeIndicadores, transformDescriptivos, type IndicadorRow, type DescriptivoRow } from './indicadores.js';
+import { mapIndicadores, transformDescriptivos, type IndicadorRow, type DescriptivoRow } from './indicadores.js';
 import { transformPromedios, type PromedioOdsRow, type PromedioAgendaRow } from './promedios.js';
 
 export interface TransformedData {
@@ -12,8 +12,7 @@ export interface TransformedData {
   diccionario: DiccionarioRow[];
   diccionarioEs: DiccionarioEsRow[];
   arquitecturaL2: ArquitecturaL2Row[];
-  indicadoresAgendas: IndicadorRow[];
-  indicadoresOds: IndicadorRow[];
+  indicadores: IndicadorRow[];
   indicadoresDescriptivos: DescriptivoRow[];
   promediosOds: PromedioOdsRow[];
   promediosAgendas: PromedioAgendaRow[];
@@ -50,9 +49,8 @@ export function transformAll(data: ParsedData): TransformedData {
     console.log(`  ARQUITECTURA_L2: ${arquitecturaL2.length} rows`);
   }
 
-  const { agendas, ods, skipped } = routeIndicadores(data.indicadoresAgendas, data.metadata);
-  console.log(`  INDICADORES_AGENDAS: ${agendas.length} rows`);
-  console.log(`  INDICADORES_ODS: ${ods.length} rows`);
+  const { indicadores, skipped } = mapIndicadores(data.indicadoresAgendas, data.metadata);
+  console.log(`  INDICADORES: ${indicadores.length} rows`);
   if (skipped > 0) {
     console.log(`  (${skipped} indicator rows skipped — missing metadata)`);
   }
@@ -77,8 +75,7 @@ export function transformAll(data: ParsedData): TransformedData {
     diccionario,
     diccionarioEs,
     arquitecturaL2,
-    indicadoresAgendas: agendas,
-    indicadoresOds: ods,
+    indicadores,
     indicadoresDescriptivos: descriptivos,
     promediosOds,
     promediosAgendas,

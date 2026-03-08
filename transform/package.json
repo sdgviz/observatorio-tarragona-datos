@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "transform": "tsx src/index.ts",
-    "check:csv": "tsx src/check-csv.ts"
+    "check:csv": "tsx src/check-csv.ts",
+    "build:static-viewer": "tsx src/build-static-viewer.ts",
+    "add-id-presupuestos": "tsx src/add-id-presupuestos.ts"
   },
   "dependencies": {
     "better-sqlite3": "^12.6.2",

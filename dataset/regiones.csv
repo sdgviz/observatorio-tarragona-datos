@@ -1,8 +1,8 @@
-﻿codigo_ine,nombre,poblacion,id_poblacion,id_especial
-08096,Cambrils,62475,50.000-100.000,
-08121,Salou,129120,>100.000,
-08184,Valls,78549,50.000-100.000,
-08211,Vila-seca,45463,20.000-50.000,
-08245,Reus,119289,>100.000,
-08279,Tarragona,223011,>100.000,
-08301,El Catllar,66707,50.000-100.000,
+codigo_ine,nombre,poblacion,id_poblacion,id_especial,id_especial2
+43148,Tarragona,143649,>100.000,Tarragonès,Municipios de servicios generales
+43123,Reus,111601,>100.000,Baix Camp,Municipios de servicios generales
+43163,"Vendrell, El",41133,20.000-50.000,Baix Penedès,Municipios de servicios generales
+43038,Cambrils,37042,20.000-50.000,Baix Camp,Municipios de servicios generales
+43155,Tortosa,35997,20.000-50.000,Baix Ebre,Municipios de servicios generales
+43037,Calafell,32624,20.000-50.000,Baix Penedès,Municipios de servicios generales
+43905,Salou,31491,20.000-50.000,Tarragonès,Municipios de servicios generales

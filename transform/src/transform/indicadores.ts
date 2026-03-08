@@ -19,33 +19,25 @@ export interface DescriptivoRow {
   umbral: string | null;
 }
 
-export function routeIndicadores(
+export function mapIndicadores(
   indicadores: IndicadorAgendaRecord[],
   metadata: MetadataRecord[],
 ): {
-  agendas: IndicadorRow[];
-  ods: IndicadorRow[];
+  indicadores: IndicadorRow[];
   skipped: number;
 } {
-  const typeMap = new Map<string, string>();
-  for (const m of metadata) {
-    typeMap.set(m.indicador, m.clase);
-  }
-
-  const agendas: IndicadorRow[] = [];
-  const ods: IndicadorRow[] = [];
+  const knownIds = new Set(metadata.map(m => m.indicador));
+  const result: IndicadorRow[] = [];
   let skipped = 0;
 
   for (const row of indicadores) {
-    const clase = typeMap.get(row.indicador);
-
-    if (!clase) {
+    if (!knownIds.has(row.indicador)) {
       console.error(`Warning: indicator "${row.indicador}" not found in metadata, skipping`);
       skipped++;
       continue;
     }
 
-    const mapped: IndicadorRow = {
+    result.push({
       id_indicador: row.indicador,
       codigo_ine: row.codigo_ine,
       periodo: row.periodo,
@@ -54,16 +46,10 @@ export function routeIndicadores(
       categoria: row.categoria,
       no_agregar: row.no_agregar,
       texto: row.texto,
-    };
-
-    if (clase === 'agendas') {
-      agendas.push(mapped);
-    } else if (clase === 'ods') {
-      ods.push(mapped);
-    }
+    });
   }
 
-  return { agendas, ods, skipped };
+  return { indicadores: result, skipped };
 }
 
 export function transformDescriptivos(records: DescriptivoRecord[]): DescriptivoRow[] {

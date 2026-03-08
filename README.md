@@ -34,3 +34,20 @@ When you run `pnpm run check:csv` from the `transform` directory, the CLI genera
 
 The `githubpage/csv-integrity/` folder is structured so it can be served directly by **GitHub Pages** without any additional build step. A future CI workflow can simply publish this folder so the latest CSV integrity report is always visible on the web.
 
+### Static DB viewer (GitHub Pages)
+
+A small static web app lets you explore the database contents in a browser: agendas (ODS, Agenda Urbana, descriptiva), their hierarchical indicators, and which indicators are available per municipality.
+
+- **Generate data and output**: From the `transform` directory run:
+  - `pnpm run build:static-viewer`
+- **Inputs**:
+  - Database: by default `../output/diputacion_tarragona.db` (create it first with `pnpm run transform`).
+  - Municipality sample: optional `config/static-viewer-sample.json` in the repo root. It must contain a `codigo_ine` array with the municipality codes to include (e.g. `["08096", "08121", "08279"]`). If the file is missing or empty, **all municipalities** present in the database are included.
+- **Output**: The script writes:
+  - `githubpage/static-db-viewer/data/agendas.json` – hierarchy of agendas and indicators.
+  - `githubpage/static-db-viewer/data/municipios.json` – list of municipalities (according to the sample) with indicator IDs per agenda.
+  The existing `index.html` and `assets/` in `githubpage/static-db-viewer/` are used as-is; the script only updates the `data/` folder.
+- **Viewing locally**: The viewer loads data via `fetch`, so it must be served over HTTP. For example:
+  - `npx serve githubpage/static-db-viewer` (or serve the repo root and open `/githubpage/static-db-viewer/`).
+- **GitHub Pages**: Publish the `githubpage/` folder (or the whole site) so that `static-db-viewer/` is available; no extra build step is required.
+

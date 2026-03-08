@@ -18,6 +18,9 @@ build/
 .env
 .env.*
 
+# Google Sheets service account credentials (never commit)
+pullAndBuild/credentials.json
+
 # Logs
 logs
 *.log
@@ -42,3 +45,5 @@ Icon?
 
 # Thumbnails
 ._*
+
+*.old

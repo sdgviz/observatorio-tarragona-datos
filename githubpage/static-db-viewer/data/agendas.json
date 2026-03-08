@@ -1,0 +1,1059 @@
+[
+  {
+    "id": "ods",
+    "label": "ODS",
+    "tree": {
+      "id": "2030",
+      "nombre": "2030",
+      "children": [
+        {
+          "id": "2030-10",
+          "nombre": "REDUCCIÓN DE LAS DESIGUALDADES",
+          "children": [
+            {
+              "id": "2030-10.2",
+              "nombre": "Inclusión social",
+              "children": [
+                {
+                  "id_indicador": "24",
+                  "nombre": "Índice de vulnerabilidad urbana",
+                  "detalle": "Proporción de población que vive en secciones censales vulnerables respecto al total de población del territorio. \nUna sección censal se considera vulnerable cuando:\n* Más del 21% de su población tiene ingresos por unidad de consumo menores del 40% de la mediana nacional (población vulnerable).\n* La proporción de población por debajo de este umbral en la sección censal es más del doble de la media de población vulnerable de la ciudad."
+                },
+                {
+                  "id_indicador": "52",
+                  "nombre": "Índice Gini",
+                  "detalle": "El índice de Gini mide el área entre la curva de Lorenz y una línea hipotética de igualdad absoluta, expresada como porcentaje del área máxima bajo la línea. Una curva de Lorenz traza los porcentajes acumulados de la renta total recibida frente al número acumulado de perceptores, empezando por el individuo más pobre. Así, un índice de Gini de 0 representa una igualdad perfecta, mientras que un índice de 100 implica una desigualdad perfecta."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2030-11",
+          "nombre": "CIUDADES Y COMUNIDADES SOSTENIBLES",
+          "children": [
+            {
+              "id": "2030-11.6",
+              "nombre": "Impacto ambiental urbano",
+              "children": [
+                {
+                  "id_indicador": "15",
+                  "nombre": "Media anual de concentración de NO2",
+                  "detalle": "Concentraciones atmosféricas medias anuales de NO2."
+                },
+                {
+                  "id_indicador": "17",
+                  "nombre": "Numero de dias que la contaminación atmosferica supera el limite OMS (PM10)",
+                  "detalle": "Número de días en que el valor medio de partículas en suspensión con un diámetro menor de 10 micrómetros sobrepasa el límite máximo establecido en la legislación."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2030-13",
+          "nombre": "ACCIÓN POR EL CLIMA",
+          "children": [
+            {
+              "id": "2030-13.1",
+              "nombre": "Resiliencia climática",
+              "children": [
+                {
+                  "id_indicador": "31",
+                  "nombre": "Total de Emisiones de Gases Efecto Invernadero de las unidades residentes per capita (segun GHGemision.org)",
+                  "detalle": "Emisiones de CO2 partido por habitantes."
+                }
+              ]
+            },
+            {
+              "id": "2030-13.2",
+              "nombre": "Políticas climáticas",
+              "children": [
+                {
+                  "id_indicador": "1",
+                  "nombre": "Cociente entre la tasa de consumo de tierras y la tasa de crecimiento de la población",
+                  "detalle": "Valor obtenido a partir del cocientes entre la variación anual de la categoría «Sòl Urbà Consolidat» (MUC) y el crecimiento de la población (padrón municipal)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2030-15",
+          "nombre": "VIDA Y ECOSISTEMAS TERRESTRES",
+          "children": [
+            {
+              "id": "2030-15.2",
+              "nombre": "Bosques sostenibles",
+              "children": [
+                {
+                  "id_indicador": "5",
+                  "nombre": "Porcentaje de espacio natural con algún tipo de protección",
+                  "detalle": "Porcentaje de espacio natural con algún tipo de protección (provincial, autonómica, nacional, europea…) frente al total de la superficie natural municipal. Incluye todas las areas dentro del territorio municipal en la categoria «Espais Naturals Protegits», que incluye las areas PEIN, ENPE i Xarxa Natura 2000."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2030-16",
+          "nombre": "PAZ, JUSTICIA E INSTITUCIONES SÓLIDAS",
+          "children": [
+            {
+              "id": "2030-16.6",
+              "nombre": "Instituciones eficaces",
+              "children": [
+                {
+                  "id_indicador": "63",
+                  "nombre": "Índice de Transparencia",
+                  "detalle": "El ITA o Índice de Transparencia de los Ayuntamientos, es el indicador asignado a estas entidades públicas. Mediante 80 indicadores se mide la transparencia en la información que los ayuntamientos facilitan a los ciudadanos."
+                },
+                {
+                  "id_indicador": "64",
+                  "nombre": "Solidez y autonomía presupuestaria de la institución municipal",
+                  "detalle": "Proporción presupuestaria entre ingresos de recursos propios frente al total de los ingresos. Se computan como ingresos propios los impuestos directos, impuestos indirectos, ingresos patrimoniales; y tasas.\nElaborado a partir de los datos de liquidación presupuestaria a nivel local."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2030-2",
+          "nombre": "HAMBRE CERO",
+          "children": [
+            {
+              "id": "2030-2.2",
+              "nombre": "Malnutrición",
+              "children": [
+                {
+                  "id_indicador": "2",
+                  "nombre": "Superficie agrícola y ganadera ecológica",
+                  "detalle": "Superficie de las explotaciones agrarias que cumplen con los requisitos determinados por el Reglamento del Consejo (CE) Núm. 834/2007, respecto a la superficie total agraria. De acuerdo con estas normas para calificar la producción como ecológica se requiere:\n* Estar registrada ante la autoridad-organismo de control correspondiente en cada comunidad autónoma y someterse a sus controles.\n* Identificación y separación de las parcelas, animales, y productos usados o producidos ecológicamente de los que no lo son."
+                }
+              ]
+            },
+            {
+              "id": "2030-2.4",
+              "nombre": "Agricultura sostenible",
+              "children": [
+                {
+                  "id_indicador": "3",
+                  "nombre": "Número de operadores de producción ecológica",
+                  "detalle": "Número de productores primarios (agrícolas y ganaderos), elaboradores, importadores, comercializadores y minoristas inscritos en el registro de producción ecológica a nivel municipal.  \nDato disponible en la web del Consell Català de Producció Agrícola Ecològica. Se consideran únicamente el tipo de productor «P = productor»"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2030-5",
+          "nombre": "IGUALDAD DE GÉNERO",
+          "children": [
+            {
+              "id": "2030-5.2",
+              "nombre": "Violencia género",
+              "children": [
+                {
+                  "id_indicador": "54",
+                  "nombre": "Brecha de género en el empleo",
+                  "detalle": "Diferencia existente entre las tasas de empleo por género."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2030-8",
+          "nombre": "TRABAJO DECENTE Y CRECIMIENTO ECONÓMICO",
+          "children": [
+            {
+              "id": "2030-8.2",
+              "nombre": "Productividad",
+              "children": [
+                {
+                  "id_indicador": "55",
+                  "nombre": "Índice de dependencia por sector de empleo",
+                  "detalle": "Índice de vulnerabilidad a partir de la diversidad de empleo. A partir de los datos de ‘Employment jobs by sectors’ de ‘Labour Market - cities and greater cities’. de Eurostat Urban Audit. Este indicador representa la distribución de empleo por sectores. El valor óptimo de este indicador se encuentra alrededor de 1 representando una distribución uniforme de los empleos entre sectores, mientras que valores por encima de 4 implican que los empleos se concentran en unos pocos sectores."
+                }
+              ]
+            },
+            {
+              "id": "2030-8.4",
+              "nombre": "Consumo eficiente",
+              "children": [
+                {
+                  "id_indicador": "53",
+                  "nombre": "Tasa desempleo juvenil",
+                  "detalle": "Porcentaje de menores de 25 años desempleados frente al total de desempleados. A partir de los datos del paro registrado por municipios desglosado por tramos de edad."
+                }
+              ]
+            },
+            {
+              "id": "2030-8.5",
+              "nombre": "Trabajo decente",
+              "children": [
+                {
+                  "id_indicador": "54",
+                  "nombre": "Brecha de género en el empleo",
+                  "detalle": "Diferencia existente entre las tasas de empleo por género."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "au",
+    "label": "Agenda Urbana",
+    "tree": {
+      "id": "AUE",
+      "nombre": "AUE",
+      "children": [
+        {
+          "id": "AUE-1",
+          "nombre": "ORDENAR EL TERRITORIO Y HACER UN USO RACIONAL DEL SUELO, CONSERVARLO Y PROTEGERLO",
+          "children": [
+            {
+              "id": "AUE-1.1",
+              "nombre": "Ordenar el suelo de manera compatible con su entorno territorial",
+              "children": [
+                {
+                  "id_indicador": "1",
+                  "nombre": "Cociente entre la tasa de consumo de tierras y la tasa de crecimiento de la población",
+                  "detalle": "Valor obtenido a partir del cocientes entre la variación anual de la categoría «Sòl Urbà Consolidat» (MUC) y el crecimiento de la población (padrón municipal)"
+                },
+                {
+                  "id_indicador": "2",
+                  "nombre": "Superficie agrícola y ganadera ecológica",
+                  "detalle": "Superficie de las explotaciones agrarias que cumplen con los requisitos determinados por el Reglamento del Consejo (CE) Núm. 834/2007, respecto a la superficie total agraria. De acuerdo con estas normas para calificar la producción como ecológica se requiere:\n* Estar registrada ante la autoridad-organismo de control correspondiente en cada comunidad autónoma y someterse a sus controles.\n* Identificación y separación de las parcelas, animales, y productos usados o producidos ecológicamente de los que no lo son."
+                },
+                {
+                  "id_indicador": "3",
+                  "nombre": "Número de operadores de producción ecológica",
+                  "detalle": "Número de productores primarios (agrícolas y ganaderos), elaboradores, importadores, comercializadores y minoristas inscritos en el registro de producción ecológica a nivel municipal.  \nDato disponible en la web del Consell Català de Producció Agrícola Ecològica. Se consideran únicamente el tipo de productor «P = productor»"
+                }
+              ]
+            },
+            {
+              "id": "AUE-1.2",
+              "nombre": "Conservar y mejorar el patrimonio natural y cultural y proteger el paisaje",
+              "children": [
+                {
+                  "id_indicador": "4",
+                  "nombre": "Número de bienes inmuebles de uso cultural por cada 100.000 habitantes",
+                  "detalle": "Entre los inmuebles de uso cultural se cuentan museos, edificios singulares y protegidos."
+                },
+                {
+                  "id_indicador": "5",
+                  "nombre": "Porcentaje de espacio natural con algún tipo de protección",
+                  "detalle": "Porcentaje de espacio natural con algún tipo de protección (provincial, autonómica, nacional, europea…) frente al total de la superficie natural municipal. Incluye todas las areas dentro del territorio municipal en la categoria «Espais Naturals Protegits», que incluye las areas PEIN, ENPE i Xarxa Natura 2000."
+                }
+              ]
+            },
+            {
+              "id": "AUE-1.3",
+              "nombre": "Mejorar las infraestructuras verdes y azules y vincularlas con el contexto natural",
+              "children": [
+                {
+                  "id_indicador": "6",
+                  "nombre": "Evolución del Índice de Conectancia Terrestre de ecosistemas",
+                  "detalle": "Indicador basado en el índice de conectividad ecológica de los ecosistemas tal y como lo describe la Junta de Andalucía en el documento “Plan Director para la Mejora de la Conectividad Ecológica en Andalucía. Una Estrategia de Infraestructura Verde” (Mayo 2018). Para su cálculo se tienen en cuenta las distancias entre espacios naturales terrestres del mismo tipo (bosques, praderas, etc) y las infraestructuras artificiales que los fraccionan. Se considera que dos espacios naturales están conectados cuando se encuentran a menos de 2500 m de distancia y no están divididos por ninguna infraestructura artificial. Para el cálculo del indicador se pondera el porcentaje de conectancia de cada ecosistema con la proporción de la superficie natural total estudiada que representa dentro del municipio."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "AUE-10",
+          "nombre": "MEJORAR LOS INSTRUMENTOS DE INTERVENCIÓN Y LA GOBERNANZA",
+          "children": [
+            {
+              "id": "AUE-10.2",
+              "nombre": "Asegurar la participación ciudadana, la transparencia y favorecer la gobernanza multinivel",
+              "children": [
+                {
+                  "id_indicador": "63",
+                  "nombre": "Índice de Transparencia",
+                  "detalle": "El ITA o Índice de Transparencia de los Ayuntamientos, es el indicador asignado a estas entidades públicas. Mediante 80 indicadores se mide la transparencia en la información que los ayuntamientos facilitan a los ciudadanos."
+                }
+              ]
+            },
+            {
+              "id": "AUE-10.3",
+              "nombre": "Impulsar la capacitación local y mejorar la financiación",
+              "children": [
+                {
+                  "id_indicador": "64",
+                  "nombre": "Solidez y autonomía presupuestaria de la institución municipal",
+                  "detalle": "Proporción presupuestaria entre ingresos de recursos propios frente al total de los ingresos. Se computan como ingresos propios los impuestos directos, impuestos indirectos, ingresos patrimoniales; y tasas.\nElaborado a partir de los datos de liquidación presupuestaria a nivel local."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "AUE-2",
+          "nombre": "EVITAR LA DISPERSIÓN URBANA Y REVITALIZAR LA CIUDAD EXISTENTE",
+          "children": [
+            {
+              "id": "AUE-2.1",
+              "nombre": "Definir un modelo urbano que fomente la compacidad, el equilibrio urbano y la dotación de servicios básicos",
+              "children": [
+                {
+                  "id_indicador": "7",
+                  "nombre": "Proporción de población a una distancia menor de 5 minutos andando a instalaciones de uso educativo",
+                  "detalle": "Proporción de población a una distancia menor de 5 minutos andando (400 m por el trazado de las calles) de instalaciones de servicios educativos (educación infantil, primaria, secundaria y terciaria)"
+                },
+                {
+                  "id_indicador": "8",
+                  "nombre": "Proporción de población a una distancia menor de 5 minutos andando a instalaciones de servicios sanitarios",
+                  "detalle": "Proporción de población a una distancia menor de 5 minutos andando (400 m por el trazado de las calles) de instalaciones de servicios sanitarios (medicina general y especializada)"
+                },
+                {
+                  "id_indicador": "9",
+                  "nombre": "Proporción de población con acceso a instalaciones culturales a menos de 5 minutos andando",
+                  "detalle": "Proporción de población a una distancia menor de 5 minutos andando (400 m por el trazado de las calles) de instalaciones culturales (archivos y centros de documentación, cines, salas de conciertos, teatros, museos, salas de exposición y galerías de arte, bibliotecas)"
+                },
+                {
+                  "id_indicador": "10",
+                  "nombre": "Proporción de población con acceso a servicios de alimentación a menos de 5 minutos andando",
+                  "detalle": "Proporción de población a una distancia menor de 5 minutos andando (400 m por el trazado de las calles) de comercios de productos de alimentación (panaderías, pastelerías, carnicerías, charcuterías, pescaderías, fruterías, mercados, supermercados e hipermercados)"
+                },
+                {
+                  "id_indicador": "11",
+                  "nombre": "Número de entidades bancarias por cada 1.000 habitantes",
+                  "detalle": "Número de bancos, cooperativas de crédito, sucursales comunitarias de crédito y establecimientos financieros de crédito del municipio por cada 1000 habitantes."
+                }
+              ]
+            },
+            {
+              "id": "AUE-2.3",
+              "nombre": "Garantizar la calidad y la accesibilidad de los espacios públicos",
+              "children": [
+                {
+                  "id_indicador": "12",
+                  "nombre": "Confort acústico nocturno",
+                  "detalle": "Población con afectación sonora nocturna inferior a 55 dB(A) / número total de habitantes]"
+                },
+                {
+                  "id_indicador": "13",
+                  "nombre": "Confort acústico diurno",
+                  "detalle": "Población con afectación sonora diurna inferior a 65 dB(A) / número total de habitantes]"
+                },
+                {
+                  "id_indicador": "14",
+                  "nombre": "Superficie total de suelo rehabilitado",
+                  "detalle": "Superficie de suelo agrícola (no productiva) puesto en producción. Incluye las parcela privadas y las parcelas municipales en concesión"
+                }
+              ]
+            },
+            {
+              "id": "AUE-2.4",
+              "nombre": "Mejorar el medio ambiente urbano y reducir la contaminación",
+              "children": [
+                {
+                  "id_indicador": "15",
+                  "nombre": "Media anual de concentración de NO2",
+                  "detalle": "Concentraciones atmosféricas medias anuales de NO2."
+                },
+                {
+                  "id_indicador": "16",
+                  "nombre": "Proporción de población próxima zonas verdes",
+                  "detalle": "Proporción de la población a una distancia menor de 5 minutos andando (400 m por el trazado del viario) de una zona verde urbana, o una zona forestal o semi-natural (códigos  1.4.1, 3.1.1, 3.1.2 y 3.1.3 del Corine Land Cover) de más de 1ha de superficie"
+                },
+                {
+                  "id_indicador": "17",
+                  "nombre": "Numero de dias que la contaminación atmosferica supera el limite OMS (PM10)",
+                  "detalle": "Número de días en que el valor medio de partículas en suspensión con un diámetro menor de 10 micrómetros sobrepasa el límite máximo establecido en la legislación."
+                },
+                {
+                  "id_indicador": "18",
+                  "nombre": "Proporción de población próxima a zonas forestales y semi-naturales",
+                  "detalle": "Proporción de la población a una distancia menor de 5 minutos andando (400 m por el trazado del viario) de una zona forestal o semi-natural (códigos 3.1.1, 3.1.2 y 3.1.3 del Corine Land Cover) de más de 1ha de superficie"
+                },
+                {
+                  "id_indicador": "19",
+                  "nombre": "Proporción de población próxima zonas verdes urbanas",
+                  "detalle": "Proporción de la población a una distancia menor de 5 minutos andando (400 m por el trazado del viario) de una zona verde urbana (códico 1.4.1 del Corine Land Cover) de más de 1ha de superficie"
+                },
+                {
+                  "id_indicador": "20",
+                  "nombre": "Zonas verde por habitante",
+                  "detalle": "Superficie de suelo de parques, zonas verdes urbanas y bosques y zonas semi-naturales frente a la población del municipio. Al igual que para el cálculo de accesibilidad a zonas verdes, dentro de la superficie de zonas verdes urbanas se consideran zonas verdes urbanas y bosques, correspondiente a los códigos 141, 311, 312 y 313 del Corine Land Cover."
+                },
+                {
+                  "id_indicador": "21",
+                  "nombre": "Zonas verdes urbanas por habitante",
+                  "detalle": "Superficie de suelo zonas verdes urbanas frente a la población del municipio."
+                },
+                {
+                  "id_indicador": "22",
+                  "nombre": "Zonas verdes forestales o semi-naturales por habitante",
+                  "detalle": "Superficie de suelos forestales y semi-naturales frente a la población del municipio."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "AUE-3",
+          "nombre": "PREVENIR Y REDUCIR LOS IMPACTOS DEL CAMBIO CLIMÁTICO Y MEJORAR LA RESILIENCIA",
+          "children": [
+            {
+              "id": "AUE-3.1",
+              "nombre": "Adaptar el modelo territorial y urbano a los efectos del cambio climático y avanzar en su prevención",
+              "children": [
+                {
+                  "id_indicador": "27",
+                  "nombre": "Defunciones registradas en el municipio de personas por exposición a fuerzas de la naturaleza",
+                  "detalle": "Número de defunciones registradas por el Instituto Nacional de Estadística (INE) según causas, ponderado por cada 100.000 personas, abarcando diversos motivos como exposición al calor o frío natural excesivo, rayos solares, víctimas de eventos sísmicos, erupciones volcánicas, avalanchas, derrumbes, tormentas cataclísmicas, inundaciones y exposición a otras fuerzas naturales no especificadas. Estos datos permiten un análisis que ofrece una perspectiva detallada sobre las consecuencias mortales asociadas a diferentes fenómenos naturales."
+                }
+              ]
+            },
+            {
+              "id": "AUE-3.2",
+              "nombre": "Reducir las emisiones de gases de efecto invernadero",
+              "children": [
+                {
+                  "id_indicador": "15",
+                  "nombre": "Media anual de concentración de NO2",
+                  "detalle": "Concentraciones atmosféricas medias anuales de NO2."
+                },
+                {
+                  "id_indicador": "17",
+                  "nombre": "Numero de dias que la contaminación atmosferica supera el limite OMS (PM10)",
+                  "detalle": "Número de días en que el valor medio de partículas en suspensión con un diámetro menor de 10 micrómetros sobrepasa el límite máximo establecido en la legislación."
+                },
+                {
+                  "id_indicador": "30",
+                  "nombre": "Porcentaje de días con temperaturas extremas",
+                  "detalle": "Porcentaje de días adicionales al año con peligro de incendio de alto a extremo, con referencia al período de control 1981-2010, para un nivel de calentamiento global de 2 ºC."
+                },
+                {
+                  "id_indicador": "31",
+                  "nombre": "Total de Emisiones de Gases Efecto Invernadero de las unidades residentes per capita (segun GHGemision.org)",
+                  "detalle": "Emisiones de CO2 partido por habitantes."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "AUE-4",
+          "nombre": "HACER UNA GESTIÓN SOSTENIBLE DE LOS RECURSOS Y FAVORECER LA ECONOMÍA CIRCULAR",
+          "children": [
+            {
+              "id": "AUE-4.1",
+              "nombre": "Ser más eficientes energéticamente y ahorrar energía",
+              "children": [
+                {
+                  "id_indicador": "25",
+                  "nombre": "Proporción de edificios construidos después de 1980",
+                  "detalle": "Calculado a partir de la información catastral sobre edificios a nivel municipal. Proporción de edificios construidos o renovados después de 1980 respecto al total de edificaciones del municipio"
+                },
+                {
+                  "id_indicador": "26",
+                  "nombre": "Proporción de edificios construidos después de 2010",
+                  "detalle": "Calculado a partir de la información catastral sobre edificios a nivel municipal. Proporción de edificios construidos o renovados después de 2010 respecto al total de edificaciones del municipio"
+                },
+                {
+                  "id_indicador": "35",
+                  "nombre": "Consumo de energía eléctrica por habitante",
+                  "detalle": "Energía eléctrica consumida en los hogares en un año, dividido por el número de habitantes."
+                },
+                {
+                  "id_indicador": "36",
+                  "nombre": "Porcentaje de edificios con certificación energética alta (A/B)",
+                  "detalle": "Proporción de edificios con la mejor calificación (A/B) del certificado de emisiones de las viviendas respecto al total de edificios en el territorio"
+                }
+              ]
+            },
+            {
+              "id": "AUE-4.2",
+              "nombre": "Optimizar y reducir el consumo de agua",
+              "children": [
+                {
+                  "id_indicador": "37",
+                  "nombre": "Consumo de agua por habitante",
+                  "detalle": "Intensidad en el uso de agua per cápita calaculada como el volumen de agua que es consumido en total por la unidad territorial ponderado por habitante del mismo territorio."
+                },
+                {
+                  "id_indicador": "38",
+                  "nombre": "Porcentaje de autosuficiencia hídrica",
+                  "detalle": "Esta valor se ha obtenido como resultado del cociente Aigua pròpia/ Aigua subministrada, ambos disponibles en la web de la empresa municipal de agua de Mataró (AMSA)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "AUE-5",
+          "nombre": "FAVORECER LA PROXIMIDAD Y LA MOVILIDAD SOSTENIBLE",
+          "children": [
+            {
+              "id": "AUE-5.1",
+              "nombre": "Favorecer la ciudad de proximidad",
+              "children": [
+                {
+                  "id_indicador": "41",
+                  "nombre": "Porcentaje de desplazamientos a pie",
+                  "detalle": "El reparto modal de los viajes muestra qué tipos de modos de transporte utiliza mayoritariamente la ciudadanía y su proporción respecto al número total de viajes."
+                },
+                {
+                  "id_indicador": "42",
+                  "nombre": "Porcentaje de desplazamientos en bicicleta",
+                  "detalle": "El reparto modal de los viajes muestra qué tipos de modos de transporte utiliza mayoritariamente la ciudadanía y su proporción respecto al número total de viajes."
+                },
+                {
+                  "id_indicador": "43",
+                  "nombre": "Porcentaje de desplazamientos en transporte público",
+                  "detalle": "El reparto modal de los viajes muestra qué tipos de modos de transporte utiliza mayoritariamente la ciudadanía y su proporción respecto al número total de viajes."
+                },
+                {
+                  "id_indicador": "44",
+                  "nombre": "Porcentaje de desplazamientos en coche y moto",
+                  "detalle": "El reparto modal de los viajes muestra qué tipos de modos de transporte utiliza mayoritariamente la ciudadanía y su proporción respecto al número total de viajes."
+                }
+              ]
+            },
+            {
+              "id": "AUE-5.2",
+              "nombre": "Potenciar modos de transporte sostenibles",
+              "children": [
+                {
+                  "id_indicador": "45",
+                  "nombre": "Número de autobuses de bajas emisiones o con combustibles “limpios” matriculados en el municipio",
+                  "detalle": "Autobuses privados y/o de propiedad publica matriculados en el municipio con distitintivo ambiental ECO o 0 emisiones respecto al total de autobuses matriculados en el territorio."
+                },
+                {
+                  "id_indicador": "46",
+                  "nombre": "Porcentaje de población a una distancia menor de 5 minutos andando a una parada de transporte publico",
+                  "detalle": "Para el cálculo de la accesibilidad a transporte público se utiliza la herramienta análisis de redes de un software GIS. Según lo establecido por el Joint Research Centre y el Global Urban Monitoring Framework, se considera como accesible para la población una parada de autobús que se encuentra a menos de 5 minutos andando de un portal o un edificio, esto equivale a 400 m caminando por el trazado de las calles desde el servicio de origen hasta el portal o edificio. Para el caso de las paradas de metro y tren, la distancia utilizada es de 833m por el trazado de las calles, equivalente a 10 minutos de paseo. \nDado que los intervalos entre salidas de autobús no encajan con lo establecido por el Joint Research Center (https://proceedings.esri.com/library/userconf/euc14/papers/euc_44.pdf) se ha adaptado la metodología, ni se dispone de las frecuencias de salida para todos los medios de transporte, se han determinado tres niveles de acceso en función de la proximidad de la población a paradas de autobús, tren y metro si lo hubiese: \n- Acceso alto: proximidad a líneas de autobús, parada de tren y estación de metro.\n- Acceso medio: proximidad a paradas o estaciones de 2 medios de transporte público distintos (metro y autobús, metro y tren o tren y autobús)\n- Acceso bajo: proximidad a una sola modalidad de transporte.\n- Sin acceso: población sin proximidad a ninguna línea de autobús y ninguna parada de tren o metro.\nEl valor aportado en este documento es el porcentaje acumulado de población con acceso como mínimo bajo según los criterios expuestos con anterioridad. \nComo aproximación de la población con los distintos niveles de acceso se  ha utilizado la malla estadística de población de Andalucía. \nPara la determinación de la población alcanzada se puede asociar la población al portal si se cuenta con los datos del padrón municipal asociados a los portales del catastro o utilizar una malla de población para su aproximación. Idealmente si se cuenta con los datos se puede segmentar la población con acceso por grupo de edad, para estudiar más en detalle el nivel de acceso de la población objetivo.\n"
+                },
+                {
+                  "id_indicador": "47",
+                  "nombre": "Número de viajes en transporte público",
+                  "detalle": "El reparto modal de los viajes muestra qué tipos de modos de transporte utiliza mayoritariamente la ciudadanía y su proporción respecto al número total de viajes."
+                },
+                {
+                  "id_indicador": "48",
+                  "nombre": "Flota de autobuses de bajas emisiones o con combustibles “limpios” dedicados al transporte público urbano",
+                  "detalle": "Del total de vehículos de la flota (30), 16 són híbridos y 14 funcionan con biodiesel"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "AUE-6",
+          "nombre": "FOMENTAR LA COHESIÓN SOCIAL Y BUSCAR LA EQUIDAD",
+          "children": [
+            {
+              "id": "AUE-6.1",
+              "nombre": "Reducir el riesgo de pobreza y exclusión social en entornos urbanos desfavorecidos",
+              "children": [
+                {
+                  "id_indicador": "23",
+                  "nombre": "Índice de vulnerabilidad urbana (Barcelona)",
+                  "detalle": "\"Proporción de población que vive en secciones censales vulnerables respecto al total de población del territorio. \nUna sección censal se considera vulnerable en el contexto de Barcelona cuando:\n* Más del 21% de su población tiene ingresos por unidad de consumo menores del 40% de la mediana provincial de pobreza (población vulnerable).\n* La proporción de población por debajo de este umbral en la sección censal es más del doble de la media de población vulnerable de la ciudad.\""
+                },
+                {
+                  "id_indicador": "24",
+                  "nombre": "Índice de vulnerabilidad urbana",
+                  "detalle": "Proporción de población que vive en secciones censales vulnerables respecto al total de población del territorio. \nUna sección censal se considera vulnerable cuando:\n* Más del 21% de su población tiene ingresos por unidad de consumo menores del 40% de la mediana nacional (población vulnerable).\n* La proporción de población por debajo de este umbral en la sección censal es más del doble de la media de población vulnerable de la ciudad."
+                },
+                {
+                  "id_indicador": "51",
+                  "nombre": "Tasa de riesgo de pobreza",
+                  "detalle": "Proporción de personas con ingresos por unidad de consumo por debajo del 60% de la mediana nacional de los ingresos por unidad de consumo (escala OCDE modificada)."
+                }
+              ]
+            },
+            {
+              "id": "AUE-6.2",
+              "nombre": "Buscar la igualdad de oportunidades desde una perspectiva de género, edad y capacidad",
+              "children": [
+                {
+                  "id_indicador": "52",
+                  "nombre": "Índice Gini",
+                  "detalle": "El índice de Gini mide el área entre la curva de Lorenz y una línea hipotética de igualdad absoluta, expresada como porcentaje del área máxima bajo la línea. Una curva de Lorenz traza los porcentajes acumulados de la renta total recibida frente al número acumulado de perceptores, empezando por el individuo más pobre. Así, un índice de Gini de 0 representa una igualdad perfecta, mientras que un índice de 100 implica una desigualdad perfecta."
+                },
+                {
+                  "id_indicador": "53",
+                  "nombre": "Tasa desempleo juvenil",
+                  "detalle": "Porcentaje de menores de 25 años desempleados frente al total de desempleados. A partir de los datos del paro registrado por municipios desglosado por tramos de edad."
+                },
+                {
+                  "id_indicador": "54",
+                  "nombre": "Brecha de género en el empleo",
+                  "detalle": "Diferencia existente entre las tasas de empleo por género."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "AUE-7",
+          "nombre": "IMPULSAR Y FAVORECER LA ECONOMÍA URBANA",
+          "children": [
+            {
+              "id": "AUE-7.1",
+              "nombre": "Buscar la productividad local, la generación de empleo y la dinamización y diversificación de la actividad económica",
+              "children": [
+                {
+                  "id_indicador": "55",
+                  "nombre": "Índice de dependencia por sector de empleo",
+                  "detalle": "Índice de vulnerabilidad a partir de la diversidad de empleo. A partir de los datos de ‘Employment jobs by sectors’ de ‘Labour Market - cities and greater cities’. de Eurostat Urban Audit. Este indicador representa la distribución de empleo por sectores. El valor óptimo de este indicador se encuentra alrededor de 1 representando una distribución uniforme de los empleos entre sectores, mientras que valores por encima de 4 implican que los empleos se concentran en unos pocos sectores."
+                }
+              ]
+            },
+            {
+              "id": "AUE-7.2",
+              "nombre": "Fomentar el turismo sostenible y de calidad y los sectores clave de la economía local",
+              "children": [
+                {
+                  "id_indicador": "56",
+                  "nombre": "Intensidad turística local",
+                  "detalle": "Número de turistas promedio que visitan mensualmente a lo largo del año el territorio ponderado por habitante, indicando en número de turistas por habitante que existen en el municipio a lo largo del año."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "AUE-8",
+          "nombre": "GARANTIZAR EL ACCESO A LA VIVIENDA",
+          "children": [
+            {
+              "id": "AUE-8.1",
+              "nombre": "Fomentar la existencia de un parque de vivienda adecuado a precio asequible",
+              "children": [
+                {
+                  "id_indicador": "57",
+                  "nombre": "Índice de accesibilidad de la vivienda",
+                  "detalle": "Precio medio del metro cuadrado de la vivienda libre frente a la renta bruta anual por hogar promedio del municipio."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "AUE-9",
+          "nombre": "LIDERAR Y FOMENTAR LA INNOVACIÓN DIGITAL",
+          "children": [
+            {
+              "id": "AUE-9.1",
+              "nombre": "Favorecer la sociedad del conocimiento y avanzar hacia el desarrollo de las ciudades inteligentes (Smart cities)",
+              "children": [
+                {
+                  "id_indicador": "58",
+                  "nombre": "Numero de patentes per capita",
+                  "detalle": "Número de patentes solicitadas vía nacional en el municipio dividido por cada 10.000 habitantes."
+                }
+              ]
+            },
+            {
+              "id": "AUE-9.2",
+              "nombre": "Fomentar la Administración electrónica y reducir la brecha digital",
+              "children": [
+                {
+                  "id_indicador": "59",
+                  "nombre": "Proporción de zonas blancas en el territorio",
+                  "detalle": "En la normativa de ayudas de Estado se definen como zonas blancas NGA aquellas que no disponen de cobertura de redes de banda ancha de nueva generación, ni previsiones para su dotación por algún operador en el plazo de 3 años, en base a planes de inversión creíbles. En dicha normativa se definen como zonas grises NGA aquellas que solo disponen de cobertura de banda ancha de nueva generación o de previsiones para su dotación en el plazo de 3 años por parte de un solo operador.\nEn la página del MINECO se puede descargar una capa en formato shp de zonas blancas y grises actualizada a 2021, a partir de ella se pueden seleccionar las zonas blancas y grises NGA dentro de cada distrito o sección censal y encontrar las viviendas que intersecan con ellas para determinar la proporción de viviendas dentro de zonas blancas NGA respecto al total de viviendas del municipio. \n"
+                },
+                {
+                  "id_indicador": "60",
+                  "nombre": "Porcentaje de no usuarios por motivos de falta conocimientos / capacidad informáticos",
+                  "detalle": null
+                },
+                {
+                  "id_indicador": "61",
+                  "nombre": "Porcentaje de usuarios on-line que valoran como buena o bastante buena su satisfacción con el servicio on-line",
+                  "detalle": null
+                },
+                {
+                  "id_indicador": "62",
+                  "nombre": "Porcentaje de población que ha realizado algún trámite on-line",
+                  "detalle": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "desc",
+    "label": "Agenda Urbana descriptiva",
+    "indicators": [
+      {
+        "id_indicador": "D-1",
+        "nombre": "Variación de la población en los últimos diez años disponibles",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-2-a",
+        "nombre": "Superficie de cobertura artificial por municipio",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-2-b",
+        "nombre": "Superficie de cultivos por municipio",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-2-d",
+        "nombre": "Superficie de zona forestal y dehesas por municipio",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-3-a",
+        "nombre": "Superficie municipal destinada a explotaciones agrarias y forestales",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-3-b",
+        "nombre": "Superficie destinada a explotaciones agrarias y forestales respecto al suelo urbano y urbanizable delimitado de la ciudad",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-4",
+        "nombre": "Superficie municipal de suelo no urbanizable",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-5",
+        "nombre": "Superficie de zonas verdes por cada 1.000 habitantes",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-6",
+        "nombre": "Densidad Urbana",
+        "detalle": "Número de habitantes por hectárea de superficie de suelo urbano"
+      },
+      {
+        "id_indicador": "D-7",
+        "nombre": "Superficie de suelo urbano mixto discontinuo sobre suelo urbano mixto total",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-8",
+        "nombre": "Densidad de vivienda por superficie de suelo urbano",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-9",
+        "nombre": "Compacidad urbana",
+        "detalle": "Superficie construida total por superficie de suelo"
+      },
+      {
+        "id_indicador": "D-10-a",
+        "nombre": "Superficie construida de uso residencial por superficie de suelo",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-10-b",
+        "nombre": "Superficie construida de uso residencial respecto al total de superficie construida",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-ST-1",
+        "nombre": "Densidad de viviendas previstas en las áreas de suelo de desarrollo",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-ST-2",
+        "nombre": "Porcentaje de áreas de suelo de desarrollo respecto al total del suelo urbano",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-ST-3",
+        "nombre": "Suelo urbanizable delimitado respecto al total del suelo urbano",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-ST-4",
+        "nombre": "Porcentaje de áreas de suelo en desarrollo de uso residencial respecto al total de suelo urbano",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-ST-5",
+        "nombre": "Porcentaje de áreas de suelo en desarrollo de uso actividades económica (industrial o terciario) respecto al total de suelo urbano",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-14",
+        "nombre": "Porcentaje del parque edificatorio por municipio con una antigüedad anterior al año 2000",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-17-a",
+        "nombre": "Superficie de infraestructuras de transporte",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-17-b",
+        "nombre": "Porcentaje de superficie de infraestructuras de transporte respecto al término municipal",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-18-a",
+        "nombre": "Vehículos domiciliados cada 1000 habitantes",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-18-b",
+        "nombre": "Porcentaje de Turismos",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-18-c",
+        "nombre": "Porcentaje de motocicletas",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-22-a",
+        "nombre": "Índice de envejecimiento de la población",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-22-b",
+        "nombre": "Índice de senectud de la población",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-23",
+        "nombre": "Porcentaje de población extranjera",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-24-a",
+        "nombre": "Índice de dependencia total",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-24-b",
+        "nombre": "Índice de dependencia infantil",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-24-c",
+        "nombre": "Índice de dependencia de mayores",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-26-a",
+        "nombre": "Trabajadores en sector agricultura",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-26-b",
+        "nombre": "Trabajadores en sector industria",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-26-c",
+        "nombre": "Trabajadores en sector construcción",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-26-d",
+        "nombre": "Trabajadores en sector servicios",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-27-a",
+        "nombre": "Establecimientos en sector agricultura",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-27-b",
+        "nombre": "Establecimientos en sector industria",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-27-c",
+        "nombre": "Establecimientos en sector construcción",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-27-d",
+        "nombre": "Establecimientos en sector servicios",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-28-a",
+        "nombre": "Porcentaje de parados total",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-28-b",
+        "nombre": "Porcentaje de parados entre 25 y 44 años",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-28-c",
+        "nombre": "Proporción de paro femenino",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-29",
+        "nombre": "Número de viviendas por cada 1.000 habitantes",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-32",
+        "nombre": "Variación del número de hogares en los últimos diez años",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-33",
+        "nombre": "Crecimiento del parque de vivienda los últimos diez años",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-34",
+        "nombre": "Porcentaje de vivienda secundaria",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-35",
+        "nombre": "Porcentaje de vivienda vacía",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-ST-6",
+        "nombre": "Porcentaje de viviendas previstas en áreas de desarrollo respecto al parque de vivienda existente",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-ST-7",
+        "nombre": "Número de viviendas previstas en las áreas de desarrollo por cada 1.000 habitantes",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-37",
+        "nombre": "FIGURA DE PLANEAMIENTO URBANÍSTICO VIGENTE EN EL MUNICIPIO",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-38",
+        "nombre": "FECHA DE LA FIGURA DE PLANEAMIENTO URBANÍSTICO VIGENTE EN EL MUNICIPIO",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-2-c",
+        "nombre": "Superficie de Zonas Húmedas",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-11",
+        "nombre": "Superficie de zonas verdes y áreas de esparcimiento públicas respecto al número de habitantes",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-12-a",
+        "nombre": "Zonas verdes por habitante",
+        "detalle": "Superficie de zonas verdes y áreas de esparcimiento públicas respecto al número de habitantes"
+      },
+      {
+        "id_indicador": "D-12-b",
+        "nombre": "Densidad zonas verdes",
+        "detalle": "Superficie de zonas verdes y áreas de esparcimiento públicas respecto a la superficie urbana"
+      },
+      {
+        "id_indicador": "D-13-a",
+        "nombre": "Longitud calles peatonales",
+        "detalle": "Longitud calles peatonales respecto longitud total de calles y vías"
+      },
+      {
+        "id_indicador": "D-13-b",
+        "nombre": "Área calles peatonales",
+        "detalle": "Área calles peatonales respecto del área total de calles y vías"
+      },
+      {
+        "id_indicador": "D-15",
+        "nombre": "Consumo de agua por habitante",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-16-a",
+        "nombre": "Calidad del silencio DÍA",
+        "detalle": "Nº de personas expuesta s más de 65db durante el día respecto al total de habitantes"
+      },
+      {
+        "id_indicador": "D-16-b",
+        "nombre": "Calidad del silencio NOCHE",
+        "detalle": "Nº de personas expuesta s más de 55db durante la noche respecto al total de habitantes"
+      },
+      {
+        "id_indicador": "D-18-d",
+        "nombre": "Antigüedad de parque de vehiculos",
+        "detalle": "Proporción de turismos con una antigüedad menor a 8 años en el municipio"
+      },
+      {
+        "id_indicador": "D-19-a",
+        "nombre": "Densidad de líneas de autobús",
+        "detalle": "Longitud de las líneas de autobús respecto a la superficie del municipio"
+      },
+      {
+        "id_indicador": "D-19-b",
+        "nombre": "Oferta de líneas de autobús por habitante",
+        "detalle": "Longitud de las líneas de autobús cada 1000 habitantes"
+      },
+      {
+        "id_indicador": "D-19-c",
+        "nombre": "Oferta de plazas de autobús por habitante",
+        "detalle": "Plazas ofertadas de autobús por cada 1000 habitantes"
+      },
+      {
+        "id_indicador": "D-19-d",
+        "nombre": "Densidad de redes ferroviarias",
+        "detalle": "Longitud de redes ferroviarias respecto a la superficie del municipio"
+      },
+      {
+        "id_indicador": "D-19-e",
+        "nombre": "Oferta de redes ferroviarias por habitante",
+        "detalle": "Longittud de redes ferroviarias por cada millón de habitantes"
+      },
+      {
+        "id_indicador": "D-20",
+        "nombre": "Accesibilidad al transporte público",
+        "detalle": "Capa de paradas"
+      },
+      {
+        "id_indicador": "D-21",
+        "nombre": "Densidad de vías ciclistas urbanas",
+        "detalle": "Longitud de carriles de bici urbanos por cada 1000 habitantes"
+      },
+      {
+        "id_indicador": "D-25",
+        "nombre": "Porcentaje de personas con acceso a los servicios sociales",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-30",
+        "nombre": "Tipología de vivienda",
+        "detalle": "Número de viviendas plurifamiliares respecto del total de viviendas"
+      },
+      {
+        "id_indicador": "D-31",
+        "nombre": "Tasa de vivienda pública",
+        "detalle": null
+      },
+      {
+        "id_indicador": "D-36",
+        "nombre": "Accesibilidad a la vivienda",
+        "detalle": "Precio medio de la viviendas respecto de la renta media familiar"
+      },
+      {
+        "id_indicador": "D-39",
+        "nombre": "AGENDA URBANA, PLANEAMIENTO ESTRATÉGICO Y SMART CITIES",
+        "detalle": null
+      }
+    ]
+  }
+]
