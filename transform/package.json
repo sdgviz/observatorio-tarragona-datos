@@ -2,6 +2,9 @@
   "name": "diputacion-tarragona-transform",
   "version": "1.0.0",
   "type": "module",
+  "pnpm": {
+    "onlyBuiltDependencies": ["better-sqlite3"]
+  },
   "scripts": {
     "transform": "tsx src/index.ts",
     "check:csv": "tsx src/check-csv.ts",
