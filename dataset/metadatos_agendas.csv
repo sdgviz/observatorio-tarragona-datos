@@ -24,6 +24,7 @@ D-17-b,descriptivo,Porcentaje de superficie de infraestructuras de transporte re
 D-18-a,descriptivo,Vehículos domiciliados cada 1000 habitantes,,,,,,x 1.000,QT,a,,,,,3;5,3;5,,D-18-a
 D-18-b,descriptivo,Porcentaje de Turismos,,,,,,%,QT,a,,,,,3;5,3;5,,D-18-b
 D-18-c,descriptivo,Porcentaje de motocicletas,,,,,,%,QT,a,,,,,3;5,3;5,,D-18-c
+D-18-d,descriptivo,Antigüedad de parque de vehiculos,,,,,,%,QT,d,,,,,3;5,3;5,,D-18-d
 D-22-a,descriptivo,Índice de envejecimiento de la población,,,,,,%,QT,d,,,,,2;5;6;7;8;9;10,2;5;6;7;8;9;10,,D-22-a
 D-22-b,descriptivo,Índice de senectud de la población,,,,,,%,QT,d,,,,,2;5;6;7;8;9;10,2;5;6;7;8;9;10,,D-22-b
 D-23,descriptivo,Porcentaje de población extranjera,,,,,,%,QT,a,,,,,2;6;7,2;6;7,,D-23
