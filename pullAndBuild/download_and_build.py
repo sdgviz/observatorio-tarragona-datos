@@ -27,7 +27,8 @@ from google.oauth2.service_account import Credentials
 # ============================================================
 # CONFIGURACIÓN — ajusta los nombres de hoja si es necesario
 # ============================================================
-SPREADSHEET_ID = "1Ck5mVWOn6OhMjoB00nK9zp-i6Z5UOBuQ3_URPiMKC20"
+
+SPREADSHEET_ID = "1WmCDT509dAG4YAIeAnLH9GYiEWB2KnSac3mg-XEcEn8"
 
 # Clave: nombre exacto de la pestaña en Google Sheets
 # Valor: nombre del archivo CSV que se guardará en dataset/

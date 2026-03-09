@@ -180,6 +180,57 @@ export function runDataChecks(inputDir: string): TestResult[] {
     });
   }
 
+  try {
+    const descriptivosPath = join(inputDir, 'descriptivos.csv');
+    const metadataPath = join(inputDir, 'metadatos_agendas.csv');
+
+    const descriptivos = parseCsv<IndicadorRow>(descriptivosPath);
+    const metadata = parseCsv<MetadataRow>(metadataPath);
+
+    const metadataSet = new Set<string>();
+    for (const meta of metadata) {
+      if (meta.indicador) {
+        metadataSet.add(meta.indicador.trim());
+      }
+    }
+
+    const descriptivosIndicadores = new Set<string>();
+    for (const row of descriptivos) {
+      if (row.indicador) {
+        descriptivosIndicadores.add(row.indicador.trim());
+      }
+    }
+
+    const missingInMetadata: string[] = [];
+    for (const indicador of descriptivosIndicadores) {
+      if (!metadataSet.has(indicador)) {
+        missingInMetadata.push(indicador);
+      }
+    }
+
+    if (missingInMetadata.length === 0) {
+      results.push({
+        id: 'data-descriptivos-have-metadata',
+        description: 'All indicators in descriptivos.csv appear in metadatos_agendas.csv',
+        status: 'pass'
+      });
+    } else {
+      results.push({
+        id: 'data-descriptivos-have-metadata',
+        description: 'All indicators in descriptivos.csv appear in metadatos_agendas.csv',
+        status: 'fail',
+        details: `Indicators missing in metadata: ${missingInMetadata.sort().join(', ')}`
+      });
+    }
+  } catch (error) {
+    results.push({
+      id: 'data-descriptivos-have-metadata',
+      description: 'All indicators in descriptivos.csv appear in metadatos_agendas.csv',
+      status: 'error',
+      details: error instanceof Error ? error.message : String(error)
+    });
+  }
+
   // codigo_ine consistency: all files that reference regions must use codes present in regiones.csv
   checkCodigoIneConsistency(
     inputDir,
