@@ -38,6 +38,7 @@ jobs:
         env:
           GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
         run: |
+          set -o pipefail
           python pullAndBuild/download_and_build.py 2>&1 | tee pipeline-logs/step1-download.log
 
       # --- Paso 2: Commit dataset/ ---
@@ -65,18 +66,21 @@ jobs:
 
       - name: Run CSV integrity checks
         run: |
+          set -o pipefail
           pnpm run check:csv 2>&1 | tee "$GITHUB_WORKSPACE/pipeline-logs/step2-check-csv.log"
         working-directory: transform
 
       # --- Paso 4: transform ---
       - name: Transform CSVs to SQLite
         run: |
+          set -o pipefail
           pnpm run transform 2>&1 | tee "$GITHUB_WORKSPACE/pipeline-logs/step3-transform.log"
         working-directory: transform
 
       # --- Paso 5: build:static-viewer ---
       - name: Build static viewer
         run: |
+          set -o pipefail
           pnpm run build:static-viewer 2>&1 | tee "$GITHUB_WORKSPACE/pipeline-logs/step4-build-static-viewer.log"
         working-directory: transform
 
