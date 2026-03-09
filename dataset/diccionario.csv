@@ -16,12 +16,15 @@ AUE,2,2.1,"Definir un modelo urbano que fomente la compacidad, el equilibrio urb
 AUE,2,2.2,Garantizar la complejidad funcional y diversidad de usos,,AUE2
 AUE,2,2.3,Garantizar la calidad y la accesibilidad de los espacios públicos,,AUE2
 AUE,2,2.4,Mejorar el medio ambiente urbano y reducir la contaminación,,AUE2
+AUE,2,2.5,"Impulsar la regeneración, renovación y rehabilitación urbana",,AUE2
+AUE,2,2.6,Mejorar la calidad y sostenibilidad de los edificios,,AUE2
 AUE,2,3.1,Adaptar el modelo territorial y urbano a los efectos del cambio climático y avanzar en su prevención,,AUE3
 AUE,2,3.2,Reducir las emisiones de gases de efecto invernadero,,AUE3
 AUE,2,3.3,Mejorar la resiliencia frente al cambio climático,,AUE3
 AUE,2,4.1,Ser más eficientes energéticamente y ahorrar energía,,AUE4
 AUE,2,4.2,Optimizar y reducir el consumo de agua,,AUE4
 AUE,2,4.3,Fomentar el ciclo de los materiales,,AUE4
+AUE,2,4.4,Favorecer la economía circular,,AUE4
 AUE,2,5.1,Favorecer la ciudad de proximidad,,AUE5
 AUE,2,5.2,Potenciar modos de transporte sostenibles,,AUE5
 AUE,2,6.1,Reducir el riesgo de pobreza y exclusión social en entornos urbanos desfavorecidos,,AUE6
@@ -122,7 +125,7 @@ AUE,2,10.4,Diseñar y poner en marcha campañas de formación y sensibilización
 2030,2,8.7,Trabajo forzoso,Erradicar trabajo infantil y forzoso.,8-7
 2030,2,8.8,Derechos laborales,Proteger derechos laborales y entornos seguros.,8-8
 2030,2,8.9,Desarrollo turístico,Promover turismo sostenible y empleo local.,8-9
-2030,2,8.1,Servicios financieros,Ampliar acceso a servicios financieros.,8-1
+2030,2,8.10,Servicios financieros,Ampliar acceso a servicios financieros.,8-1
 2030,2,8.a,Ayuda comercio,Aumentar ayuda para comercio en países en desarrollo.,8-a
 2030,2,8.b,Estrategia juvenil,Desarrollar estrategia global de empleo juvenil.,8-b
 2030,2,9.1,Infraestructura resiliente,Desarrollar infraestructuras sostenibles y resilientes.,9-1
@@ -200,10 +203,10 @@ AUE,2,10.4,Diseñar y poner en marcha campañas de formación y sensibilización
 2030,2,16.7,Decisiones inclusivas,Garantizar toma de decisiones inclusiva.,16-7
 2030,2,16.8,Participación global,Fortalecer participación en gobernanza mundial.,16-8
 2030,2,16.9,Identidad legal,Garantizar identidad legal para todos.,16-9
-2030,2,16.1,Acceso información,Garantizar acceso público a la información.,16-1
+2030,2,16.10,Acceso información,Garantizar acceso público a la información.,16-1
 2030,2,16.a,Instituciones nacionales,Fortalecer instituciones para prevenir violencia.,16-a
 2030,2,16.b,No discriminación,Promover leyes y políticas no discriminatorias.,16-b
-2030,2,17.1,Recaudación interna,Fortalecer movilización de recursos internos.,17-1
+2030,2,17.10,Recaudación interna,Fortalecer movilización de recursos internos.,17-1
 2030,2,17.2,Ayuda desarrollo,Cumplir compromisos de ayuda oficial.,17-2
 2030,2,17.3,Recursos financieros,Movilizar recursos adicionales para desarrollo.,17-3
 2030,2,17.4,Sostenibilidad deuda,Apoyar gestión sostenible de la deuda.,17-4

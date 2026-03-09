@@ -1,8 +1,185 @@
-codigo_ine,nombre,poblacion,id_poblacion,id_especial,id_especial2
-43148,Tarragona,143649,>100.000,Tarragonès,Municipios de servicios generales
-43123,Reus,111601,>100.000,Baix Camp,Municipios de servicios generales
-43163,"Vendrell, El",41133,20.000-50.000,Baix Penedès,Municipios de servicios generales
-43038,Cambrils,37042,20.000-50.000,Baix Camp,Municipios de servicios generales
-43155,Tortosa,35997,20.000-50.000,Baix Ebre,Municipios de servicios generales
-43037,Calafell,32624,20.000-50.000,Baix Penedès,Municipios de servicios generales
-43905,Salou,31491,20.000-50.000,Tarragonès,Municipios de servicios generales
+codigo_ine,nombre,poblacion,id_poblacion,id_especial,id_especial2,id_especial3
+43001,Aiguamúrcia,987,<5.000,Alt Camp,Municipios de servicios generales,
+43002,Albinyana,2718,<5.000,Baix Penedès,Municipios industriales,
+43003,"Albiol, L'",557,<5.000,Baix Camp,Municipios de servicios generales,
+43004,Alcanar,10104,5.000-20.000,Montsià,Municipios mixtos,
+43005,Alcover,5362,5.000-20.000,Alt Camp,Municipios industriales,aue
+43006,Aldover,901,<5.000,Baix Ebre,Municipios industriales,
+43007,"Aleixar, L'",1009,<5.000,Baix Camp,Municipios mixtos,
+43008,Alfara de Carles,355,<5.000,Baix Ebre,Municipios industriales,
+43009,Alforja,2024,<5.000,Baix Camp,Municipios industriales,
+43010,Alió,496,<5.000,Alt Camp,Municipios industriales,
+43011,Almoster,1384,<5.000,Baix Camp,Municipios de servicios generales,aue
+43012,Altafulla,5870,5.000-20.000,Tarragonès,Municipios de servicios generales,aue
+43013,"Ametlla de Mar, L'",7446,5.000-20.000,Baix Ebre,Municipios mixtos,
+43014,Amposta,23080,20.000-50.000,Montsià,Municipios de servicios generales,
+43015,Arbolí,138,<5.000,Baix Camp,Municipio de proximidad,
+43016,"Arboç, L'",5721,5.000-20.000,Baix Penedès,Municipios industriales,
+43017,"Argentera, L'",139,<5.000,Baix Camp,Municipio de proximidad,
+43018,Arnes,461,<5.000,Terra Alta,Municipios mixtos,
+43019,Ascó,1589,<5.000,Ribera d'Ebre,Municipios de servicios generales,
+43020,Banyeres del Penedès,3395,<5.000,Baix Penedès,Municipios industriales,
+43021,Barberà de la Conca,476,<5.000,Conca de Barberà,Municipios industriales,
+43022,Batea,1875,<5.000,Terra Alta,Municipios agroproductivos,
+43023,Bellmunt del Priorat,290,<5.000,Priorat,Municipios industriales,
+43024,Bellvei,2460,<5.000,Baix Penedès,Municipios logístico-comerciales,
+43025,Benifallet,706,<5.000,Baix Ebre,Municipios mixtos,
+43026,Benissanet,1186,<5.000,Ribera d'Ebre,Municipios agroproductivos,
+43027,"Bisbal de Montsant, La",214,<5.000,Priorat,Municipios agroproductivos,
+43028,"Bisbal del Penedès, La",4278,<5.000,Baix Penedès,Municipios logístico-comerciales,
+43029,Blancafort,392,<5.000,Conca de Barberà,Municipios agroproductivos,
+43030,Bonastre,777,<5.000,Baix Penedès,Municipios de servicios generales,
+43031,"Borges del Camp, Les",2319,<5.000,Baix Camp,Municipios industriales,aue
+43032,Bot,548,<5.000,Terra Alta,Municipios agroproductivos,
+43033,Botarell,1161,<5.000,Baix Camp,Municipios industriales,
+43034,Bràfim,697,<5.000,Alt Camp,Municipios industriales,
+43035,Cabacés,296,<5.000,Priorat,Municipios agroproductivos,
+43036,Cabra del Camp,1388,<5.000,Alt Camp,Municipios mixtos,
+43037,Calafell,32624,20.000-50.000,Baix Penedès,Municipios de servicios generales,
+43038,Cambrils,37042,20.000-50.000,Baix Camp,Municipios de servicios generales,aue
+43039,Capafonts,101,<5.000,Baix Camp,Municipio de proximidad,
+43040,Capçanes,444,<5.000,Priorat,Municipios industriales,
+43041,Caseres,250,<5.000,Terra Alta,Municipio de proximidad,
+43042,Castellvell del Camp,3002,<5.000,Baix Camp,Municipios de servicios generales,aue
+43043,"Catllar, El",5375,5.000-20.000,Tarragonès,Municipios de servicios generales,aue
+43044,"Sénia, La",5516,5.000-20.000,Montsià,Municipios industriales,
+43045,Colldejou,155,<5.000,Baix Camp,Municipio de proximidad,
+43046,Conesa,111,<5.000,Conca de Barberà,Municipio de proximidad,
+43047,Constantí,7108,5.000-20.000,Tarragonès,Municipios logístico-comerciales,aue
+43048,Corbera d'Ebre,1023,<5.000,Terra Alta,Municipios agroproductivos,
+43049,Cornudella de Montsant,999,<5.000,Priorat,Municipios turístico-culturales,
+43050,Creixell,4261,<5.000,Tarragonès,Municipios de servicios generales,
+43051,Cunit,16385,5.000-20.000,Baix Penedès,Municipios de servicios generales,
+43052,Xerta,1180,<5.000,Baix Ebre,Municipios turístico-culturales,
+43053,Duesaigües,217,<5.000,Baix Camp,Municipio de proximidad,
+43054,"Espluga de Francolí, L'",3863,<5.000,Conca de Barberà,Municipios industriales,
+43055,Falset,2890,<5.000,Priorat,Municipios de servicios generales,
+43056,"Fatarella, La",840,<5.000,Terra Alta,Municipios mixtos,
+43057,"Febró, La",35,<5.000,Baix Camp,Municipio de proximidad,
+43058,"Figuera, La",115,<5.000,Priorat,Municipio de proximidad,
+43059,Figuerola del Camp,342,<5.000,Alt Camp,Municipios logístico-comerciales,
+43060,Flix,3340,<5.000,Ribera d'Ebre,Municipios de servicios generales,
+43061,Forès,38,<5.000,Conca de Barberà,Municipio de proximidad,
+43062,Freginals,443,<5.000,Montsià,Municipio de proximidad,
+43063,"Galera, La",726,<5.000,Montsià,Municipios industriales,
+43064,Gandesa,3150,<5.000,Terra Alta,Municipios industriales,
+43065,Garcia,551,<5.000,Ribera d'Ebre,Municipios mixtos,
+43066,"Garidells, Els",211,<5.000,Alt Camp,Municipios de servicios generales,aue
+43067,Ginestar,800,<5.000,Ribera d'Ebre,Municipios mixtos,
+43068,Godall,591,<5.000,Montsià,Municipios agroproductivos,
+43069,Gratallops,226,<5.000,Priorat,Municipios industriales,
+43070,"Guiamets, Els",254,<5.000,Priorat,Municipios de servicios generales,
+43071,Horta de Sant Joan,1150,<5.000,Terra Alta,Municipios mixtos,
+43072,"Lloar, El",99,<5.000,Priorat,Municipio de proximidad,
+43073,Llorac,105,<5.000,Conca de Barberà,Municipio de proximidad,
+43074,Llorenç del Penedès,2425,<5.000,Baix Penedès,Municipios industriales,
+43075,Margalef,106,<5.000,Priorat,Municipio de proximidad,
+43076,Marçà,623,<5.000,Priorat,Municipios agroproductivos,
+43077,Mas de Barberans,535,<5.000,Montsià,Municipios agroproductivos,
+43078,Masdenverge,1138,<5.000,Montsià,Municipios industriales,
+43079,Masllorenç,573,<5.000,Baix Penedès,Municipios industriales,
+43080,"Masó, La",307,<5.000,Alt Camp,Municipio de proximidad,aue
+43081,Maspujols,915,<5.000,Baix Camp,Municipios industriales,
+43082,"Masroig, El",473,<5.000,Priorat,Municipios industriales,
+43083,"Milà, El",194,<5.000,Alt Camp,Municipio de proximidad,aue
+43084,Miravet,703,<5.000,Ribera d'Ebre,Municipios agroproductivos,
+43085,"Molar, El",295,<5.000,Priorat,Municipios industriales,
+43086,Montblanc,7542,5.000-20.000,Conca de Barberà,Municipios industriales,
+43088,Montbrió del Camp,3157,<5.000,Baix Camp,Municipios logístico-comerciales,aue
+43089,Montferri,502,<5.000,Alt Camp,Municipios industriales,
+43090,"Montmell, El",1958,<5.000,Baix Penedès,Municipios de servicios generales,
+43091,Mont-ral,174,<5.000,Alt Camp,Municipio de proximidad,
+43092,Mont-roig del Camp,14615,5.000-20.000,Baix Camp,Municipios de servicios generales,
+43093,Móra d'Ebre,5811,5.000-20.000,Ribera d'Ebre,Municipios de servicios generales,
+43094,Móra la Nova,3350,<5.000,Ribera d'Ebre,Municipios mixtos,
+43095,"Morell, El",3811,<5.000,Tarragonès,Municipios industriales,aue
+43096,"Morera de Montsant, La",150,<5.000,Priorat,Municipios industriales,
+43097,"Nou de Gaià, La",603,<5.000,Tarragonès,Municipios de servicios generales,
+43098,Nulles,551,<5.000,Alt Camp,Municipios industriales,
+43099,"Palma d'Ebre, La",333,<5.000,Ribera d'Ebre,Municipios agroproductivos,
+43100,"Pallaresos, Els",5028,5.000-20.000,Tarragonès,Municipios de servicios generales,aue
+43101,Passanant i Belltall,149,<5.000,Conca de Barberà,Municipio de proximidad,
+43102,Paüls,558,<5.000,Baix Ebre,Municipios agroproductivos,
+43103,Perafort,1342,<5.000,Tarragonès,Municipios industriales,aue
+43104,"Perelló, El",2948,<5.000,Baix Ebre,Municipios mixtos,
+43105,"Piles, Les",229,<5.000,Conca de Barberà,Municipio de proximidad,
+43106,"Pinell de Brai, El",948,<5.000,Terra Alta,Municipios industriales,
+43107,Pira,512,<5.000,Conca de Barberà,Municipios industriales,
+43108,"Pla de Santa Maria, El",2408,<5.000,Alt Camp,Municipios industriales,
+43109,"Pobla de Mafumet, La",4175,<5.000,Tarragonès,Municipios industriales,aue
+43110,"Pobla de Massaluca, La",344,<5.000,Terra Alta,Municipios agroproductivos,
+43111,"Pobla de Montornès, La",3440,<5.000,Tarragonès,Municipios industriales,
+43112,Poboleda,345,<5.000,Priorat,Municipios agroproductivos,
+43113,"Pont d'Armentera, El",500,<5.000,Alt Camp,Municipios industriales,
+43114,Porrera,405,<5.000,Priorat,Municipios agroproductivos,
+43115,Pradell de la Teixeta,182,<5.000,Priorat,Municipio de proximidad,
+43116,Prades,629,<5.000,Baix Camp,Municipios turístico-culturales,
+43117,Prat de Comte,174,<5.000,Terra Alta,Municipio de proximidad,
+43118,Pratdip,781,<5.000,Baix Camp,Municipios de servicios generales,
+43119,Puigpelat,1222,<5.000,Alt Camp,Municipios industriales,
+43120,Querol,611,<5.000,Alt Camp,Municipios de servicios generales,
+43121,Rasquera,786,<5.000,Ribera d'Ebre,Municipios mixtos,
+43122,Renau,165,<5.000,Tarragonès,Municipio de proximidad,
+43123,Reus,111601,>100.000,Baix Camp,Municipios de servicios generales,aue
+43124,"Riba, La",574,<5.000,Alt Camp,Municipios industriales,
+43125,Riba-roja d'Ebre,1132,<5.000,Ribera d'Ebre,Municipios de servicios generales,
+43126,"Riera de Gaià, La",1834,<5.000,Tarragonès,Municipios industriales,
+43127,Riudecanyes,1362,<5.000,Baix Camp,Municipios logístico-comerciales,
+43128,Riudecols,1264,<5.000,Baix Camp,Municipios industriales,
+43129,Riudoms,6891,5.000-20.000,Baix Camp,Municipios industriales,aue
+43130,Rocafort de Queralt,247,<5.000,Conca de Barberà,Municipio de proximidad,
+43131,Roda de Berà,8260,5.000-20.000,Tarragonès,Municipios industriales,
+43132,Rodonyà,519,<5.000,Alt Camp,Municipios industriales,
+43133,Roquetes,8607,5.000-20.000,Baix Ebre,Municipios mixtos,
+43134,"Rourell, El",385,<5.000,Alt Camp,Municipios logístico-comerciales,aue
+43135,Salomó,519,<5.000,Tarragonès,Municipios industriales,
+43136,"Ràpita, La",16119,5.000-20.000,Montsià,Municipios logístico-comerciales,
+43137,Sant Jaume dels Domenys,2819,<5.000,Baix Penedès,Municipios industriales,
+43138,Santa Bàrbara,3871,<5.000,Montsià,Municipios logístico-comerciales,
+43139,Santa Coloma de Queralt,2795,<5.000,Conca de Barberà,Municipios industriales,
+43140,Santa Oliva,3711,<5.000,Baix Penedès,Municipios de servicios generales,
+43141,Pontils,124,<5.000,Conca de Barberà,Municipio de proximidad,
+43142,Sarral,1644,<5.000,Conca de Barberà,Municipios industriales,
+43143,Savallà del Comtat,49,<5.000,Conca de Barberà,Municipio de proximidad,
+43144,"Secuita, La",1845,<5.000,Tarragonès,Municipios de servicios generales,aue
+43145,"Selva del Camp, La",5732,5.000-20.000,Baix Camp,Municipios industriales,aue
+43146,Senan,47,<5.000,Conca de Barberà,Municipio de proximidad,
+43147,Solivella,633,<5.000,Conca de Barberà,Municipios agroproductivos,
+43148,Tarragona,143649,>100.000,Tarragonès,Municipios de servicios generales,aue
+43149,Tivenys,948,<5.000,Baix Ebre,Municipios mixtos,
+43150,Tivissa,1658,<5.000,Ribera d'Ebre,Municipios de servicios generales,
+43151,"Torre de Fontaubella, La",124,<5.000,Priorat,Municipio de proximidad,
+43152,"Torre de l'Espanyol, La",641,<5.000,Ribera d'Ebre,Municipios agroproductivos,
+43153,Torredembarra,18237,5.000-20.000,Tarragonès,Municipios logístico-comerciales,aue
+43154,Torroja del Priorat,129,<5.000,Priorat,Municipios mixtos,
+43155,Tortosa,35997,20.000-50.000,Baix Ebre,Municipios de servicios generales,
+43156,Ulldecona,6714,5.000-20.000,Montsià,Municipios industriales,
+43157,Ulldemolins,389,<5.000,Priorat,Municipios agroproductivos,
+43158,Vallclara,91,<5.000,Conca de Barberà,Municipio de proximidad,
+43159,Vallfogona de Riucorb,95,<5.000,Conca de Barberà,Municipio de proximidad,
+43160,Vallmoll,1997,<5.000,Alt Camp,Municipios industriales,aue
+43161,Valls,25518,20.000-50.000,Alt Camp,Municipios de servicios generales,aue
+43162,Vandellòs i l'Hospitalet de l'Infant,7143,5.000-20.000,Baix Camp,Municipios industriales,
+43163,"Vendrell, El",41133,20.000-50.000,Baix Penedès,Municipios de servicios generales,
+43164,Vespella de Gaià,502,<5.000,Tarragonès,Municipios logístico-comerciales,
+43165,Vilabella,724,<5.000,Alt Camp,Municipios industriales,
+43166,Vilallonga del Camp,2495,<5.000,Tarragonès,Municipios industriales,aue
+43167,Vilanova d'Escornalbou,614,<5.000,Baix Camp,Municipios logístico-comerciales,
+43168,Vilanova de Prades,111,<5.000,Conca de Barberà,Municipio de proximidad,
+43169,Vilaplana,549,<5.000,Baix Camp,Municipios de servicios generales,
+43170,Vila-rodona,1382,<5.000,Alt Camp,Municipios mixtos,
+43171,Vila-seca,23917,20.000-50.000,Tarragonès,Municipios turístico-culturales,aue
+43172,Vilaverd,493,<5.000,Conca de Barberà,Municipios mixtos,
+43173,"Vilella Alta, La",127,<5.000,Priorat,Municipio de proximidad,
+43174,"Vilella Baixa, La",201,<5.000,Priorat,Municipios industriales,
+43175,Vilalba dels Arcs,611,<5.000,Terra Alta,Municipios agroproductivos,
+43176,Vimbodí i Poblet,887,<5.000,Conca de Barberà,Municipios mixtos,
+43177,Vinebre,427,<5.000,Ribera d'Ebre,Municipios logístico-comerciales,
+43178,Vinyols i els Arcs,2450,<5.000,Baix Camp,Municipios industriales,aue
+43901,Deltebre,12041,5.000-20.000,Baix Ebre,Municipios mixtos,
+43902,Sant Jaume d'Enveja,3745,<5.000,Montsià,Municipios mixtos,
+43903,Camarles,3465,<5.000,Baix Ebre,Municipios industriales,
+43904,"Aldea, L'",4657,<5.000,Baix Ebre,Municipios industriales,
+43905,Salou,31491,20.000-50.000,Tarragonès,Municipios de servicios generales,aue
+43906,"Ampolla, L'",3785,<5.000,Baix Ebre,Municipios mixtos,
+43907,"Canonja, La",6001,5.000-20.000,Tarragonès,Municipios logístico-comerciales,aue

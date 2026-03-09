@@ -1,64 +1,101 @@
-indicador,nombre,unidad,conteo,minimo,maximo,desv_tipica,percentil25,percentil75,percentil10,percentil90,origen,umbral_optimo,umbral_malo
-1,Cociente entre la tasa de consumo de tierras y la tasa de crecimiento de la población,%,77,-498.36,21.07,56.60,-0.12,0.00,-1.30,1.10,CEST/bcnM,-52.74,52.74
-3,Número de operadores de producción ecológica,N,49,2.00,16.00,3.64,7.00,13.00,4.80,14.00,bcnP95M,24.70,1.00
-2,Superficie agrícola y ganadera ecológica,ha,49,0.00,61.43,16.69,8.66,22.60,1.09,42.14,bcn3QM,214.17,0.00
-5,Porcentaje de espacio natural con algún tipo de protección,%,7,0.00,19.25,7.97,0.27,12.11,0.12,19.13,HABITUAL,100.00,0.00
-4,Número de bienes inmuebles de uso cultural por cada 100.000 habitantes,x 100.000,70,45.62,146.81,23.05,71.41,79.67,49.05,104.05,bcn3QM,184.89,0.00
-6,Evolución del Índice de Conectancia Terrestre de ecosistemas,Índice,7,2.37,5.15,0.91,3.16,4.50,2.84,4.81,HABITUAL,14.00,1.00
-64,Solidez y autonomía presupuestaria de la institución municipal,%,61,33.46,70.63,7.87,53.29,61.21,44.16,63.82,REDS,85.18,40.97
-11,Número de entidades bancarias por cada 1.000 habitantes,x 1.000,63,0.06,0.65,0.12,0.11,0.25,0.08,0.32,bcnP95M,0.85,0.00
-14,Superficie total de suelo rehabilitado,ha,1,3.80,3.80,0.00,3.80,3.80,3.80,3.80,FUERA DE ANALISIS,,
-13,Confort acústico diurno,%,1,35.35,35.35,0.00,35.35,35.35,35.35,35.35,HABITUAL,6.62,47.58
-12,Confort acústico nocturno,%,1,53.66,53.66,0.00,53.66,53.66,53.66,53.66,HABITUAL,4.42,58.00
-15,Media anual de concentración de NO2,%,36,15.00,36.00,5.90,19.00,28.25,17.00,33.00,OMS/Normal,0.00,25.00
-17,Numero de dias que la contaminación atmosferica supera el limite OMS (PM10),Días,36,0.00,15.00,3.93,2.00,6.25,0.00,10.00,OMS,0.00,3.00
-23,Índice de vulnerabilidad urbana (Barcelona),%,49,0.00,12.01,3.17,0.52,5.62,0.00,7.79,bcnMM,0.00,22.30
-24,Índice de vulnerabilidad urbana,%,49,0.00,4.92,1.05,0.32,1.43,0.00,2.63,bcnMM,0.00,17.67
-25,Proporción de edificios construidos después de 1980,%,14,28.58,64.55,11.81,60.41,62.83,38.12,63.97,bcnMM,83.00,7.00
-26,Proporción de edificios construidos después de 2010,%,14,3.07,15.01,3.40,4.44,6.74,3.43,11.51,bcnMM,29.00,0.00
-27,Defunciones registradas en el municipio de personas por exposición a fuerzas de la naturaleza,x 100.000,14,0.00,0.00,0.00,0.00,0.00,0.00,0.00,FUERA DE ANALISIS,,
-31,Total de Emisiones de Gases Efecto Invernadero de las unidades residentes per capita (segun GHGemision.org),t CO2eq/Hab,7,0.56,2.58,0.66,1.14,2.03,0.72,2.28,CEST,0.00,4.14
-15,Media anual de concentración de NO2,%,36,15.00,36.00,5.90,19.00,28.25,17.00,33.00,OMS/Normal,0.00,25.00
-17,Numero de dias que la contaminación atmosferica supera el limite OMS (PM10),Días,36,0.00,15.00,3.93,2.00,6.25,0.00,10.00,OMS,0.00,3.00
-30,Porcentaje de días con temperaturas extremas,%,7,2.70,4.90,0.70,3.05,3.90,2.88,4.48,bcnMM,0.00,11.40
-27,Defunciones registradas en el municipio de personas por exposición a fuerzas de la naturaleza,x 100.000,14,0.00,0.00,0.00,0.00,0.00,0.00,0.00,FUERA DE ANALISIS,,
-35,Consumo de energía eléctrica por habitante,Kwh/Hab,56,803.33,1182.08,101.49,1053.07,1118.78,837.89,1138.97,bcnM3Q,818.40,1746.96
-25,Proporción de edificios construidos después de 1980,%,14,28.58,64.55,11.81,60.41,62.83,38.12,63.97,bcnMM,83.00,7.00
-26,Proporción de edificios construidos después de 2010,%,14,3.07,15.01,3.40,4.44,6.74,3.43,11.51,bcnMM,29.00,0.00
-36,Porcentaje de edificios con certificación energética alta (A/B),%,56,0.53,2.12,0.38,0.92,1.45,0.74,1.67,bcnMM,37.93,0.00
-38,Porcentaje de autosuficiencia hídrica,%,1,20.50,20.50,0.00,20.50,20.50,20.50,20.50,HABITUAL,100.00,0.00
-37,Consumo de agua por habitante,l/Hab/Día,56,115.04,193.45,22.55,131.70,172.65,122.82,182.50,bcnM3Q,82.92,253.27
-39,Residuos urbanos recogidos per cápita,Kg/Hab,56,346.66,466.52,32.68,386.21,440.67,372.60,449.41,bcnM3Q,222.65,624.15
-40,Recogida selectiva neta de residuos,%,56,19.30,44.37,6.19,30.57,38.94,24.35,40.44,bcnMM,97.30,11.09
-44,Porcentaje de desplazamientos en coche y moto,%,7,8.30,35.10,9.21,14.30,28.55,11.12,33.42,Muestra,9.70,29.90
-43,Porcentaje de desplazamientos en transporte público,%,7,6.10,23.80,5.83,9.90,16.10,7.84,21.52,Muestra,23.50,2.00
-42,Porcentaje de desplazamientos en bicicleta,%,7,1.00,2.70,0.52,1.25,1.65,1.12,2.16,Muestra,2.30,0.00
-41,Porcentaje de desplazamientos a pie,%,7,40.60,74.90,11.81,55.40,71.75,46.18,74.48,Muestra,86.00,40.00
-47,Número de viajes en transporte público,N,1,4259234.00,4259234.00,0.00,4259234.00,4259234.00,4259234.00,4259234.00,FUERA DE ANALISIS,,
-45,Número de autobuses de bajas emisiones o con combustibles “limpios” matriculados en el municipio,%,7,0.00,20.12,6.83,0.72,9.46,0.00,15.27,HABITUAL,100.00,0.00
-48,Flota de autobuses de bajas emisiones o con combustibles “limpios” dedicados al transporte público urbano,%,1,100.00,100.00,0.00,100.00,100.00,100.00,100.00,HABITUAL,100.00,0.00
-46,Porcentaje de población a una distancia menor de 5 minutos andando a una parada de transporte publico,%,7,32.20,96.95,20.86,62.23,88.43,48.20,95.73,HABITUAL,100.00,0.00
-23,Índice de vulnerabilidad urbana (Barcelona),%,49,0.00,12.01,3.17,0.52,5.62,0.00,7.79,bcnMM,0.00,22.30
-24,Índice de vulnerabilidad urbana,%,49,0.00,4.92,1.05,0.32,1.43,0.00,2.63,bcnMM,0.00,17.67
-51,Tasa de riesgo de pobreza,%,49,9.70,25.00,4.46,12.70,20.70,10.42,23.60,bcnMM,3.40,26.00
-54,Brecha de género en el empleo,p. %,63,4.70,9.70,1.21,5.93,7.94,5.29,8.38,bcnMEDIO,0.00,9.60
-52,Índice Gini,Índice,49,26.90,34.50,1.91,28.70,31.40,28.18,32.52,bcnMM,20.50,42.40
-53,Tasa desempleo juvenil,%,63,4.41,9.76,1.16,5.65,7.01,5.22,8.08,REDS,0.00,12.73
-55,Índice de dependencia por sector de empleo,Índice,49,3.08,4.73,0.37,3.98,4.51,3.75,4.60,REDS,1.19,8.28
-57,Índice de accesibilidad de la vivienda,%,49,3.11,5.07,0.53,3.81,4.48,3.42,4.91,REDS,2.71,8.18
-58,Numero de patentes per capita,Patentes/100.000 Hab,49,0.00,16.78,3.86,0.00,6.04,0.00,7.96,bcnMM+5000,0.00,28.18
-59,Proporción de zonas blancas en el territorio,%,42,0.00,0.19,0.05,0.00,0.06,0.00,0.11,bcnMM+5000,0.00,9.47
-62,Porcentaje de población que ha realizado algún trámite on-line,%,7,47.30,56.00,2.71,50.60,53.15,48.20,54.44,HABITUAL,100.00,0.00
-61,Porcentaje de usuarios on-line que valoran como buena o bastante buena su satisfacción con el servicio on-line,%,7,60.60,75.40,5.12,61.80,69.45,60.78,72.10,HABITUAL,100.00,0.00
-60,Porcentaje de no usuarios por motivos de falta conocimientos / capacidad informáticos,%,7,13.30,23.20,2.90,15.90,18.80,14.80,20.56,Provincial+Objetivo,0.00,24.10
-8,Proporción de población a una distancia menor de 5 minutos andando a instalaciones de servicios sanitarios,%,7,75.33,96.36,7.11,82.58,93.13,78.62,95.33,HABITUAL,100.00,0.00
-7,Proporción de población a una distancia menor de 5 minutos andando a instalaciones de uso educativo,%,7,70.43,93.92,7.75,83.49,93.07,77.58,93.50,HABITUAL,100.00,0.00
-9,Proporción de población con acceso a instalaciones culturales a menos de 5 minutos andando,%,1,96.94,96.94,0.00,96.94,96.94,96.94,96.94,HABITUAL,100.00,0.00
-10,Proporción de población con acceso a servicios de alimentación a menos de 5 minutos andando,%,1,93.19,93.19,0.00,93.19,93.19,93.19,93.19,HABITUAL,100.00,0.00
-16,Proporción de población próxima a zonas verdes,%,7,26.55,80.89,17.78,37.80,59.81,27.02,68.63,Muestra,80.89,26.55
-19,Proporción de población próxima zonas verdes urbanas,%,7,16.47,67.72,17.51,35.57,60.60,22.71,64.33,Muestra,67.72,16.47
-18,Proporción de población próxima a zonas forestales y semi-naturales,%,7,0.21,26.42,9.92,1.00,15.70,0.33,23.81,Muestra,26.42,0.21
-21,Zonas verdes urbanas por habitante,m2/Hab,7,0.37,106.74,36.12,11.11,62.59,5.88,88.94,AUF bcn,109.42,0.31
-22,Zonas verdes forestales o semi-naturales por habitante,m2/Hab,7,1.71,7.09,1.88,2.01,4.82,1.89,6.13,AUF bcn,16950.67,0
-63,Índice de Transparencia,Índice,4,58.80,61.90,1.19,60.68,61.45,59.55,61.72,HABITUAL,100.00,0.00
-56,Intensidad turística local,Turistas/Habitante,21,0.08,0.36,0.07,0.13,0.22,0.11,0.27,bcnMM,0.75,0.00
+indicador,nombre,unidad,municipios,conteo,minimo,maximo,desv_tipica,percentil25,percentil75,percentil10,percentil90,origen,umbral_optimo,umbral_malo
+1,Porcentaje de población con ingresos inferiores al 40% de la mediana,%,128,1102,1.30,20.80,3.29,6.70,11.40,5.20,13.69,REDS,0.00,23.36
+3,Renta mediana,€,179,1591,10850.00,31850.00,2831.38,14350.00,18550.00,13650.00,19950.00,,,
+2,Tasa de pobreza,%,128,1102,5.80,32.50,5.39,15.30,23.50,12.20,26.10,REDS,0.00,38.37
+210,Tasa de pobreza infantil,%,56,498,2.80,30.90,5.30,11.20,19.00,8.37,22.36,REDS,0.00,49.41
+5,Renta Garantizada de Ciudadanía por 10.000 habitantes,x10.000 hab,1,0,,,,,,,,,,
+7,Proporción de personas con discapacidad que perciben una pensión,%,1,0,,,,,,,,,,
+8,Número de refugios climáticos gratuitos,Nº,1,0,,,,,,,,,,
+9,Superficie agrícola ecológica (porcentaje sobre el total agrícola),ha,1,0,,,,,,,,REDS,26.59,0.19
+10,Tierras agrícolas por 100 habitantes,ha x100 hab,1,0,,,,,,,,,,
+12,Porcentaje de hectáreas de explotaciones de pequeña escala,%,1,0,,,,,,,,,,
+13,Porcentaje de explotaciones de pequeña escala,%,1,0,,,,,,,,,,
+212,Tasa de ocupación en el sector agrícola,%,1,0,,,,,,,,REDS,9.57,0.06
+81,Número de operadores de producción ecológica,Nº,1,0,,,,,,,,,,
+219,Mortalidad infantil,x1.000 nacidos vivos,15,135,0.00,34.88,6.75,3.73,11.26,0.00,14.84,REDS,0.00,9.75
+218,Defunciones por hepatitis vírica,x100.000 hab,15,135,0.00,13.59,2.49,0.00,0.94,0.00,4.09,REDS,0.00,5.57
+224,Defunciones por tuberculosis,x100.000 hab,15,135,0.00,7.97,1.26,0.00,0.00,0.00,0.96,REDS,0.00,3.73
+226,Defunciones por sida y VIH,x100.000 hab,15,135,0.00,8.47,1.63,0.00,0.00,0.00,2.74,REDS,0.00,4.09
+215,Esperanza de vida,años,1,0,,,,,,,,REDS,85.29,60.00
+217,Defunciones por enfermedades infecciosas del sistema respiratorio,x100.000 hab,15,135,0.00,66.44,11.04,12.08,27.43,7.15,33.74,REDS,0.00,95.52
+220,Defunciones por enfermedades no transmisibles,x100.000 hab,15,135,280.24,908.54,128.33,428.73,589.34,371.90,694.46,REDS,128.81,1630.19
+221,Defunciones prematuras (menores de 65 años),x100.000 hab,15,135,105.61,324.38,37.48,155.51,199.79,134.62,233.10,REDS,23.92,402.30
+222,Defunciones por suicidio,x100.000 hab,15,135,0.00,28.22,6.11,4.83,12.19,0.00,16.00,REDS,0.00,13.84
+225,Defunciones por tumores del sistema respiratorio,x100.000 hab,15,135,7.05,95.18,17.21,36.28,56.81,26.09,71.75,REDS,9.53,160.57
+216,Defunciones por abuso de alcohol y drogas,x100.000 hab,15,135,0.00,12.66,2.31,0.00,0.00,0.00,4.10,REDS,0.00,3.06
+16,Tasa de mortalidad por accidentes de tráfico,x100.000 hab,15,135,0.00,34.27,6.01,0.00,8.22,0.00,14.03,REDS,0.00,16.80
+227,Fecundidad adolescente,x1.000 mujeres,15,120,0.98,19.92,3.87,3.09,8.23,2.00,12.41,REDS,0.00,6.67
+231,Población con nivel educativo máximo de educación secundaria,%,93,279,20.83,48.04,5.40,30.24,36.69,27.05,41.14,REDS,0.00,58.31
+229,Acceso a los servicios de educación preescolar,%,1,0,,,,,,,,REDS,100.00,50.15
+232,Población con nivel educativo máximo de segundo ciclo de secundaria,%,93,279,14.91,34.05,3.56,19.88,24.92,17.51,26.35,REDS,25.79,0.00
+230,Población matriculada en estudios superiores,x1.000 hab,93,279,0.98,14.05,1.31,3.85,5.13,3.48,5.87,REDS,239.20,3.00
+233,Población con nivel de educación terciaria o superior,%,93,279,15.61,50.28,6.45,24.16,31.86,20.04,35.48,REDS,66.99,15.00
+24,Índice de paridad en actividades educativas,ratio,93,279,0.74,1.09,0.06,0.92,1.00,0.87,1.03,,,
+25,Tasa de alumnos por profesor,Nº,1,0,,,,,,,,,,
+26,Diferencia de tasa de paro entre mujeres y hombres,p. %,1,0,,,,,,,,,,
+27,Porcentaje de cargos electos ocupados por mujeres,%,1,0,,,,,,,,REDS,50.00,20.00
+28,Tasa de paro en mujeres,%,1,0,,,,,,,,,,
+29,Tasa de ocupación en mujeres,%,1,0,,,,,,,,,,
+30,Precio del agua (€/m³),€/m³,1,0,,,,,,,,,,
+31,Consumo de agua por habitante,l/hab*día,1,0,,,,,,,,REDS,176.92,533.23
+32,Porcentaje de renta de los hogares destinado a energía,%,1,0,,,,,,,,,,
+34,Consumo de energía en los hogares,kwh/hab,1,0,,,,,,,,,,
+35,Producto interior bruto por habitante,€,1,0,,,,,,,,,,
+245,Índice de dependencia por sector de ocupación,Índice,1,0,,,,,,,,REDS,1.19,8.28
+36,Tasa de empleo,%,1,0,,,,,,,,,,
+38,Tasa de paro,%,1,0,,,,,,,,REDS,5.00,28.20
+39,Porcentaje de contratación pública adjudicada a PYMES,%,1,0,,,,,,,,,,
+40,Porcentaje de personas desempleadas mayores de 45 años,%,1,0,,,,,,,,,,
+41,Porcentaje de personas desempleadas menores de 25 años,%,1,0,,,,,,,,,,
+246,Temporalidad laboral,%,1,0,,,,,,,,,,
+42,Presión turística,turistas/habitante,1,0,,,,,,,,,,
+43,Porcentaje de ocupación en el sector industrial,%,1,0,,,,,,,,,,
+44,Empresas de conocimiento por 10.000 habitantes,x10.000 hab,1,0,,,,,,,,,,
+186,Patentes per cápita,patentes/100.000 hab,1,0,,,,,,,,REDS,12.46,0.00
+45,Cobertura de internet,%,1,0,,,,,,,,,,
+47,Desigualdad de renta,Índice,179,1591,1.80,4.80,0.38,2.40,2.80,2.20,3.10,REDS,1.80,4.20
+48,Renta por habitante,€,178,1554,8195.00,28987.00,2103.98,10987.00,13583.00,10019.00,15043.80,,,
+46,Índice de Gini,Índice,179,1591,20.90,45.20,3.25,27.60,31.95,26.10,34.20,REDS,20.30,44.20
+119,Índice de vulnerabilidad urbana,%,1,0,,,,,,,,,,
+257,Índice de dependencia total,%,1,0,,,,,,,,REDS,37.01,60.23
+256,Personas extranjeras ocupadas,%,93,279,17.92,63.83,8.15,38.11,47.66,32.28,52.10,REDS,69.47,24.05
+49,Porcentaje de población con ingresos inferiores al 50% de la mediana (hombres),%,128,1102,1.90,26.30,4.51,10.30,17.10,8.00,19.70,,,
+50,Porcentaje de población con ingresos inferiores al 50% de la mediana (mujeres),%,128,1102,2.70,26.60,4.27,10.30,16.80,8.30,19.10,,,
+51,Esfuerzo económico del alquiler,%,1,0,,,,,,,,,,
+264,Índice de precios de la vivienda en alquiler,Índice,1,0,,,,,,,,REDS,100,129.659
+265,Infraestructura de transporte,%,1,0,,,,,,,,,,
+79,Cociente entre la tasa de consumo de suelo y la tasa de crecimiento de la población,Índice,1,0,,,,,,,,REDS,18.2,0.39
+53,Porcentaje de suelo artificial,%,1,0,,,,,,,,,,
+55,Equipamientos culturales por población,x100.000 hab,1,0,,,,,,,,,,
+114,Concentración media anual de NO₂,µg/m³,1,0,,,,,,,,OMS,0,25
+115,Número de días con superación del límite OMS de PM10,días,1,0,,,,,,,,OMS,0,3
+56,Superficie de zonas verdes por habitante (m²/habitante),m²/hab,1,0,,,,,,,,,,
+58,Tasa de recogida selectiva,%,1,0,,,,,,,,,,
+59,Generación de residuos domésticos por habitante y año,kg/hab*año,1,0,,,,,,,,,,
+272,Viviendas de uso turístico,Nº,1,0,,,,,,,,,,
+129,Emisiones totales de gases de efecto invernadero por habitante,t CO2eq/Hab,1,0,,,,,,,,REDS,0,10
+276,Número de banderas azules,%,1,0,,,,,,,,REDS,100,0
+278,Calidad de las aguas de baño,%,1,0,,,,,,,,REDS,100,0
+275,Costa y hábitats naturales marinos protegidos,%,1,0,,,,,,,,REDS,100,0
+66,Superficie municipal con figura de protección y órgano de gestión de los espacios abiertos,%,1,0,,,,,,,,REDS,80.38,0
+65,Porcentaje de superficie forestal,%,1,0,,,,,,,,,,
+67,Superficie del suelo no urbanizable,%,1,0,,,,,,,,,,
+285,Tasa de criminalidad,x1.000 hab,1,0,,,,,,,,REDS,0,82.37
+286,Tasa de homicidios y asesinatos,x100.000 hab,1,0,,,,,,,,REDS,0,82.37
+284,Tráfico de drogas,x100.000 hab,1,0,,,,,,,,REDS,0,2.6
+204,Solidez y autonomía presupuestaria de la institución municipal,%,1,0,,,,,,,,REDS,0,191.24
+70,Participación en las elecciones municipales,%,1,0,,,,,,,,,,
+73,Deuda viva por habitante,€,1,0,,,,,,,,,,
+74,Ingresos por el IAE y el IBI,€,1,0,,,,,,,,,,
+76,Número de entidades ONGD por habitante,Nº,1,0,,,,,,,,,,
+75,Presupuesto destinado a ayuda oficial al desarrollo,%,1,0,,,,,,,,,,
+294,Instalaciones educativas por 10.000 habitantes,x10.000 hab,1,0,,,,,,,,,,
+295,Instalaciones sanitarias por 10.000 habitantes,x10.000 hab,1,0,,,,,,,,,,
+296,Instalaciones deportivas por 10.000 habitantes,x10.000 hab,1,0,,,,,,,,,,
+297,Puntos verdes por 10.000 habitantes,x10.000 hab,1,0,,,,,,,,,,
+90,Índice de conectividad terrestre de los ecosistemas de Cataluña,Índice,1,0,,,,,,,,-,14,1
+95,Entidades bancarias por 10.000 habitantes,x 1.000,1,0,,,,,,,,,,
+112,Confort acústico diurno (Sistema Municipal de Indicadores de Sostenibilidad),%,1,0,,,,,,,,SMIS,60,0
+113,Confort acústico nocturno (Sistema Municipal de Indicadores de Sostenibilidad),%,1,0,,,,,,,,SMIS,80,0
+123,Proporción de edificios construidos a partir de 2010,%,1,0,,,,,,,,,,
+171,Tasa de paro juvenil,%,1,0,,,,,,,,,,
