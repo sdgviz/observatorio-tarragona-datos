@@ -99,7 +99,7 @@ jobs:
       - name: Generate pipeline logs page
         if: always() && !cancelled()
         run: |
-          REPORT_DIR="githubpage/csv-integrity"
+          REPORT_DIR="docs/csv-integrity"
           mkdir -p "$REPORT_DIR"
           TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           ESCAPE='s/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g'
@@ -129,7 +129,7 @@ jobs:
         with:
           name: csv-integrity-report
           path: |
-            githubpage/csv-integrity
+            docs/csv-integrity
             pipeline-logs
 
       # --- Paso 9: Subir artifact para GitHub Pages ---
@@ -137,7 +137,7 @@ jobs:
         if: always() && !cancelled()
         uses: actions/upload-pages-artifact@v3
         with:
-          path: githubpage
+          path: docs
 
   deploy:
     if: always() && (needs.pipeline.result == 'success' || needs.pipeline.result == 'failure')

@@ -6,7 +6,7 @@ This repository contains the data transformation pipeline that converts the Dipu
 
 - **Command**: `cd transform && pnpm run check:csv`
 - **Dataset directory (default)**: `../dataset/`
-- **Report output directory (default)**: `../githubpage/csv-integrity/`
+- **Report output directory (default)**: `../docs/csv-integrity/`
 
 The command will:
 
@@ -25,14 +25,14 @@ The command will:
 
 When you run `pnpm run check:csv` from the `transform` directory, the CLI generates:
 
-- `githubpage/csv-integrity/results.json` – machine-readable summary with:
+- `docs/csv-integrity/results.json` – machine-readable summary with:
   - Global totals (tests, passed, failed, errored).
   - A list of individual tests with `id`, `description`, `status` and optional `details`.
-- `githubpage/csv-integrity/index.html` – a static HTML report that:
+- `docs/csv-integrity/index.html` – a static HTML report that:
   - Shows global totals (passed/failed/errored) in a compact summary.
   - Lists each test with its status and any relevant details (missing files, columns, regions without indicators, indicators without metadata, etc.).
 
-The `githubpage/csv-integrity/` folder is structured so it can be served directly by **GitHub Pages** without any additional build step. A future CI workflow can simply publish this folder so the latest CSV integrity report is always visible on the web.
+The `docs/csv-integrity/` folder is structured so it can be served directly by **GitHub Pages** without any additional build step. A future CI workflow can simply publish this folder so the latest CSV integrity report is always visible on the web.
 
 ### Static DB viewer (GitHub Pages)
 
@@ -44,10 +44,10 @@ A small static web app lets you explore the database contents in a browser: agen
   - Database: by default `../output/diputacion_tarragona.db` (create it first with `pnpm run transform`).
   - Municipality sample: optional `config/static-viewer-sample.json` in the repo root. It must contain a `codigo_ine` array with the municipality codes to include (e.g. `["08096", "08121", "08279"]`). If the file is missing or empty, **all municipalities** present in the database are included.
 - **Output**: The script writes:
-  - `githubpage/static-db-viewer/data/agendas.json` – hierarchy of agendas and indicators.
-  - `githubpage/static-db-viewer/data/municipios.json` – list of municipalities (according to the sample) with indicator IDs per agenda.
-  The existing `index.html` and `assets/` in `githubpage/static-db-viewer/` are used as-is; the script only updates the `data/` folder.
+  - `docs/static-db-viewer/data/agendas.json` – hierarchy of agendas and indicators.
+  - `docs/static-db-viewer/data/municipios.json` – list of municipalities (according to the sample) with indicator IDs per agenda.
+  The existing `index.html` and `assets/` in `docs/static-db-viewer/` are used as-is; the script only updates the `data/` folder.
 - **Viewing locally**: The viewer loads data via `fetch`, so it must be served over HTTP. For example:
-  - `npx serve githubpage/static-db-viewer` (or serve the repo root and open `/githubpage/static-db-viewer/`).
-- **GitHub Pages**: Publish the `githubpage/` folder (or the whole site) so that `static-db-viewer/` is available; no extra build step is required.
+  - `npx serve docs/static-db-viewer` (or serve the repo root and open `/docs/static-db-viewer/`).
+- **GitHub Pages**: Publish the `docs/` folder (or the whole site) so that `static-db-viewer/` is available; no extra build step is required.
 

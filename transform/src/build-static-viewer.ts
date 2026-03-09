@@ -56,7 +56,7 @@ function parseArgs(): {
   const root = resolve(__dirname, '../..');
   let dbPath = resolve(root, 'output/diputacion_tarragona.db');
   let configPath = resolve(root, 'config/static-viewer-sample.json');
-  let outDir = resolve(root, 'githubpage/static-db-viewer');
+  let outDir = resolve(root, 'docs/static-db-viewer');
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--db' && args[i + 1]) {

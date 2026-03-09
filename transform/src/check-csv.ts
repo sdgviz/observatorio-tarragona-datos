@@ -13,7 +13,7 @@ interface CliArgs {
 function parseArgs(): CliArgs {
   const args = process.argv.slice(2);
   let input = resolve(__dirname, '../../dataset');
-  let reportDir = resolve(__dirname, '../../githubpage/csv-integrity');
+  let reportDir = resolve(__dirname, '../../docs/csv-integrity');
 
   for (let i = 0; i < args.length; i++) {
     const arg = args[i];

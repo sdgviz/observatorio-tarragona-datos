@@ -1,7 +1,7 @@
 {
   "summary": {
-    "total": 16,
-    "passed": 15,
+    "total": 17,
+    "passed": 16,
     "failed": 1,
     "errored": 0
   },
@@ -62,6 +62,12 @@
       "status": "pass"
     },
     {
+      "id": "data-descriptivos-have-metadata",
+      "description": "All indicators in descriptivos.csv appear in metadatos_agendas.csv",
+      "status": "fail",
+      "details": "Indicators missing in metadata: D-18-d"
+    },
+    {
       "id": "data-indicadores-agendas-codigo-ine",
       "description": "All codigo_ine in indicadores_agendas.csv exist in regiones.csv",
       "status": "pass"
@@ -69,8 +75,7 @@
     {
       "id": "data-descriptivos-codigo-ine",
       "description": "All codigo_ine in descriptivos.csv exist in regiones.csv",
-      "status": "fail",
-      "details": "codigo_ine not found in regiones.csv: 08096, 08121, 08184, 08211, 08245, 08279, 08301"
+      "status": "pass"
     },
     {
       "id": "data-promedios-meta-ods-codigo-ine",
