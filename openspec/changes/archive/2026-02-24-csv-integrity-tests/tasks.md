@@ -20,9 +20,9 @@
 
 ## 4. Generación de resultados estructurados y carpeta GitHub Pages
 
-- [x] 4.1 Implementar la escritura de un fichero JSON de resultados (por ejemplo `githubpage/csv-integrity/results.json`) que contenga el resumen global y el detalle de cada test (id, description, status, details).
-- [x] 4.2 Asegurar que el CLI crea la carpeta de salida `githubpage/csv-integrity/` si no existe antes de escribir los ficheros de resultados.
-- [x] 4.3 Implementar la generación de un HTML estático sencillo `githubpage/csv-integrity/index.html` que muestre el número total de tests, cuántos han pasado, cuántos han fallado y cuántos han dado error.
+- [x] 4.1 Implementar la escritura de un fichero JSON de resultados (por ejemplo `docs/csv-integrity/results.json`) que contenga el resumen global y el detalle de cada test (id, description, status, details).
+- [x] 4.2 Asegurar que el CLI crea la carpeta de salida `docs/csv-integrity/` si no existe antes de escribir los ficheros de resultados.
+- [x] 4.3 Implementar la generación de un HTML estático sencillo `docs/csv-integrity/index.html` que muestre el número total de tests, cuántos han pasado, cuántos han fallado y cuántos han dado error.
 - [x] 4.4 Incluir en el HTML un listado por test (id, descripción, estado) y, cuando existan, los detalles relevantes (por ejemplo, listas de archivos o columnas faltantes, regiones sin indicadores, indicadores sin metadata).
 - [x] 4.5 Asegurar que el HTML y cualquier estilo usado no dependen de recursos externos (CDNs, fuentes remotas) para que el informe se pueda ver correctamente offline y desde GitHub Pages sin build adicional.
 
@@ -30,4 +30,4 @@
 
 - [x] 5.1 Ejecutar el nuevo comando de checks localmente contra el dataset actual y confirmar que el JSON y el HTML de resultados se generan en la ruta esperada.
 - [x] 5.2 Ajustar o ampliar los mensajes de detalle de los tests para que el informe HTML sea claro y útil para diagnóstico rápido.
-- [x] 5.3 Añadir una breve sección en la documentación del proyecto de datos (por ejemplo en el README) explicando cómo ejecutar los checks (`npm run check:csv`), dónde se generan los informes (`githubpage/csv-integrity/`) y cómo se espera integrarlos en GitHub Actions/GitHub Pages en el futuro.
+- [x] 5.3 Añadir una breve sección en la documentación del proyecto de datos (por ejemplo en el README) explicando cómo ejecutar los checks (`npm run check:csv`), dónde se generan los informes (`docs/csv-integrity/`) y cómo se espera integrarlos en GitHub Actions/GitHub Pages en el futuro.

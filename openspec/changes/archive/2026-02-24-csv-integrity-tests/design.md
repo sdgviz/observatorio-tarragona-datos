@@ -23,7 +23,7 @@ La solución debe integrarse de forma ligera con la estructura actual del proyec
   - **Datos**:
     - Para cada región en `regiones.csv`, hay al menos un indicador asociado en los datos (p.ej. en `indicadores_agendas.csv`).
     - Todos los indicadores presentes en `indicadores_agendas.csv` aparecen también en `metadatos_agendas.csv`.
-- Generar un **artefacto de resultados** (por ejemplo `githubpage/csv-integrity/report.json` + `report.html`) que resuma el estado de cada test (ok/fallo, mensajes) de forma apta para su publicación en GitHub Pages.
+- Generar un **artefacto de resultados** (por ejemplo `docs/csv-integrity/report.json` + `report.html`) que resuma el estado de cada test (ok/fallo, mensajes) de forma apta para su publicación en GitHub Pages.
 - Diseñar la solución de forma extensible para poder añadir más tests de integridad en el futuro sin romper la interfaz existente.
 
 **Non-Goals:**
@@ -129,9 +129,9 @@ En ambos casos, cuando el check falle se incluirá en `details` un resumen de lo
 **Decisión:** Definir un formato de salida mínimo pero estructurado, compuesto por:
 
 - Un fichero JSON con el detalle de los resultados de los tests, por ejemplo:
-  - `githubpage/csv-integrity/results.json`
+  - `docs/csv-integrity/results.json`
 - Un fichero HTML estático que lea ese JSON o renderice directamente un resumen de los resultados:
-  - `githubpage/csv-integrity/index.html`
+  - `docs/csv-integrity/index.html`
 
 El CLI:
 
@@ -143,7 +143,7 @@ Se elegirá una estructura sencilla de HTML (sin build step) para facilitar su p
 **Rationale:**
 
 - Cumple el requisito de “Save the output in a way that can be visualized in a githubpage folder”.
-- Permite que, en el futuro, GitHub Actions solo tenga que subir la carpeta `githubpage/` a GitHub Pages para mostrar el informe.
+- Permite que, en el futuro, GitHub Actions solo tenga que subir la carpeta `docs/` a GitHub Pages para mostrar el informe.
 
 **Alternativas:**
 
@@ -154,5 +154,5 @@ Se elegirá una estructura sencilla de HTML (sin build step) para facilitar su p
 - **[Acoplamiento a estructura actual del dataset]** → La lógica de checks se basará en la estructura actual de los CSV. Cambios futuros en nombres de archivos o columnas requerirán actualizar tanto parsers como tests de integridad.
 - **[Rendimiento]** → Volver a leer los CSV para las comprobaciones añade algo de coste temporal, pero para el tamaño actual del dataset (pequeño) es aceptable. Si el volumen creciera mucho, se podría optimizar reutilizando resultados de parseo.
 - **[Falsos negativos / falsos positivos]** → La primera versión solo cubre un subconjunto de los posibles errores. Algunos problemas seguirán pasando inadvertidos; es importante documentar que esto es una “mínima batería” de tests y no una validación total.
-- **[Formato de informe sencillo]** → Al optar por un HTML estático muy simple, se limita inicialmente la riqueza de visualización, aunque esto se puede mejorar en cambios posteriores sin romper el contrato básico (JSON + HTML en la carpeta `githubpage/`).
+- **[Formato de informe sencillo]** → Al optar por un HTML estático muy simple, se limita inicialmente la riqueza de visualización, aunque esto se puede mejorar en cambios posteriores sin romper el contrato básico (JSON + HTML en la carpeta `docs/`).
 

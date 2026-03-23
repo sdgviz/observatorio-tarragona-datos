@@ -1,23 +1,27 @@
 ## ADDED Requirements
 
-### Requirement: Route indicators by type
-The system SHALL use the `clase` field from parsed metadata to route indicator values to the correct target table: indicators with `clase = "agendas"` go to `INDICADORES_AGENDAS`, indicators with `clase = "ods"` go to `INDICADORES_ODS`, and indicators with `clase = "descriptivo"` go to `INDICADORES_DESCRIPTIVOS`.
+### Requirement: Map all non-descriptive indicators to INDICADORES
+The system SHALL transform all indicator value rows from `indicadores_agendas.csv` whose `indicador` exists in metadata with `clase` of `"agendas"` or `"ods"` into rows for the unified `INDICADORES` table. Indicators with unknown `indicador` (not found in metadata) SHALL be skipped with a warning. Descriptive indicators are handled separately via `descriptivos.csv`.
 
-#### Scenario: Agenda indicator routing
+#### Scenario: Agenda indicator mapping
 - **WHEN** an indicator value row from `indicadores_agendas.csv` has an `indicador` whose metadata `clase` is `"agendas"`
-- **THEN** the row is inserted into `INDICADORES_AGENDAS`
+- **THEN** the row is inserted into `INDICADORES`
 
-#### Scenario: ODS indicator routing
+#### Scenario: ODS indicator mapping
 - **WHEN** an indicator value row has an `indicador` whose metadata `clase` is `"ods"`
-- **THEN** the row is inserted into `INDICADORES_ODS`
+- **THEN** the row is inserted into `INDICADORES`
 
-#### Scenario: Descriptivo routing from separate file
-- **WHEN** a row is read from `descriptivos.csv`
-- **THEN** the row is inserted into `INDICADORES_DESCRIPTIVOS` without needing a clase lookup
-
-#### Scenario: Unknown indicator type
+#### Scenario: Unknown indicator skipped
 - **WHEN** an indicator value row references an `indicador` not found in metadata
 - **THEN** the system SHALL log a warning and skip the row
+
+#### Scenario: Descriptivo indicators excluded
+- **WHEN** an indicator value row has an `indicador` whose metadata `clase` is `"descriptivo"`
+- **THEN** the row is NOT inserted into `INDICADORES` (descriptivos come from a separate CSV and go to `INDICADORES_DESCRIPTIVOS`)
+
+#### Scenario: Row count preserved
+- **WHEN** the transform completes
+- **THEN** the total number of rows in `INDICADORES` SHALL equal the sum of rows that previously went into `INDICADORES_ODS` plus `INDICADORES_AGENDAS`
 
 ### Requirement: Populate METADATA from metadatos_agendas
 The system SHALL transform each parsed metadata record into a `METADATA` row, mapping `indicador` → `id_indicador`, `clase` → `tipo` (normalizing: `"descriptivo"` stays, `"agendas"` → `"agenda"`, `"ods"` → `"ods"`), and all remaining fields as extra data.

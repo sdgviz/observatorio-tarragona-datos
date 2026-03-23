@@ -14,7 +14,7 @@ Además, en el futuro los checks deberán ejecutarse en GitHub Actions y sus res
 - Definir una primera batería de pruebas de consistencia de datos:
   - Para cada región definida en `regiones.csv` existe al menos un indicador asociado en los datos de indicadores.
   - Todos los identificadores de indicadores presentes en `indicadores_agendas.csv` aparecen también en `metadatos_agendas.csv`.
-- Definir un formato de salida estructurado (por ejemplo JSON + HTML estático) que resuma el resultado de los checks y que pueda ser servido tal cual desde una carpeta dedicada a GitHub Pages (por ejemplo `githubpage/` o similar).
+- Definir un formato de salida estructurado (por ejemplo JSON + HTML estático) que resuma el resultado de los checks y que pueda ser servido tal cual desde una carpeta dedicada a GitHub Pages (por ejemplo `docs/` o similar).
 - Mantener el alcance acotado a esta primera batería de tests, dejando explícito que en el futuro se añadirán chequeos adicionales (rangos, umbrales, coherencia entre tablas, etc.).
 
 ## Capabilities

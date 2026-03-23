@@ -5,7 +5,7 @@ The system SHALL generate a static HTML report that presents the outcome of the 
 
 #### Scenario: Generate HTML report after running integrity checks
 - **WHEN** the CSV integrity CLI command finishes running and writes the structured results file
-- **THEN** the system SHALL generate or update a static HTML file (for example `githubpage/csv-integrity/index.html`)
+- **THEN** the system SHALL generate or update a static HTML file (for example `docs/csv-integrity/index.html`)
 - **AND THEN** the HTML file SHALL summarize, at minimum, the total number of tests, how many passed, how many failed, and how many errored
 
 ### Requirement: GitHub Pages-friendly folder structure
@@ -13,7 +13,7 @@ The static report and its supporting assets SHALL be written into a folder struc
 
 #### Scenario: Report folder is ready for GitHub Pages
 - **WHEN** the CSV integrity command completes successfully or with failures
-- **THEN** the system SHALL ensure that all report files (HTML, JSON and any static assets) are located under a single top-level folder (for example `githubpage/csv-integrity/`)
+- **THEN** the system SHALL ensure that all report files (HTML, JSON and any static assets) are located under a single top-level folder (for example `docs/csv-integrity/`)
 - **AND THEN** a GitHub Pages configuration SHALL be able to expose that folder as static content without additional processing
 
 ### Requirement: Per-test breakdown in the HTML report

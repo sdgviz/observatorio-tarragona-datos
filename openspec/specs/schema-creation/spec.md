@@ -28,19 +28,24 @@ The system SHALL create a `REGIONES` table with columns: `codigo_ine` (TEXT, PRI
 - **WHEN** the `REGIONES` table is created
 - **THEN** `codigo_ine` is the PRIMARY KEY ensuring uniqueness
 
-### Requirement: Create INDICADORES_AGENDAS table
-The system SHALL create an `INDICADORES_AGENDAS` table with columns: `id_indicador` (TEXT, FK to METADATA), `codigo_ine` (TEXT, FK to REGIONES), `periodo` (INTEGER), `valor` (REAL), and additional measurement columns (`indice`, `categoria`, `no_agregar`, `texto`).
+### Requirement: Create INDICADORES table
+The system SHALL create a single `INDICADORES` table with columns: `id_indicador` (TEXT, FK to METADATA), `codigo_ine` (TEXT, FK to REGIONES), `periodo` (INTEGER, NOT NULL), `valor` (REAL), `indice` (REAL), `categoria` (TEXT), `no_agregar` (TEXT), `texto` (TEXT). This table stores all non-descriptive indicator values regardless of their metadata `tipo`.
 
-#### Scenario: Composite reference integrity
-- **WHEN** the table is created
-- **THEN** it SHALL have foreign keys to both `METADATA` and `REGIONES`
+#### Scenario: Table created with correct schema
+- **WHEN** the schema creation runs
+- **THEN** the `INDICADORES` table exists with foreign keys to `METADATA(id_indicador)` and `REGIONES(codigo_ine)`
 
-### Requirement: Create INDICADORES_ODS table
-The system SHALL create an `INDICADORES_ODS` table with the same column structure as `INDICADORES_AGENDAS`.
+#### Scenario: No tipo column in INDICADORES
+- **WHEN** the `INDICADORES` table is created
+- **THEN** it SHALL NOT contain a `tipo` or `clase` column — the indicator type is available via `JOIN METADATA`
 
-#### Scenario: Separate table for ODS indicators
-- **WHEN** the table is created
-- **THEN** it SHALL only contain indicators where `METADATA.tipo = 'ods'`
+#### Scenario: Contains both ODS and agenda indicators
+- **WHEN** data is loaded
+- **THEN** `INDICADORES` contains rows for indicators with `METADATA.tipo = 'ods'` AND `METADATA.tipo = 'agenda'`
+
+#### Scenario: Does not contain descriptive indicators
+- **WHEN** data is loaded
+- **THEN** `INDICADORES` SHALL NOT contain rows for indicators with `METADATA.tipo = 'descriptivo'` — those remain in `INDICADORES_DESCRIPTIVOS`
 
 ### Requirement: Create INDICADORES_DESCRIPTIVOS table
 The system SHALL create an `INDICADORES_DESCRIPTIVOS` table with columns: `id_indicador` (TEXT, FK), `codigo_ine` (TEXT, FK), `periodo` (INTEGER), `valor` (REAL), `umbral` (TEXT).

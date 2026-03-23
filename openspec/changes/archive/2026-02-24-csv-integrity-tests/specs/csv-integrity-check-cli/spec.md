@@ -68,6 +68,6 @@ The CSV integrity check CLI SHALL produce a structured machine-readable results 
 
 #### Scenario: All tests produce a structured results file
 - **WHEN** the CSV integrity command finishes running (either with all tests passing or with some failures)
-- **THEN** the CLI SHALL write a results file (for example `githubpage/csv-integrity/results.json`)
+- **THEN** the CLI SHALL write a results file (for example `docs/csv-integrity/results.json`)
 - **AND THEN** the results file SHALL include, for each test, at least: test identifier, description, status (`pass`/`fail`/`error`), and optional details
 
