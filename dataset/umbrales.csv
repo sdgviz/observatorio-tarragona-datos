@@ -3,8 +3,8 @@ indicador,nombre,unidad,municipios,conteo,minimo,maximo,desv_tipica,percentil25,
 3,Renta mediana,€,179,1591,10850.00,31850.00,2831.38,14350.00,18550.00,13650.00,19950.00,MIN-MAX Tarragona*,19950.00,13650.00
 2,Tasa de pobreza,%,128,1102,5.80,32.50,5.39,15.30,23.50,12.20,26.10,REDS,0.00,38.37
 210,Tasa de pobreza infantil,%,56,498,2.80,30.90,5.30,11.20,19.00,8.37,22.36,REDS,0.00,49.41
-5,Renta Garantizada de Ciudadanía por 10.000 habitantes,x10.000 hab,1,0,,,,,,,,,,
-7,Proporción de personas con discapacidad que perciben una pensión,%,1,0,,,,,,,,,,
+5,Renta Garantizada de Ciudadanía por 10.000 habitantes,x10.000 hab,135,717,13.70,1250.00,125.47,76.29,191.64,46.70,274.36,MIN-MAX Tarragona*,13.70,220.00
+7,Proporción de personas con discapacidad que perciben una pensión,%,89,693,1.03,66.37,6.48,4.06,7.14,2.98,9.30,MIN-MAX Tarragona*,1.00,10.00
 8,Número de refugios climáticos gratuitos,x10.000 hab,94,94,0.68,285.71,52.65,6.30,34.46,2.72,84.01,MIN-MAX Tarragona*,84.01,2.72
 9,Superficie agrícola ecológica (porcentaje sobre el total agrícola),ha,184,551,0.00,49.53,8.75,0.00,8.14,0.00,17.35,REDS,26.59,0.19
 10,Tierras agrícolas por 100 habitantes,ha x100 hab,184,551,0.13,1921.29,237.04,7.24,67.03,1.30,130.09,MIN-MAX Tarragona*,67.03,1.30
@@ -54,7 +54,7 @@ indicador,nombre,unidad,municipios,conteo,minimo,maximo,desv_tipica,percentil25,
 186,Patentes per cápita,patentes/100.000 hab,1,0,,,,,,,,REDS,12.46,0.00
 45,Cobertura de internet,%,1,0,,,,,,,,,,
 47,Desigualdad de renta,Índice,179,1591,1.80,4.80,0.38,2.40,2.80,2.20,3.10,REDS,1.80,4.20
-48,Renta por habitante,€,178,1554,8195.00,28987.00,2103.98,10987.00,13583.00,10019.00,15043.80,MIN-MAX Tarragona*,15043.80,10019.00
+48,Renta por habitante,€,184,1609,8195.00,28987.00,2093.05,10959.00,13577.00,10016.40,15031.40,MIN-MAX Tarragona*,15043.80,10019.00
 46,Índice de Gini,Índice,179,1591,20.90,45.20,3.25,27.60,31.95,26.10,34.20,REDS,20.30,44.20
 119,Índice de vulnerabilidad urbana,%,1,0,,,,,,,,,,
 257,Índice de dependencia total,%,1,0,,,,,,,,REDS,37.01,60.23
@@ -72,7 +72,7 @@ indicador,nombre,unidad,municipios,conteo,minimo,maximo,desv_tipica,percentil25,
 276,Número de banderas azules,%,15,15,25.00,100.00,22.77,50.00,73.33,40.00,100.00,REDS,100,0
 58,Tasa de recogida selectiva,%,184,1840,9.12,89.63,14.96,40.17,60.11,30.55,71.36,MIN-MAX Tarragona*,71.36,30.55
 59,Generación de residuos domésticos por habitante y año,kg/hab*año,184,1840,200.43,1881.63,187.09,395.30,581.71,336.78,730.90,MIN-MAX Tarragona*,336.78,730.9
-272,Viviendas de uso turístico,Nº,1,0,,,,,,,,,,
+272,Viviendas de uso turístico,Nº,184,1104,0.00,20.74,2.19,0.35,2.10,0.07,3.56,MIN-MAX Tarragona*,0,10
 129,Emisiones totales de gases de efecto invernadero por habitante,t CO2eq/Hab,180,180,0.00,1268.21,105.63,2.16,14.23,0.59,40.32,REDS,0,10
 278,Calidad de las aguas de baño,%,21,21,57.14,100.00,12.84,90.00,100.00,75.00,100.00,REDS,100,0
 294,Instalaciones educativas por 10.000 habitantes,x10.000 hab,30,30,0.00,32.47,5.50,2.78,5.11,1.67,7.25,MIN-P95 Tarragona,38.81,0
