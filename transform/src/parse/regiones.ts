@@ -6,6 +6,8 @@ export interface RegionRecord {
   poblacion: number | null;
   id_poblacion: string | null;
   id_especial: string | null;
+  id_especial2: string | null;
+  id_especial3: string | null;
 }
 
 export function parseRegiones(inputDir: string): RegionRecord[] {
@@ -16,5 +18,7 @@ export function parseRegiones(inputDir: string): RegionRecord[] {
     poblacion: row.poblacion ? Number(row.poblacion) : null,
     id_poblacion: toNullable(row.id_poblacion),
     id_especial: toNullable(row.id_especial),
+    id_especial2: toNullable(row.id_especial2),
+    id_especial3: toNullable(row.id_especial3),
   }));
 }

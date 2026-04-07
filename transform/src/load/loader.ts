@@ -36,7 +36,7 @@ export function loadAll(db: Database.Database, data: TransformedData): void {
   const counts: Record<string, number> = {};
 
   counts['REGIONES'] = insertMany(db, 'REGIONES',
-    ['codigo_ine', 'nombre', 'poblacion', 'id_poblacion', 'id_especial'],
+    ['codigo_ine', 'nombre', 'poblacion', 'id_poblacion', 'id_especial', 'id_especial2', 'id_especial3'],
     data.regiones,
   );
 

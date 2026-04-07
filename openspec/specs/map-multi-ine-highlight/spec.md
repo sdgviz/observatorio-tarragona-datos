@@ -26,6 +26,21 @@
 - **WHEN** `zoomRegion` is active and `fadeUnselected` is true with a non-empty emphasis list
 - **THEN** fill opacity for each path SHALL reflect the stricter of the two dimming rules where both apply (implementation MAY use the minimum opacity)
 
+### Requirement: Fade all municipalities when emphasis set is empty but filters exclude everyone
+
+`MapTarragona` (and `MapWrapper` as its adapter) SHALL support an optional boolean prop (e.g. `emphasisNoMatches`) that, when true together with `fadeUnselected`, applies reduced **fill opacity** to **every** municipality path, so the map does not read as “nothing filtered” when the parent has active filters but an empty emphasized-INE list. When `emphasisNoMatches` is false, behaviour SHALL follow the existing rule that fading non-emphasized paths only applies if the emphasis list is non-empty. Hover highlight (`highlightedIne`) SHALL remain visually distinguishable (e.g. via stroke).
+
+#### Scenario: No municipalities match active filters
+
+- **WHEN** `fadeUnselected` is true, `emphasisNoMatches` is true, and `emphasizedInes` is empty
+- **THEN** every path SHALL use reduced fill opacity consistent with the existing dimmed fill treatment
+- **AND** the map SHALL not render all municipalities at full emphasis fill as if no filter were active
+
+#### Scenario: Matches present
+
+- **WHEN** `emphasisNoMatches` is false and `emphasizedInes` is non-empty with `fadeUnselected` true
+- **THEN** fill opacity SHALL follow the existing emphasized-vs-rest fade rules
+
 ### Requirement: Opt-in disable of selection zoom
 `MapTarragona` SHALL support an optional boolean prop (e.g. `disableSelectionZoom`) that, when true, prevents the automatic zoom/pan behaviour tied to a single selected municipio. Other zoom behaviour (e.g. `zoomRegion` for Camp de Tarragona) SHALL remain governed by existing props unless explicitly changed elsewhere.
 
@@ -33,6 +48,10 @@
 - **WHEN** the ODS goal page has a non-empty filter-derived INE set and sets `disableSelectionZoom` to true
 - **THEN** the map SHALL NOT apply the single-municipio zoom animation that would otherwise run for `selectedIne`
 - **AND** multi-INE emphasis SHALL still render
+
+#### Scenario: ODS goal page with filters that match no municipio
+- **WHEN** the ODS goal page has active region filters but zero matching municipalities and sets `disableSelectionZoom` to true (and the corresponding fade-all / `emphasisNoMatches` behaviour)
+- **THEN** the map SHALL NOT apply single-municipio zoom in a way that implies a full unfiltered view
 
 #### Scenario: Homepage unchanged
 - **WHEN** `disableSelectionZoom` is omitted

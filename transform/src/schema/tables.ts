@@ -6,7 +6,9 @@ CREATE TABLE IF NOT EXISTS REGIONES (
   nombre TEXT NOT NULL,
   poblacion INTEGER,
   id_poblacion TEXT,
-  id_especial TEXT
+  id_especial TEXT,
+  id_especial2 TEXT,
+  id_especial3 TEXT
 );`;
 
 export const CREATE_METADATA = `

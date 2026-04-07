@@ -41,11 +41,15 @@ The system SHALL read `descriptivos.csv` and produce records with: `indicador`, 
 - **THEN** all records have a string `indicador` starting with `"D-"`, a numeric `valor`, and a string `umbral` category
 
 ### Requirement: Parse regiones CSV
-The system SHALL read `regiones.csv` and produce records with: `codigo_ine`, `nombre`, `poblacion`, `id_poblacion`, `id_especial`.
+The system SHALL read `regiones.csv` and produce records with: `codigo_ine`, `nombre`, `poblacion`, `id_poblacion`, `id_especial`, `id_especial2`, `id_especial3`.
 
 #### Scenario: Standard regiones file
 - **WHEN** the parser reads `regiones.csv` with 7 municipality rows
 - **THEN** it produces 7 records with `codigo_ine` as the unique key
+
+#### Scenario: Optional id_especial2 and id_especial3
+- **WHEN** a row has empty `id_especial2` or `id_especial3` cells
+- **THEN** those fields SHALL be `null` in the parsed record
 
 ### Requirement: Parse umbrales CSV
 The system SHALL read `umbrales.csv` and produce records with all statistical threshold fields: `indicador`, `nombre`, `unidad`, `conteo`, `minimo`, `maximo`, `desv_tipica`, `percentil25`, `percentil75`, `percentil10`, `percentil90`, `origen`, `umbral_optimo`, `umbral_malo`.

@@ -22,11 +22,15 @@ The system SHALL create a `METADATA_CAT` table with the same structure as `METAD
 - **THEN** the `METADATA_CAT` table exists with the correct schema but contains no rows
 
 ### Requirement: Create REGIONES table
-The system SHALL create a `REGIONES` table with columns: `codigo_ine` (TEXT, PRIMARY KEY), `nombre` (TEXT), and additional columns for `poblacion`, `id_poblacion`, `id_especial`.
+The system SHALL create a `REGIONES` table with columns: `codigo_ine` (TEXT, PRIMARY KEY), `nombre` (TEXT), and additional columns for `poblacion`, `id_poblacion`, `id_especial`, `id_especial2`, `id_especial3`.
 
 #### Scenario: Table with unique municipality codes
 - **WHEN** the `REGIONES` table is created
 - **THEN** `codigo_ine` is the PRIMARY KEY ensuring uniqueness
+
+#### Scenario: Extended classification columns
+- **WHEN** the schema creation runs
+- **THEN** the `REGIONES` table SHALL include nullable `TEXT` columns `id_especial2` and `id_especial3`
 
 ### Requirement: Create INDICADORES table
 The system SHALL create a single `INDICADORES` table with columns: `id_indicador` (TEXT, FK to METADATA), `codigo_ine` (TEXT, FK to REGIONES), `periodo` (INTEGER, NOT NULL), `valor` (REAL), `indice` (REAL), `categoria` (TEXT), `no_agregar` (TEXT), `texto` (TEXT). This table stores all non-descriptive indicator values regardless of their metadata `tipo`.

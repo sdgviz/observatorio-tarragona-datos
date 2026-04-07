@@ -1,8 +1,8 @@
 {
   "summary": {
-    "total": 17,
-    "passed": 16,
-    "failed": 1,
+    "total": 18,
+    "passed": 18,
+    "failed": 0,
     "errored": 0
   },
   "results": [
@@ -52,6 +52,11 @@
       "status": "pass"
     },
     {
+      "id": "header-parity-regiones.csv",
+      "description": "CSV header parity (regiones.csv): columns match contract",
+      "status": "pass"
+    },
+    {
       "id": "data-one-indicator-per-region",
       "description": "Each region has at least one indicator",
       "status": "pass"
@@ -64,8 +69,7 @@
     {
       "id": "data-descriptivos-have-metadata",
       "description": "All indicators in descriptivos.csv appear in metadatos_agendas.csv",
-      "status": "fail",
-      "details": "Indicators missing in metadata: D-18-d"
+      "status": "pass"
     },
     {
       "id": "data-indicadores-agendas-codigo-ine",

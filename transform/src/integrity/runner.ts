@@ -2,6 +2,7 @@ import { resolve } from 'node:path';
 import { existsSync } from 'node:fs';
 import { runFormatChecks } from './checks/format.js';
 import { runDataChecks } from './checks/data.js';
+import { runHeaderParityChecks } from './checks/header-parity.js';
 
 export type TestStatus = 'pass' | 'fail' | 'error';
 
@@ -44,7 +45,8 @@ export function runIntegrityChecks(options: IntegrityRunnerOptions): IntegrityRu
 
   const results: TestResult[] = [
     ...runFormatChecks(inputDir),
-    ...runDataChecks(inputDir)
+    ...runHeaderParityChecks(inputDir),
+    ...runDataChecks(inputDir),
   ];
 
   return summarize(results);

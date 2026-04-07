@@ -16,6 +16,21 @@
 - **THEN** the chart SHALL NOT apply filter-based multi-emphasis styling
 - **AND** existing behaviour for `highlights` and `highlightedIne` SHALL remain unchanged for callers that do not use the new prop
 
+### Requirement: No matching municipalities — subdued all dots
+
+`BeeswarmChart` SHALL accept an optional boolean prop (e.g. `filterEmphasisNoMatches`). When true, every dot SHALL use the same subdued **fill** and **opacity** as dots outside a non-empty `filterEmphasisInes` set (so the chart does not look unfiltered when the parent has active filters but an empty intersection). **Hover** (`highlightedIne`) SHALL still receive full emphasis for the hovered dot. When `filterEmphasisNoMatches` is false, this rule SHALL not apply.
+
+#### Scenario: Active filters with empty intersection
+
+- **WHEN** `filterEmphasisNoMatches` is true and `filterEmphasisInes` is empty
+- **THEN** every dot SHALL render with subdued fill/opacity relative to the normal emphasized state
+- **AND** a hovered dot MAY use full color/opacity for readability
+
+#### Scenario: Prop omitted
+
+- **WHEN** `filterEmphasisNoMatches` is omitted or false
+- **THEN** behaviour SHALL follow the existing `filterEmphasisInes` / `highlights` rules without this global subdued mode
+
 ### Requirement: Hover precedence over filter emphasis
 When both `filterEmphasisInes` is non-empty and `highlightedIne` is set (hover), the hovered INE SHALL receive the strongest emphasis (including any permitted radius bump for hover); other filter-matched INEs MAY remain emphasized at a secondary level via stroke/fill, but the chart SHALL NOT throw errors.
 
