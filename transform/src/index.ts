@@ -6,6 +6,7 @@ import { parseAll } from './parse/index.js';
 import { createSchema } from './schema/index.js';
 import { transformAll } from './transform/index.js';
 import { loadAll } from './load/loader.js';
+import { runIntegrityChecks } from './integrity/runner.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -43,6 +44,21 @@ function main(): void {
 
   if (existsSync(output)) {
     unlinkSync(output);
+  }
+
+  const integrity = runIntegrityChecks({ inputDir: input });
+  const integrityBlockers = integrity.results.filter(
+    (r) => r.status === 'fail' || r.status === 'error',
+  );
+  if (integrityBlockers.length > 0) {
+    console.error('\nIntegrity checks failed — refusing to build the database:');
+    for (const r of integrityBlockers) {
+      console.error(`  [${r.status.toUpperCase()}] ${r.id}: ${r.description}`);
+      if (r.details) {
+        console.error(r.details.split('\n').map((line) => `    ${line}`).join('\n'));
+      }
+    }
+    process.exit(1);
   }
 
   const parsed = parseAll(input);

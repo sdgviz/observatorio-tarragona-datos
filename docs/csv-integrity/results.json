@@ -1,7 +1,7 @@
 {
   "summary": {
-    "total": 18,
-    "passed": 18,
+    "total": 19,
+    "passed": 19,
     "failed": 0,
     "errored": 0
   },
@@ -94,6 +94,11 @@
     {
       "id": "data-promedios-ods-objetivo-codigo-ine",
       "description": "All codigo_ine in promedios_municipio_ods_objetivo.csv exist in regiones.csv",
+      "status": "pass"
+    },
+    {
+      "id": "data-tarragona-le-orphans",
+      "description": "Every le / le2 value in metadatos_agendas.csv exists in diccionario.csv (agenda=TARRAGONA)",
       "status": "pass"
     }
   ]

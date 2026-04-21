@@ -15,8 +15,8 @@ export interface MetadataRecord {
   umbral_malo: number | null;
   ods: string[];
   meta: string[];
-  aue1: string[];
-  aue2: string[];
+  le: string[];
+  le2: string[];
   muestra_ods: string | null;
   muestra_aue: string | null;
 }
@@ -38,8 +38,8 @@ export function parseMetadata(inputDir: string): MetadataRecord[] {
     umbral_malo: toNumber(row.umbral_malo),
     ods: parseSemicolonList(row.ods),
     meta: parseSemicolonList(row.meta),
-    aue1: parseSemicolonList(row.aue1),
-    aue2: parseSemicolonList(row.aue2),
+    le: parseSemicolonList(row.le),
+    le2: parseSemicolonList(row.le2),
     muestra_ods: toNullable(row.muestra_ods),
     muestra_aue: toNullable(row.muestra_aue),
   }));

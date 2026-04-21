@@ -1,6 +1,6 @@
 # Municipio AU page
 
-## ADDED Requirements
+## Requirements
 
 ### Requirement: Agenda Urbana municipio detail page exists
 The system SHALL provide a dedicated Agenda Urbana detail page at `/municipios/au/[ine]` for each municipio, parallel to the existing ODS page at `/municipios/ods/[ine]`.
@@ -38,9 +38,21 @@ The AU municipio page SHALL render two tabs — "Seguimiento" and "Descriptivo" 
 - **THEN** the `MunicipioAuSeguimiento` component is displayed
 - **AND** the "Descriptivo" component is hidden
 
-### Requirement: AU tab components are empty stubs
-The `MunicipioAuSeguimiento` and `MunicipioAuDescriptivo` components SHALL exist as valid, renderable Vue components with no content, serving as placeholders for future implementation.
+### Requirement: AU page fetches hierarchy data and renders header
+The `pages/municipios/au/[ine].vue` page SHALL fetch the AU hierarchy via `useAsyncData` calling `/api/au/indicadores` and pass the response to `MunicipioAuSeguimiento`. The page SHALL also fetch header metadata (`/api/municipios/{ine}/header`) to display population and comarca information, matching the ODS page header pattern.
 
-#### Scenario: Rendering stub components
-- **WHEN** either stub component is rendered inside the AU municipio page
-- **THEN** no errors are thrown and the component renders an empty or minimal placeholder
+#### Scenario: Page loads with AU data
+- **WHEN** a user navigates to `/municipios/au/43148`
+- **AND** the municipio participates in AU
+- **THEN** the page SHALL display the municipio name, population, and comarca in the header
+- **AND** the Seguimiento tab SHALL receive the fetched AU hierarchy data
+
+#### Scenario: Page loads for non-AU municipio
+- **WHEN** a user navigates to `/municipios/au/43001`
+- **AND** the municipio does NOT have `id_especial3 = 'aue'`
+- **THEN** the Seguimiento view SHALL display the API error gracefully (error alert from the 404 response)
+
+#### Scenario: Tabs remain functional
+- **WHEN** the page loads
+- **THEN** the "Seguimiento" and "Descriptivo" tabs SHALL both be present and functional
+- **AND** the default active tab SHALL be "Seguimiento"

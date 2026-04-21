@@ -1,5 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { parse as csvParseSync } from 'csv-parse/sync';
 import type { TestResult } from '../runner.js';
 
 interface RegionRow {
@@ -19,23 +20,119 @@ interface CodigoIneRow {
   codigo_ine: string;
 }
 
+interface MetadataLeRow {
+  indicador: string;
+  le: string;
+  le2: string;
+}
+
+interface DiccionarioAgendaRow {
+  agenda: string;
+  nivel: string;
+  dimension: string;
+}
+
 function parseCsv<T extends Record<string, string>>(filePath: string): T[] {
   const content = readFileSync(filePath, 'utf8').replace(/^\uFEFF/, '');
-  const [headerLine, ...lines] = content.split(/\r?\n/).filter(Boolean);
-  if (!headerLine) {
-    return [];
-  }
+  return csvParseSync(content, {
+    columns: true,
+    skip_empty_lines: true,
+    trim: true,
+    bom: true,
+    relax_quotes: true,
+    relax_column_count: true,
+  }) as T[];
+}
 
-  const headers = headerLine.split(',').map(h => h.trim());
+function splitSemicolonList(raw: string | undefined): string[] {
+  if (!raw) return [];
+  return raw
+    .split(';')
+    .map((v) => v.trim())
+    .filter((v) => v.length > 0);
+}
 
-  return lines.map(line => {
-    const values = line.split(',');
-    const row: Record<string, string> = {};
-    headers.forEach((header, index) => {
-      row[header] = values[index] ?? '';
+function checkTarragonaOrphanReferences(
+  inputDir: string,
+  results: TestResult[],
+): void {
+  const checkId = 'data-tarragona-le-orphans';
+  const description =
+    'Every le / le2 value in metadatos_agendas.csv exists in diccionario.csv (agenda=TARRAGONA)';
+
+  try {
+    const metadata = parseCsv<MetadataLeRow>(join(inputDir, 'metadatos_agendas.csv'));
+    const dict = parseCsv<DiccionarioAgendaRow>(join(inputDir, 'diccionario.csv'));
+
+    const knownLevel1 = new Set<string>();
+    const knownLevel2 = new Set<string>();
+    for (const row of dict) {
+      if (row.agenda?.trim() !== 'TARRAGONA') continue;
+      const nivel = row.nivel?.trim();
+      const dim = row.dimension?.trim();
+      if (!dim) continue;
+      if (nivel === '1') knownLevel1.add(dim);
+      else if (nivel === '2') knownLevel2.add(dim);
+    }
+
+    const orphansLevel1 = new Map<string, Set<string>>();
+    const orphansLevel2 = new Map<string, Set<string>>();
+
+    for (const row of metadata) {
+      const indicador = row.indicador?.trim();
+      if (!indicador) continue;
+
+      for (const dim of splitSemicolonList(row.le)) {
+        if (!knownLevel1.has(dim)) {
+          const set = orphansLevel1.get(dim) ?? new Set<string>();
+          set.add(indicador);
+          orphansLevel1.set(dim, set);
+        }
+      }
+      for (const dim of splitSemicolonList(row.le2)) {
+        if (!knownLevel2.has(dim)) {
+          const set = orphansLevel2.get(dim) ?? new Set<string>();
+          set.add(indicador);
+          orphansLevel2.set(dim, set);
+        }
+      }
+    }
+
+    if (orphansLevel1.size === 0 && orphansLevel2.size === 0) {
+      results.push({ id: checkId, description, status: 'pass' });
+      return;
+    }
+
+    const lines: string[] = [];
+    if (orphansLevel1.size > 0) {
+      lines.push('Unknown le (nivel=1) values:');
+      for (const [dim, indicadores] of [...orphansLevel1.entries()].sort(([a], [b]) => a.localeCompare(b))) {
+        const ids = [...indicadores].sort().join(', ');
+        lines.push(`  - ${dim} (indicadores: ${ids})`);
+      }
+    }
+    if (orphansLevel2.size > 0) {
+      lines.push('Unknown le2 (nivel=2) values:');
+      for (const [dim, indicadores] of [...orphansLevel2.entries()].sort(([a], [b]) => a.localeCompare(b))) {
+        const ids = [...indicadores].sort().join(', ');
+        lines.push(`  - ${dim} (indicadores: ${ids})`);
+      }
+    }
+
+    results.push({
+      id: checkId,
+      description,
+      status: 'fail',
+      details: lines.join('\n'),
     });
-    return row as T;
-  });
+  } catch (error) {
+    results.push({
+      id: checkId,
+      description,
+      status: 'error',
+      details: error instanceof Error ? error.message : String(error),
+    });
+  }
 }
 
 function checkCodigoIneConsistency(
@@ -276,6 +373,8 @@ export function runDataChecks(inputDir: string): TestResult[] {
     'data-promedios-ods-objetivo-codigo-ine',
     'All codigo_ine in promedios_municipio_ods_objetivo.csv exist in regiones.csv',
   );
+
+  checkTarragonaOrphanReferences(inputDir, results);
 
   return results;
 }

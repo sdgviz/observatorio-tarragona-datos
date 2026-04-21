@@ -13,14 +13,21 @@ export interface DiccionarioEsRow {
   descripcion: string | null;
 }
 
+const SUPPORTED_AGENDAS: ReadonlySet<string> = new Set(['2030', 'TARRAGONA']);
+
 export function transformDiccionario(records: DiccionarioRecord[]): {
   diccionario: DiccionarioRow[];
   diccionarioEs: DiccionarioEsRow[];
 } {
   const dictMap = new Map<string, DiccionarioRow>();
   const esMap = new Map<string, DiccionarioEsRow>();
+  const skippedAgendas = new Map<string, number>();
 
   for (const r of records) {
+    if (!SUPPORTED_AGENDAS.has(r.agenda)) {
+      skippedAgendas.set(r.agenda, (skippedAgendas.get(r.agenda) ?? 0) + 1);
+      continue;
+    }
     const id_dict = `${r.agenda}-${r.dimension}`;
 
     if (dictMap.has(id_dict)) {
@@ -40,6 +47,13 @@ export function transformDiccionario(records: DiccionarioRecord[]): {
       nombre: r.nombre,
       descripcion: r.detalle,
     });
+  }
+
+  if (skippedAgendas.size > 0) {
+    const detail = [...skippedAgendas.entries()]
+      .map(([agenda, count]) => `${agenda} (${count})`)
+      .join(', ');
+    console.log(`  DICCIONARIO: skipped ${detail} — agenda not supported in the Tarragona pipeline`);
   }
 
   return {

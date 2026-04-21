@@ -58,13 +58,31 @@ export function transformAll(data: ParsedData): TransformedData {
   const descriptivos = transformDescriptivos(data.descriptivos);
   console.log(`  INDICADORES_DESCRIPTIVOS: ${descriptivos.length} rows`);
 
-  const { promediosOds, promediosAgendas } = transformPromedios(
+  const { promediosOds, promediosAgendas: rawPromediosAgendas } = transformPromedios(
     data.promediosMetaOds,
     data.promediosOdsObjetivo,
     data.promediosObjetivoAue,
   );
   console.log(`  PROMEDIOS_ODS: ${promediosOds.length} rows`);
-  console.log(`  PROMEDIOS_AGENDAS: ${promediosAgendas.length} rows`);
+
+  const skippedPromedios = new Map<string, number>();
+  const promediosAgendas = rawPromediosAgendas.filter(row => {
+    if (!dictIds.has(row.id_dict)) {
+      skippedPromedios.set(row.id_dict, (skippedPromedios.get(row.id_dict) ?? 0) + 1);
+      return false;
+    }
+    return true;
+  });
+  if (skippedPromedios.size > 0) {
+    const detail = [...skippedPromedios.entries()]
+      .map(([k, n]) => `${k} (${n})`)
+      .join(', ');
+    console.log(
+      `  PROMEDIOS_AGENDAS: ${promediosAgendas.length} rows (${rawPromediosAgendas.length - promediosAgendas.length} skipped — unknown id_dict: ${detail})`,
+    );
+  } else {
+    console.log(`  PROMEDIOS_AGENDAS: ${promediosAgendas.length} rows`);
+  }
 
   console.log('Transformation complete\n');
 

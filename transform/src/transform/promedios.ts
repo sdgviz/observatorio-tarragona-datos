@@ -3,6 +3,7 @@ import type {
   PromedioObjetivoAueRecord,
   PromedioOdsObjetivoRecord,
 } from '../parse/index.js';
+import { AGENDA_LE_PREFIX } from './agenda-constants.js';
 
 export interface PromedioOdsRow {
   id_dict: string;
@@ -57,7 +58,7 @@ export function transformPromedios(
 
   for (const r of objetivoAue) {
     promediosAgendas.push({
-      id_dict: `AUE-${r.objetivo_aue}`,
+      id_dict: `${AGENDA_LE_PREFIX}${r.objetivo_aue}`,
       codigo_ine: r.codigo_ine,
       periodo: r.periodo_max,
       valor: r.promedio_indice,

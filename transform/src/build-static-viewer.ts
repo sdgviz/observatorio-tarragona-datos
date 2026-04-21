@@ -162,9 +162,9 @@ function buildAgendas(db: Database.Database): AgendaPayload[] {
     agendas.push({ id: 'ods', label: 'ODS', tree: odsTree });
   }
 
-  const auTree = buildTree('AUE');
+  const auTree = buildTree('TARRAGONA');
   if (auTree) {
-    agendas.push({ id: 'au', label: 'Agenda Urbana', tree: auTree });
+    agendas.push({ id: 'au', label: 'Agenda Metropolitana de Tarragona', tree: auTree });
   }
 
   const descIndicators = metaRows
@@ -174,7 +174,7 @@ function buildAgendas(db: Database.Database): AgendaPayload[] {
       return { id_indicador: r.id_indicador, nombre: me?.nombre ?? r.id_indicador, detalle: me?.descripcion ?? null };
     });
   if (descIndicators.length > 0) {
-    agendas.push({ id: 'desc', label: 'Agenda Urbana descriptiva', indicators: descIndicators });
+    agendas.push({ id: 'desc', label: 'Indicadores descriptivos', indicators: descIndicators });
   }
 
   return agendas;
@@ -241,7 +241,7 @@ function buildObjetivosMetasMunicipios(
       `SELECT d.id_dict, d.nivel, d.agenda, COALESCE(de.nombre, d.id_dict) AS nombre
        FROM DICCIONARIO d
        LEFT JOIN DICCIONARIO_ES de ON de.id_dict = d.id_dict
-       WHERE d.agenda = '2030' OR d.agenda = 'AUE'
+       WHERE d.agenda = '2030' OR d.agenda = 'TARRAGONA'
        ORDER BY d.agenda, d.nivel, d.id_dict`,
     )
     .all() as { id_dict: string; nivel: number; agenda: string; nombre: string }[];
@@ -306,7 +306,7 @@ function buildObjetivosMetasMunicipios(
 
   return {
     ods: buildAgendaEntries('2030'),
-    au: buildAgendaEntries('AUE'),
+    au: buildAgendaEntries('TARRAGONA'),
   };
 }
 
