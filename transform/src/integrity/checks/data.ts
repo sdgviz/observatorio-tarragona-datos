@@ -20,6 +20,11 @@ interface CodigoIneRow {
   codigo_ine: string;
 }
 
+interface PromedioLeRow {
+  codigo_ine: string;
+  objetivo_aue: string;
+}
+
 interface MetadataLeRow {
   indicador: string;
   le: string;
@@ -117,6 +122,79 @@ function checkTarragonaOrphanReferences(
         const ids = [...indicadores].sort().join(', ');
         lines.push(`  - ${dim} (indicadores: ${ids})`);
       }
+    }
+
+    results.push({
+      id: checkId,
+      description,
+      status: 'fail',
+      details: lines.join('\n'),
+    });
+  } catch (error) {
+    results.push({
+      id: checkId,
+      description,
+      status: 'error',
+      details: error instanceof Error ? error.message : String(error),
+    });
+  }
+}
+
+function checkPromediosObjetivoIsTarragonaLe(
+  inputDir: string,
+  results: TestResult[],
+): void {
+  const checkId = 'data-promedios-objetivo-aue-is-tarragona-le';
+  const description =
+    'promedios_municipio_objetivo_aue.csv `objetivo_aue` values are Tarragona LE ids (1..6) present in diccionario.csv (agenda=TARRAGONA, nivel=1)';
+
+  try {
+    const promedios = parseCsv<PromedioLeRow>(
+      join(inputDir, 'promedios_municipio_objetivo_aue.csv'),
+    );
+    const dict = parseCsv<DiccionarioAgendaRow>(join(inputDir, 'diccionario.csv'));
+
+    const knownLevel1 = new Set<string>();
+    for (const row of dict) {
+      if (row.agenda?.trim() !== 'TARRAGONA') continue;
+      if (row.nivel?.trim() !== '1') continue;
+      const dim = row.dimension?.trim();
+      if (dim) knownLevel1.add(dim);
+    }
+
+    const outOfRange = new Set<string>();
+    const notInDict = new Set<string>();
+
+    for (const row of promedios) {
+      const raw = row.objetivo_aue?.trim();
+      if (!raw) continue;
+      if (!/^\d+$/.test(raw) || Number(raw) < 1 || Number(raw) > 6) {
+        outOfRange.add(raw);
+        continue;
+      }
+      if (!knownLevel1.has(raw)) {
+        notInDict.add(raw);
+      }
+    }
+
+    if (outOfRange.size === 0 && notInDict.size === 0) {
+      results.push({ id: checkId, description, status: 'pass' });
+      return;
+    }
+
+    const lines: string[] = [];
+    if (outOfRange.size > 0) {
+      lines.push(
+        `objetivo_aue values outside Tarragona range 1..6: ${[...outOfRange].sort().join(', ')}.`,
+      );
+      lines.push(
+        '  This usually means the upstream pull script (pullAndBuild/download_and_build.py) is still reading from the legacy `aue1` column instead of `le`.',
+      );
+    }
+    if (notInDict.size > 0) {
+      lines.push(
+        `objetivo_aue values not found as TARRAGONA-{id} nivel=1 entries in diccionario.csv: ${[...notInDict].sort().join(', ')}.`,
+      );
     }
 
     results.push({
@@ -375,6 +453,7 @@ export function runDataChecks(inputDir: string): TestResult[] {
   );
 
   checkTarragonaOrphanReferences(inputDir, results);
+  checkPromediosObjetivoIsTarragonaLe(inputDir, results);
 
   return results;
 }

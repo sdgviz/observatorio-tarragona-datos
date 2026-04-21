@@ -1,7 +1,7 @@
 {
   "summary": {
-    "total": 19,
-    "passed": 19,
+    "total": 20,
+    "passed": 20,
     "failed": 0,
     "errored": 0
   },
@@ -99,6 +99,11 @@
     {
       "id": "data-tarragona-le-orphans",
       "description": "Every le / le2 value in metadatos_agendas.csv exists in diccionario.csv (agenda=TARRAGONA)",
+      "status": "pass"
+    },
+    {
+      "id": "data-promedios-objetivo-aue-is-tarragona-le",
+      "description": "promedios_municipio_objetivo_aue.csv `objetivo_aue` values are Tarragona LE ids (1..6) present in diccionario.csv (agenda=TARRAGONA, nivel=1)",
       "status": "pass"
     }
   ]

@@ -156,23 +156,42 @@ def compute_agregados(raws: dict[str, bytes]) -> None:
     COL_IDX  = pick_col(ind,  ["indice","índice","index"],                                contains=True)
 
     META_IND = pick_col(meta, ["indicador"],                                              contains=True)
-    COL_AUE  = pick_col(meta, ["aue","objetivo_aue","objetivoaue","obj_aue","objetivo"],  contains=True)
+    # Tarragona Línea Estratégica (Level 1) column. Must match exactly `le`
+    # to avoid substring-drift to legacy `aue1` (which would silently produce
+    # promedios keyed by the old AUE 1..10 taxonomy instead of LE 1..6).
+    COL_LE   = pick_col(meta, ["le"],                                                     contains=False)
     COL_ODS  = pick_col(meta, ["meta_ods","metaods","meta","ods"],                        contains=True)
 
     missing = [name for name, col in [
         ("COL_IND",  COL_IND),  ("COL_INE", COL_INE), ("COL_PER", COL_PER), ("COL_IDX", COL_IDX),
-        ("META_IND", META_IND), ("COL_AUE", COL_AUE), ("COL_ODS", COL_ODS),
+        ("META_IND", META_IND), ("COL_LE",  COL_LE),  ("COL_ODS", COL_ODS),
     ] if col is None]
 
     if missing:
+        # Integrity guard: if `le` is missing we must NOT fall back silently to
+        # `aue1`, because that would produce promedios keyed by the legacy AUE
+        # taxonomy (1..10) while the rest of the pipeline expects Tarragona LE
+        # ids (1..6). Fail loudly instead.
+        legacy_present = any(
+            norm(c) in ("aue1", "aue2", "objetivo_aue", "aue")
+            for c in meta.columns
+        )
+        hint = (
+            "\n   · Se detectaron columnas legacy (aue1/aue2). A partir de la"
+            " migración a Tarragona se requiere la columna `le` en"
+            " metadatos_agendas.csv; no se aceptará `aue1` como sustituto."
+            if legacy_present and "COL_LE" in missing
+            else ""
+        )
         raise ValueError(
             f"❌ No se encontraron las columnas: {missing}\n"
             "Revisa los nombres reales arriba y ajusta pick_col si es necesario."
+            + hint
         )
 
     print("\n✅ Columnas detectadas:")
     print("  ind  :", {"indicador": COL_IND, "codigo_ine": COL_INE, "periodo": COL_PER, "indice": COL_IDX})
-    print("  meta :", {"indicador": META_IND, "objetivo_aue": COL_AUE, "meta_ods": COL_ODS})
+    print("  meta :", {"indicador": META_IND, "le": COL_LE, "meta_ods": COL_ODS})
 
     # --- Limpiar y convertir tipos ---
     ind[COL_IND]   = ind[COL_IND].astype(str).str.strip()
@@ -193,12 +212,25 @@ def compute_agregados(raws: dict[str, bytes]) -> None:
     )
 
     # --- Explosión de relaciones múltiples (separador ";") ---
-    aue_long = explode_semicolon(meta, META_IND, COL_AUE, "objetivo_aue")
+    # El nombre interno de la columna de salida se mantiene como
+    # `objetivo_aue` por compatibilidad aguas abajo (el transform Node y el
+    # frontend siguen leyendo ese nombre), aunque el contenido ya son ids de
+    # Línea Estratégica Tarragona (1..6) extraídos de la columna `le`.
+    le_long  = explode_semicolon(meta, META_IND, COL_LE,  "objetivo_aue")
     ods_long = explode_semicolon(meta, META_IND, COL_ODS, "meta_ods")
 
-    # --- Promedios por municipio × objetivo AUE ---
+    # --- Integrity check: LE ids deben estar en 1..6 ---
+    le_values = set(le_long["objetivo_aue"].astype(str))
+    invalid_le = {v for v in le_values if not (v.isdigit() and 1 <= int(v) <= 6)}
+    if invalid_le:
+        raise ValueError(
+            f"❌ Valores inválidos en la columna `le` de metadatos_agendas.csv: {sorted(invalid_le)}.\n"
+            "   Se esperan ids de Línea Estratégica Tarragona en el rango 1..6."
+        )
+
+    # --- Promedios por municipio × Línea Estratégica (LE) ---
     aue_muni_avg = (
-        latest.merge(aue_long, left_on=COL_IND, right_on=META_IND, how="inner")
+        latest.merge(le_long, left_on=COL_IND, right_on=META_IND, how="inner")
               .groupby([COL_INE, "objetivo_aue"], as_index=False)
               .agg(
                   promedio_indice = ("indice_latest",  "mean"),

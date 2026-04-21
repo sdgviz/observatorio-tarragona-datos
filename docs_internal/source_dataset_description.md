@@ -19,9 +19,9 @@ umbrales.csv da los umbrales de los indicadores.
 Cada indicador tiene un codigo único que es el que se usa para identificarlo en el resto de archivos. Un indicador puede ser parte de varias metas o de la agenda urbana.
 
 Los valores reales del indicador están en los archivos "indicadores_agendas" donde cada indicador está asociado a un municipio y un periodo ( año).
-Los municipios se describen en regiones.csv y a futuro habrá datos para cada uno de los municipios de la provincia.
+Los municipios se describen en regiones.csv.
 
-Los datos que tenemos ahora son solo una muestra.
+El conjunto vigente está pensado como cobertura provincial (no como una muestra reducida para prototipado).
 
 ## Relacion entre architecture.md y el resto de archivos:
 archiecture.md respresenta como deberia de transformarse este archivo a una forma mas o menos normalizada lista para incluirse en una base de datos relacional.
