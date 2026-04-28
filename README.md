@@ -51,3 +51,32 @@ A small static web app lets you explore the database contents in a browser: agen
   - `npx serve docs/static-db-viewer` (or serve the repo root and open `/docs/static-db-viewer/`).
 - **GitHub Pages**: Publish the `docs/` folder (or the whole site) so that `static-db-viewer/` is available; no extra build step is required.
 
+## Cross-repository sync to web app
+
+This repository dispatches a cross-repository event to `sdgviz/observatorio-tarragona-web` when the `latest-data` release is published.
+
+- Workflow: `.github/workflows/dispatch-web-data-sync.yml`
+- Event type sent: `data_release_published`
+- API endpoint used: `POST /repos/sdgviz/observatorio-tarragona-web/dispatches`
+- Release assets published together:
+  - `diputacion_tarragona.db`
+  - `latest-data-source.zip` (custom zip generated in CI to keep source/dataset aligned with the DB)
+
+### Required secret in this repository
+
+- `WEB_REPO_DISPATCH_TOKEN`: fine-grained token with permission to dispatch events in the web repository.
+
+### Payload contract
+
+The dispatch payload includes:
+
+- `source_repository`: `sdgviz/observatorio-tarragona-datos`
+- `release_tag`: release tag name (`latest-data` by default)
+- `release_id`: GitHub release ID when available
+
+### Troubleshooting
+
+- If the workflow fails at token validation, verify `WEB_REPO_DISPATCH_TOKEN` exists and has not expired.
+- If GitHub API returns `404` or `403`, verify repository name and token permissions.
+- If no sync run appears in the web repository, confirm the web workflow listens for `repository_dispatch` type `data_release_published`.
+
